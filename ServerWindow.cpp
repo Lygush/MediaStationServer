@@ -504,6 +504,15 @@ void ServerWindow::archiveFinished(int exitCode, QProcess::ExitStatus exitStatus
 
 void ServerWindow::startSendingArchive()
 {
+    // Размер берём с диска заново: resetUI() после отказа или сетевой ошибки
+    // обнулял его, а кнопка «Отправить» оставалась доступной — повторная
+    // отправка шла с {"archiveSize":0}, и клиент молча рвал соединение.
+    archiveSize = QFileInfo(tempArchivePath).size();
+    if (archiveSize <= 0) {
+        archiveReady = false;
+        abortAll("Архив не найден — подготовьте игру заново");
+        return;
+    }
     QJsonObject meta;
     meta["archiveSize"] = archiveSize;
     QByteArray data = QJsonDocument(meta).toJson(QJsonDocument::Compact);
@@ -521,22 +530,32 @@ void ServerWindow::sendArchiveChunk()
             abortAll("Не удалось открыть архив для отправки"); return;
         }
     }
+    // Дописываем в сокет, только пока в его буфере меньше 8 МБ. Раньше на каждый
+    // bytesWritten (кусками по 64–512 КБ) добавлялось ещё 2 МБ, буфер рос без
+    // ограничения, и на большой игре весь архив оказывался в памяти.
     const qint64 chunkSize = 2 * 1024 * 1024;
-    QByteArray chunk = archiveFile->read(chunkSize);
-    if (chunk.isEmpty()) {
-        archiveFile->close(); archiveFile->deleteLater(); archiveFile = nullptr;
-        statusLabel->setText("Архив отправлен. Ожидание подтверждения..."); return;
+    const qint64 kMaxBuffered = 8 * 1024 * 1024;
+    while (socket && archiveFile && socket->bytesToWrite() < kMaxBuffered) {
+        QByteArray chunk = archiveFile->read(chunkSize);
+        if (chunk.isEmpty()) {
+            // Всё прочитано; остаток ещё в буфере сокета — прогресс дойдёт до 100%
+            archiveFile->close(); archiveFile->deleteLater(); archiveFile = nullptr;
+            return;
+        }
+        qint64 written = socket->write(chunk);
+        if (written < 0) {
+            abortAll("Ошибка записи в сокет"); return;
+        }
+        if (written < chunk.size()) {
+            archiveFile->seek(archiveFile->pos() - (chunk.size() - written));
+            return;
+        }
     }
-    qint64 written = socket->write(chunk);
-    if (written < 0)
-        abortAll("Ошибка записи в сокет");
-    else if (written < chunk.size())
-        archiveFile->seek(archiveFile->pos() - (chunk.size() - written));
 }
 
 void ServerWindow::bytesWritten(qint64 bytes)
 {
-    if (state != SendingArchive || !archiveFile) return;
+    if (state != SendingArchive) return;
     bytesSent += bytes;
     if (archiveSize > 0)
         progressSend->setValue(static_cast<int>(100.0 * bytesSent / archiveSize));
@@ -554,10 +573,11 @@ void ServerWindow::bytesWritten(qint64 bytes)
         lastBytesSent = bytesSent;
         lastTimeMs    = elapsed;
     }
-    if (bytesSent < archiveSize)
-        sendArchiveChunk();
-    else {
-        archiveFile->close(); archiveFile->deleteLater(); archiveFile = nullptr;
+    if (archiveFile)
+        sendArchiveChunk();          // файл ещё не дочитан — подкладываем следующий кусок
+    if (bytesSent >= archiveSize) {
+        if (archiveFile) { archiveFile->close(); archiveFile->deleteLater(); archiveFile = nullptr; }
+        statusLabel->setText("Архив отправлен. Ожидание подтверждения...");
     }
 }
 

@@ -4,6 +4,8 @@
 //   SOURCES += LogsTab.cpp
 
 #include "LogsTab.h"
+#include <QStandardPaths>
+#include <QFileInfo>
 
 #include <QVBoxLayout>
 #include <QHBoxLayout>
@@ -352,7 +354,16 @@ void LogsTab::onDeleteClicked()
 
 QString LogsTab::logsRootDir() const
 {
-    return QCoreApplication::applicationDirPath() + "/received_logs";
+    // Рядом с программой — если туда можно писать (как раньше). Если программа
+    // стоит в Program Files, писать туда нельзя — берём папку данных пользователя.
+    static const QString dir = []() {
+        const QString local = QCoreApplication::applicationDirPath() + "/received_logs";
+        if (QDir().mkpath(local) && QFileInfo(local).isWritable())
+            return local;
+        return QStandardPaths::writableLocation(QStandardPaths::AppLocalDataLocation)
+               + "/received_logs";
+    }();
+    return dir;
 }
 
 void LogsTab::cleanupClient(QTcpSocket *socket)
@@ -365,9 +376,16 @@ void LogsTab::cleanupClient(QTcpSocket *socket)
         cs.archiveFile = nullptr;
     }
     m_clients.remove(socket);
-    socket->disconnect();
-    if (socket->state() == QAbstractSocket::ConnectedState)
+    // disconnect() снимает и сигнал disconnected → onSocketDisconnected, где
+    // вызывался deleteLater. Поэтому при плохом хендшейке сокеты не удалялись
+    // никогда. Теперь удаление подключаем заново.
+    socket->disconnect(this);
+    if (socket->state() == QAbstractSocket::UnconnectedState) {
+        socket->deleteLater();
+    } else {
+        connect(socket, &QTcpSocket::disconnected, socket, &QObject::deleteLater);
         socket->disconnectFromHost();
+    }
 }
 
 void LogsTab::addSession(const QString &folderPath, const QString &clientIp, const QDateTime &dt)

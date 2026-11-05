@@ -457,12 +457,14 @@ Makefile: ..\..\MediaStationServer.pro C:\Qt\6.10.2-msvc-full\mkspecs\win32-msvc
 		C:\Qt\6.10.2-msvc-full\lib\Qt6Widgets.prl \
 		C:\Qt\6.10.2-msvc-full\lib\Qt6Gui.prl \
 		C:\Qt\6.10.2-msvc-full\lib\Qt6Network.prl \
+		C:\Qt\6.10.2-msvc-full\lib\Qt6Concurrent.prl \
 		C:\Qt\6.10.2-msvc-full\lib\Qt6Core.prl \
 		C:\Qt\6.10.2-msvc-full\lib\Qt6EntryPoint.prl \
 		C:\Qt\6.10.2-msvc-full\mkspecs\features\build_pass.prf \
 		C:\Qt\6.10.2-msvc-full\lib\Qt6Widgetsd.prl \
 		C:\Qt\6.10.2-msvc-full\lib\Qt6Guid.prl \
 		C:\Qt\6.10.2-msvc-full\lib\Qt6Networkd.prl \
+		C:\Qt\6.10.2-msvc-full\lib\Qt6Concurrentd.prl \
 		C:\Qt\6.10.2-msvc-full\lib\Qt6Cored.prl \
 		C:\Qt\6.10.2-msvc-full\lib\Qt6EntryPointd.prl
 	$(QMAKE) -o Makefile ..\..\MediaStationServer.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug"
@@ -839,12 +841,14 @@ C:\Qt\6.10.2-msvc-full\mkspecs\features\lex.prf:
 C:\Qt\6.10.2-msvc-full\lib\Qt6Widgets.prl:
 C:\Qt\6.10.2-msvc-full\lib\Qt6Gui.prl:
 C:\Qt\6.10.2-msvc-full\lib\Qt6Network.prl:
+C:\Qt\6.10.2-msvc-full\lib\Qt6Concurrent.prl:
 C:\Qt\6.10.2-msvc-full\lib\Qt6Core.prl:
 C:\Qt\6.10.2-msvc-full\lib\Qt6EntryPoint.prl:
 C:\Qt\6.10.2-msvc-full\mkspecs\features\build_pass.prf:
 C:\Qt\6.10.2-msvc-full\lib\Qt6Widgetsd.prl:
 C:\Qt\6.10.2-msvc-full\lib\Qt6Guid.prl:
 C:\Qt\6.10.2-msvc-full\lib\Qt6Networkd.prl:
+C:\Qt\6.10.2-msvc-full\lib\Qt6Concurrentd.prl:
 C:\Qt\6.10.2-msvc-full\lib\Qt6Cored.prl:
 C:\Qt\6.10.2-msvc-full\lib\Qt6EntryPointd.prl:
 qmake: FORCE

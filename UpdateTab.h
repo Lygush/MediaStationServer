@@ -80,6 +80,8 @@ private:
 
     bool        m_cancelled;
     bool        m_archiveReady;  // true после успешной подготовки
+    int         m_job = 0;       // номер операции; abort() увеличивает — поздние результаты фоновых задач игнорируются
+    bool        m_copyRunning = false;   // идёт фоновое копирование в m_tempDir
     QString     m_tempDir;
     QString     m_archivePath;
     QString     m_hash;

@@ -183,7 +183,9 @@ UpdateTab::UpdateTab(QWidget *parent)
 UpdateTab::~UpdateTab()
 {
     m_cancelled = true;
+    ++m_job;
     cleanup();
+    cleanupArchive();   // при закрытии программы архив в %TEMP% не оставляем
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -280,7 +282,11 @@ void UpdateTab::onPrepareClicked()
     }
 
     m_cancelled    = false;
-    m_archiveReady = false;
+    // Прошлый готовый архив больше не нужен — раньше он оставался в %TEMP%
+    if (m_archiveReady) {
+        m_archiveReady = false;
+        cleanupArchive();
+    }
     sendBtn->setEnabled(false);
     prepareBtn->setEnabled(false);
     cancelBtn->setEnabled(true);
@@ -369,6 +375,9 @@ void UpdateTab::startCopyStep()
     const QString dstQml     = m_tempDir + "/qml";
     const bool excludeTools  = excludeToolsCheckBox->isChecked();
 
+    const int job = m_job;
+    const QString tempDir = m_tempDir;
+    m_copyRunning = true;
     QFuture<bool> future = QtConcurrent::run([=]() -> bool {
         if (!QFile::copy(exePath, dstExe))
             return false;
@@ -388,7 +397,7 @@ void UpdateTab::startCopyStep()
         // ── Кастомные DLL из папки сборки ──────────────────────────────────
         const QDir buildDirQ(buildDir);
         for (const QFileInfo &dllInfo : buildDirQ.entryInfoList({"*.dll"}, QDir::Files)) {
-            const QString dstDll = m_tempDir + "/" + dllInfo.fileName();
+            const QString dstDll = tempDir + "/" + dllInfo.fileName();
             if (!QFile::exists(dstDll))   // не перебиваем уже скопированное
                 QFile::copy(dllInfo.absoluteFilePath(), dstDll);
         }
@@ -398,11 +407,17 @@ void UpdateTab::startCopyStep()
 
     QFutureWatcher<bool> *watcher = new QFutureWatcher<bool>(this);
     connect(watcher, &QFutureWatcher<bool>::finished, this,
-            [this, watcher, exeInfo, hasUpdater, hasQml, buildDir]()
+            [this, watcher, exeInfo, hasUpdater, hasQml, buildDir, job, tempDir]()
             {
                 const bool ok = watcher->result();
                 watcher->deleteLater();
-                if (m_cancelled) return;
+                m_copyRunning = false;
+                // Отменили, пока шло копирование: папку тогда удалить было
+                // нельзя (её читал фоновый поток) — удаляем сейчас
+                if (job != m_job || m_cancelled) {
+                    QDir(tempDir).removeRecursively();
+                    return;
+                }
                 if (!ok) { abort("Ошибка копирования файлов"); return; }
 
                 log("  + " + exeInfo.fileName());
@@ -553,9 +568,14 @@ void UpdateTab::packFinished(int exitCode, QProcess::ExitStatus status)
 
     setStatus("Вычисление контрольной суммы...");
     auto *watcher = new QFutureWatcher<QString>(this);
-    connect(watcher, &QFutureWatcher<QString>::finished, this, [this, watcher]() {
-        m_hash = watcher->result();
+    const int job = m_job;
+    const QString archivePath = m_archivePath;
+    connect(watcher, &QFutureWatcher<QString>::finished, this, [this, watcher, job, archivePath]() {
+        const QString hash = watcher->result();
         watcher->deleteLater();
+        // Отменили во время подсчёта: архив был открыт и мог не удалиться
+        if (job != m_job) { QFile::remove(archivePath); return; }
+        m_hash = hash;
         if (m_hash.isEmpty()) { abort("Ошибка вычисления хэша"); return; }
 
         log("  SHA-256: " + m_hash);
@@ -578,7 +598,7 @@ void UpdateTab::packFinished(int exitCode, QProcess::ExitStatus status)
                       .arg(m_archiveSize / 1024.0 / 1024.0, 0, 'f', 1));
         log("── Подготовка завершена. Нажмите «Отправить». ──");
     });
-    watcher->setFuture(QtConcurrent::run([this]() { return computeHash(m_archivePath); }));
+    watcher->setFuture(QtConcurrent::run([this, archivePath]() { return computeHash(archivePath); }));
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -656,20 +676,29 @@ void UpdateTab::sendChunk()
             abort("Не удалось открыть архив для отправки"); return;
         }
     }
-    QByteArray chunk = m_archiveFile->read(2 * 1024 * 1024);
-    if (chunk.isEmpty()) {
-        m_archiveFile->close();
-        m_archiveFile->deleteLater();
-        m_archiveFile = nullptr;
-        setStatus("Архив отправлен. Ожидание подтверждения...");
-        return;
+    // Дописываем, только пока в буфере сокета меньше 8 МБ (иначе на каждый
+    // bytesWritten добавлялось ещё 2 МБ и весь архив оседал в памяти)
+    constexpr qint64 kMaxBuffered = 8 * 1024 * 1024;
+    while (m_socket && m_archiveFile && m_socket->bytesToWrite() < kMaxBuffered) {
+        QByteArray chunk = m_archiveFile->read(2 * 1024 * 1024);
+        if (chunk.isEmpty()) {
+            m_archiveFile->close();
+            m_archiveFile->deleteLater();
+            m_archiveFile = nullptr;
+            return;
+        }
+        const qint64 written = m_socket->write(chunk);
+        if (written < 0) { abort("Ошибка записи в сокет"); return; }
+        if (written < chunk.size()) {
+            m_archiveFile->seek(m_archiveFile->pos() - (chunk.size() - written));
+            return;
+        }
     }
-    if (m_socket) m_socket->write(chunk);
 }
 
 void UpdateTab::socketBytesWritten(qint64 bytes)
 {
-    if (!m_socket || m_step != StepSending || !m_archiveFile) return;
+    if (!m_socket || m_step != StepSending) return;
     m_bytesSent += bytes;
 
     if (m_archiveSize > 0)
@@ -688,12 +717,15 @@ void UpdateTab::socketBytesWritten(qint64 bytes)
         m_lastMs    = elapsed;
     }
 
-    if (m_bytesSent < m_archiveSize)
+    if (m_archiveFile)
         sendChunk();
-    else {
-        m_archiveFile->close();
-        m_archiveFile->deleteLater();
-        m_archiveFile = nullptr;
+    if (m_bytesSent >= m_archiveSize) {
+        if (m_archiveFile) {
+            m_archiveFile->close();
+            m_archiveFile->deleteLater();
+            m_archiveFile = nullptr;
+        }
+        setStatus("Архив отправлен. Ожидание подтверждения...");
     }
 }
 
@@ -727,7 +759,10 @@ void UpdateTab::cleanupArchive()
         m_archivePath.clear();
     }
     if (!m_tempDir.isEmpty()) {
-        QDir(m_tempDir).removeRecursively();
+        // Пока фоновый поток копирует в папку, удалять её нельзя — это сделает
+        // обработчик завершения копирования
+        if (!m_copyRunning)
+            QDir(m_tempDir).removeRecursively();
         m_tempDir.clear();
     }
 }
@@ -761,11 +796,16 @@ void UpdateTab::cleanup()
         m_socket->deleteLater();
         m_socket = nullptr;
     }
-    cleanupArchive();
+    // Готовый архив не удаляем: после сетевой ошибки или отказа на ТВ его
+    // можно отправить ещё раз без повторной подготовки (это минуты).
+    // Удаляем только недоделанный (отмена во время подготовки).
+    if (!m_archiveReady)
+        cleanupArchive();
 }
 
 void UpdateTab::abort(const QString &reason, bool dialog)
 {
+    ++m_job;              // результаты уже запущенных фоновых задач больше не нужны
     m_step = StepIdle;
     cleanup();
     resetUI();
