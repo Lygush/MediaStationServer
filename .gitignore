@@ -1,0 +1,87 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# MediaStation — .gitignore
+# Только то, что относится к проекту: Qt/C++ (qmake, MSVC, MinGW), Qt Creator,
+# Visual Studio, бинарные зависимости из tools/, журналы и временные файлы.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Сборка (qmake / Qt Creator) ──────────────────────────────────────────────
+build/
+build-*/
+*build-*
+/debug/
+/release/
+Makefile*
+.qmake.cache
+.qmake.stash
+object_script.*.Release
+object_script.*.Debug
+*_plugin_import.cpp
+*_resource.rc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.moc
+*.qmlc
+*.jsc
+*.qm
+*.prl
+target_wrapper.*
+compile_commands.json
+
+# ── Объектные файлы, библиотеки, исполняемые (зависимости кладутся вручную) ──
+*.o
+*.obj
+*.a
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.idb
+*.dll
+*.so
+*.so.*
+*.dylib
+*.exe
+
+# ── Qt Creator ───────────────────────────────────────────────────────────────
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.qmlproject.user
+*.qmlproject.user.*
+CMakeLists.txt.user*
+*creator.user*
+*.autosave
+.qtc_clangd/
+.qtcreator/
+
+# ── Visual Studio / VS Code / JetBrains ─────────────────────────────────────
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# ── Большие модели и данные нейросетей (скачиваются отдельно) ────────────────
+*.gguf
+*.onnx
+*.bin
+
+# ── Журналы, временные файлы, кэш ────────────────────────────────────────────
+*.log
+*.log.*
+logs/
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
