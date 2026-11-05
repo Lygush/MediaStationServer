@@ -1,0 +1,460 @@
+=== Log started at 2026-05-13T17:21:29 ===
+2026-05-13 17:21:29.302 [INFO] installManager: Initialized
+2026-05-13 17:21:29.303 [INFO] g72battery: Module initialized, search started
+2026-05-13 17:21:29.303 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-05-13 17:21:29.304 [INFO] androidtv: Profiles loaded, active: default
+2026-05-13 17:21:29.735 [INFO] GameInfoModule: initialized
+2026-05-13 17:21:30.871 [INFO] g72battery: Connected
+2026-05-13 17:21:30.883 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-13 17:28:40.190 [INFO] androidtv: launching Android TV emulator with profile MediaStation TV (Android 14)
+2026-05-13 17:28:45.037 [WARNING] androidtv: Resolution 'auto' replaced with detected screen resolution: 1920x1080
+2026-05-13 17:28:45.037 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=auto, ram=4096, cores=4, audio=dsound
+2026-05-13 17:29:55.509 [INFO] androidtv: sys.boot_completed = 1
+2026-05-13 17:59:55.510 [INFO] androidtv: Health: userdata qcow2 = 1372 MB
+2026-05-13 17:59:55.648 [INFO] androidtv: Health: MemAvailable:    2729528 kB
+2026-05-13 17:59:55.648 [INFO] androidtv: Health: SwapFree:        2901216 kB
+2026-05-13 18:29:55.506 [INFO] androidtv: Health: userdata qcow2 = 1390 MB
+2026-05-13 18:29:55.598 [INFO] androidtv: Health: MemAvailable:    2681616 kB
+2026-05-13 18:29:55.598 [INFO] androidtv: Health: SwapFree:        2910688 kB
+2026-05-13 18:59:55.505 [INFO] androidtv: Health: userdata qcow2 = 1409 MB
+2026-05-13 18:59:55.602 [INFO] androidtv: Health: MemAvailable:    2689504 kB
+2026-05-13 18:59:55.602 [INFO] androidtv: Health: SwapFree:        2901472 kB
+2026-05-13 19:29:55.503 [INFO] androidtv: Health: userdata qcow2 = 1417 MB
+2026-05-13 19:29:55.581 [INFO] androidtv: Health: MemAvailable:    2701716 kB
+2026-05-13 19:29:55.581 [INFO] androidtv: Health: SwapFree:        2899936 kB
+2026-05-13 19:59:55.509 [INFO] androidtv: Health: userdata qcow2 = 1430 MB
+2026-05-13 19:59:55.598 [INFO] androidtv: Health: MemAvailable:    2684756 kB
+2026-05-13 19:59:55.598 [INFO] androidtv: Health: SwapFree:        2901472 kB
+2026-05-13 20:29:55.512 [INFO] androidtv: Health: userdata qcow2 = 1442 MB
+2026-05-13 20:29:55.618 [INFO] androidtv: Health: MemAvailable:    2691468 kB
+2026-05-13 20:29:55.618 [INFO] androidtv: Health: SwapFree:        2903264 kB
+2026-05-13 20:59:55.510 [INFO] androidtv: Health: userdata qcow2 = 1453 MB
+2026-05-13 20:59:55.583 [INFO] androidtv: Health: MemAvailable:    2678492 kB
+2026-05-13 20:59:55.583 [INFO] androidtv: Health: SwapFree:        2904032 kB
+2026-05-13 21:02:31.829 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-13 21:05:31.524 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-13 21:29:55.505 [INFO] androidtv: Health: userdata qcow2 = 1466 MB
+2026-05-13 21:29:55.595 [INFO] androidtv: Health: MemAvailable:    2655344 kB
+2026-05-13 21:29:55.596 [INFO] androidtv: Health: SwapFree:        2901984 kB
+2026-05-13 21:59:55.523 [INFO] androidtv: Health: userdata qcow2 = 1480 MB
+2026-05-13 21:59:55.600 [INFO] androidtv: Health: MemAvailable:    2642108 kB
+2026-05-13 21:59:55.600 [INFO] androidtv: Health: SwapFree:        2898912 kB
+2026-05-13 22:29:55.529 [INFO] androidtv: Health: userdata qcow2 = 1807 MB
+2026-05-13 22:29:55.684 [INFO] androidtv: Health: MemAvailable:    2011660 kB
+2026-05-13 22:29:55.684 [INFO] androidtv: Health: SwapFree:        2787040 kB
+2026-05-13 22:30:02.240 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-13 22:34:01.943 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-13 22:59:55.521 [INFO] androidtv: Health: userdata qcow2 = 1843 MB
+2026-05-13 22:59:55.608 [INFO] androidtv: Health: MemAvailable:    2327064 kB
+2026-05-13 22:59:55.608 [INFO] androidtv: Health: SwapFree:        2793440 kB
+2026-05-13 23:29:55.528 [INFO] androidtv: Health: userdata qcow2 = 1846 MB
+2026-05-13 23:29:55.628 [INFO] androidtv: Health: MemAvailable:    2433504 kB
+2026-05-13 23:29:55.628 [INFO] androidtv: Health: SwapFree:        2764256 kB
+2026-05-13 23:37:02.374 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-13 23:37:30.199 [INFO] androidtv: stop() requested
+2026-05-13 23:37:33.740 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-13 23:37:38.239 [WARNING] androidtv: emulator didn't respond, killing
+2026-05-13 23:37:38.242 [ERROR] androidtv: emulator error: 1 - Process crashed
+2026-05-13 23:37:38.245 [INFO] androidtv: emulator finished, exit code 62097
+=== Log stopped at 2026-05-13T23:38:04 ===
+=== Log started at 2026-05-14T15:50:37 ===
+2026-05-14 15:50:37.678 [INFO] installManager: Initialized
+2026-05-14 15:50:37.678 [INFO] g72battery: Module initialized, search started
+2026-05-14 15:50:37.678 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-05-14 15:50:37.678 [INFO] androidtv: Profiles loaded, active: default
+2026-05-14 15:50:42.272 [INFO] GameInfoModule: initialized
+2026-05-14 15:50:42.288 [INFO] g72battery: Connected
+2026-05-14 15:50:42.288 [INFO] g72battery: Battery changed to 86%, Raw sample: 173
+2026-05-14 15:50:47.125 [INFO] androidtv: launching Android TV emulator with profile MediaStation TV (Android 14)
+2026-05-14 15:50:51.889 [WARNING] androidtv: Resolution 'auto' replaced with detected screen resolution: 1920x1080
+2026-05-14 15:50:51.889 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=auto, ram=4096, cores=4, audio=dsound
+2026-05-14 15:51:42.499 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-14 15:52:08.214 [INFO] androidtv: sys.boot_completed = 1
+2026-05-14 15:55:42.517 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-14 16:22:08.223 [INFO] androidtv: Health: userdata qcow2 = 1866 MB
+2026-05-14 16:22:08.305 [INFO] androidtv: Health: MemAvailable:    2880384 kB
+2026-05-14 16:22:08.305 [INFO] androidtv: Health: SwapFree:        2891232 kB
+2026-05-14 16:34:12.666 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-14 16:38:12.604 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-14 16:49:43.042 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-14 16:52:08.217 [INFO] androidtv: Health: userdata qcow2 = 1866 MB
+2026-05-14 16:52:08.280 [INFO] androidtv: Health: MemAvailable:    2858836 kB
+2026-05-14 16:52:08.280 [INFO] androidtv: Health: SwapFree:        2888928 kB
+2026-05-14 17:22:08.215 [INFO] androidtv: Health: userdata qcow2 = 1866 MB
+2026-05-14 17:22:08.300 [INFO] androidtv: Health: MemAvailable:    2893796 kB
+2026-05-14 17:22:08.300 [INFO] androidtv: Health: SwapFree:        2905312 kB
+2026-05-14 17:52:08.211 [INFO] androidtv: Health: userdata qcow2 = 1867 MB
+2026-05-14 17:52:08.271 [INFO] androidtv: Health: MemAvailable:    2883520 kB
+2026-05-14 17:52:08.271 [INFO] androidtv: Health: SwapFree:        2905056 kB
+2026-05-14 18:05:13.047 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-14 18:22:08.212 [INFO] androidtv: Health: userdata qcow2 = 1875 MB
+2026-05-14 18:22:08.343 [INFO] androidtv: Health: MemAvailable:    2658648 kB
+2026-05-14 18:22:08.343 [INFO] androidtv: Health: SwapFree:        2920672 kB
+2026-05-14 18:52:08.214 [INFO] androidtv: Health: userdata qcow2 = 1886 MB
+2026-05-14 18:52:08.322 [INFO] androidtv: Health: MemAvailable:    2644920 kB
+2026-05-14 18:52:08.322 [INFO] androidtv: Health: SwapFree:        2926304 kB
+2026-05-14 19:03:33.865 [INFO] androidtv: stop() requested
+2026-05-14 19:03:41.966 [WARNING] androidtv: emulator didn't respond, killing
+2026-05-14 19:03:41.972 [ERROR] androidtv: emulator error: 1 - Process crashed
+2026-05-14 19:03:41.972 [INFO] androidtv: emulator finished, exit code 62097
+2026-05-14 19:03:44.012 [INFO] androidtv: launching Android TV emulator with profile MediaStation TV (Android 14)
+2026-05-14 19:03:46.192 [WARNING] androidtv: Resolution 'auto' replaced with detected screen resolution: 1920x1080
+2026-05-14 19:03:46.192 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=auto, ram=4096, cores=4, audio=dsound
+2026-05-14 19:04:13.453 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-14 19:04:48.977 [INFO] androidtv: sys.boot_completed = 1
+2026-05-14 19:10:43.286 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-14 19:34:48.978 [INFO] androidtv: Health: userdata qcow2 = 1906 MB
+2026-05-14 19:34:49.075 [INFO] androidtv: Health: MemAvailable:    2676560 kB
+2026-05-14 19:34:49.075 [INFO] androidtv: Health: SwapFree:        2926820 kB
+2026-05-14 20:04:48.996 [INFO] androidtv: Health: userdata qcow2 = 1916 MB
+2026-05-14 20:04:49.103 [INFO] androidtv: Health: MemAvailable:    2630032 kB
+2026-05-14 20:04:49.103 [INFO] androidtv: Health: SwapFree:        2917604 kB
+2026-05-14 20:34:48.993 [INFO] androidtv: Health: userdata qcow2 = 1922 MB
+2026-05-14 20:34:49.094 [INFO] androidtv: Health: MemAvailable:    2634916 kB
+2026-05-14 20:34:49.094 [INFO] androidtv: Health: SwapFree:        2904804 kB
+2026-05-14 20:59:43.854 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-14 21:04:49.000 [INFO] androidtv: Health: userdata qcow2 = 1924 MB
+2026-05-14 21:04:49.109 [INFO] androidtv: Health: MemAvailable:    2609664 kB
+2026-05-14 21:04:49.109 [INFO] androidtv: Health: SwapFree:        2918372 kB
+2026-05-14 21:34:48.994 [INFO] androidtv: Health: userdata qcow2 = 1927 MB
+2026-05-14 21:34:49.085 [INFO] androidtv: Health: MemAvailable:    2620732 kB
+2026-05-14 21:34:49.085 [INFO] androidtv: Health: SwapFree:        2929380 kB
+2026-05-14 21:59:14.197 [ERROR] g72battery: Disconnected: Last raw values: 174, 174, 174, 174, 174, 174, 174, 174, 174, 174; Filter state: ema=174.00, prevRaw=174.00, frozen=0, varCount=6, variance=0.000; Reason: WinRT read error: code=-2147467260, message=Операция прервана
+2026-05-14 21:59:36.196 [WARNING] g72battery: Connection failed: Last raw values: 174, 174, 174, 174, 174, 174, 174, 174, 174, 174; Filter state: ema=174.00, prevRaw=174.00, frozen=0, varCount=6, variance=0.000; Reason: Battery service not found
+2026-05-14 21:59:52.357 [INFO] g72battery: Connected
+2026-05-14 22:04:22.452 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-14 22:04:48.995 [INFO] androidtv: Health: userdata qcow2 = 1937 MB
+2026-05-14 22:04:49.101 [INFO] androidtv: Health: MemAvailable:    2616368 kB
+2026-05-14 22:04:49.101 [INFO] androidtv: Health: SwapFree:        2932452 kB
+2026-05-14 22:04:52.724 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-14 22:17:22.601 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-14 22:20:52.685 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-14 22:25:52.665 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-14 22:31:22.728 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-14 22:34:48.991 [INFO] androidtv: Health: userdata qcow2 = 1944 MB
+2026-05-14 22:34:49.120 [INFO] androidtv: Health: MemAvailable:    2599144 kB
+2026-05-14 22:34:49.120 [INFO] androidtv: Health: SwapFree:        2932708 kB
+2026-05-14 22:39:23.004 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-14 22:43:23.064 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-14 22:47:52.756 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-14 22:51:52.914 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-14 22:56:22.676 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-14 22:58:52.857 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-14 23:04:48.991 [INFO] androidtv: Health: userdata qcow2 = 1958 MB
+2026-05-14 23:04:49.095 [INFO] androidtv: Health: MemAvailable:    2632620 kB
+2026-05-14 23:04:49.095 [INFO] androidtv: Health: SwapFree:        2933988 kB
+2026-05-14 23:05:53.192 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-14 23:25:52.959 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-14 23:29:23.190 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-14 23:33:23.279 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-14 23:34:48.991 [INFO] androidtv: Health: userdata qcow2 = 1963 MB
+2026-05-14 23:34:49.108 [INFO] androidtv: Health: MemAvailable:    2638556 kB
+2026-05-14 23:34:49.108 [INFO] androidtv: Health: SwapFree:        2917604 kB
+2026-05-15 00:04:48.999 [INFO] androidtv: Health: userdata qcow2 = 1970 MB
+2026-05-15 00:04:49.080 [INFO] androidtv: Health: MemAvailable:    2625792 kB
+2026-05-15 00:04:49.080 [INFO] androidtv: Health: SwapFree:        2929892 kB
+2026-05-15 00:34:48.992 [INFO] androidtv: Health: userdata qcow2 = 1978 MB
+2026-05-15 00:34:49.070 [INFO] androidtv: Health: MemAvailable:    2599416 kB
+2026-05-15 00:34:49.070 [INFO] androidtv: Health: SwapFree:        2938340 kB
+2026-05-15 01:04:48.994 [INFO] androidtv: Health: userdata qcow2 = 1993 MB
+2026-05-15 01:04:49.074 [INFO] androidtv: Health: MemAvailable:    2573740 kB
+2026-05-15 01:04:49.074 [INFO] androidtv: Health: SwapFree:        2938340 kB
+2026-05-15 01:34:48.996 [INFO] androidtv: Health: userdata qcow2 = 2003 MB
+2026-05-15 01:34:49.079 [INFO] androidtv: Health: MemAvailable:    2581212 kB
+2026-05-15 01:34:49.079 [INFO] androidtv: Health: SwapFree:        2934244 kB
+2026-05-15 02:04:49.005 [INFO] androidtv: Health: userdata qcow2 = 2010 MB
+2026-05-15 02:04:49.088 [INFO] androidtv: Health: MemAvailable:    2604296 kB
+2026-05-15 02:04:49.088 [INFO] androidtv: Health: SwapFree:        2910948 kB
+2026-05-15 02:34:48.997 [INFO] androidtv: Health: userdata qcow2 = 2014 MB
+2026-05-15 02:34:49.381 [INFO] androidtv: Health: MemAvailable:    2564552 kB
+2026-05-15 02:34:49.381 [INFO] androidtv: Health: SwapFree:        2912228 kB
+2026-05-15 03:04:48.997 [INFO] androidtv: Health: userdata qcow2 = 2017 MB
+2026-05-15 03:04:49.085 [INFO] androidtv: Health: MemAvailable:    2580112 kB
+2026-05-15 03:04:49.085 [INFO] androidtv: Health: SwapFree:        2912484 kB
+=== Log started at 2026-05-15T12:49:33 ===
+2026-05-15 12:49:33.144 [INFO] installManager: Initialized
+2026-05-15 12:49:33.144 [INFO] g72battery: Module initialized, search started
+2026-05-15 12:49:33.144 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-05-15 12:49:33.144 [INFO] androidtv: Profiles loaded, active: default
+2026-05-15 12:49:37.507 [INFO] GameInfoModule: initialized
+2026-05-15 12:49:37.507 [INFO] g72battery: Connected
+2026-05-15 12:49:37.507 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-15 12:49:44.865 [INFO] androidtv: launching Android TV emulator with profile MediaStation TV (Android 14)
+2026-05-15 12:49:49.572 [WARNING] androidtv: Resolution 'auto' replaced with detected screen resolution: 1920x1080
+2026-05-15 12:49:49.572 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=auto, ram=4096, cores=4, audio=dsound
+2026-05-15 12:51:02.690 [INFO] androidtv: sys.boot_completed = 1
+2026-05-15 13:01:07.782 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-15 13:21:02.679 [INFO] androidtv: Health: userdata qcow2 = 2032 MB
+2026-05-15 13:21:02.927 [INFO] androidtv: Health: MemAvailable:    2656504 kB
+2026-05-15 13:21:02.927 [INFO] androidtv: Health: SwapFree:        2912736 kB
+2026-05-15 13:24:38.307 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-15 13:27:37.974 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-15 13:28:37.736 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-15 13:39:38.024 [INFO] g72battery: Battery changed to 88%, Raw sample: 175
+2026-05-15 13:42:07.816 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-15 13:51:02.688 [INFO] androidtv: Health: userdata qcow2 = 2032 MB
+2026-05-15 13:51:02.776 [INFO] androidtv: Health: MemAvailable:    2632372 kB
+2026-05-15 13:51:02.776 [INFO] androidtv: Health: SwapFree:        2930656 kB
+2026-05-15 14:21:02.681 [INFO] androidtv: Health: userdata qcow2 = 2033 MB
+2026-05-15 14:21:02.764 [INFO] androidtv: Health: MemAvailable:    2619696 kB
+2026-05-15 14:21:02.764 [INFO] androidtv: Health: SwapFree:        2927840 kB
+2026-05-15 14:51:02.683 [INFO] androidtv: Health: userdata qcow2 = 2036 MB
+2026-05-15 14:51:02.787 [INFO] androidtv: Health: MemAvailable:    2653776 kB
+2026-05-15 14:51:02.788 [INFO] androidtv: Health: SwapFree:        2927840 kB
+2026-05-15 14:54:37.997 [INFO] g72battery: Battery changed to 86%, Raw sample: 173
+2026-05-15 14:56:37.877 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-15 15:21:02.680 [INFO] androidtv: Health: userdata qcow2 = 2040 MB
+2026-05-15 15:21:02.765 [INFO] androidtv: Health: MemAvailable:    2586272 kB
+2026-05-15 15:21:02.765 [INFO] androidtv: Health: SwapFree:        2926816 kB
+2026-05-15 15:51:02.680 [INFO] androidtv: Health: userdata qcow2 = 2044 MB
+2026-05-15 15:51:02.794 [INFO] androidtv: Health: MemAvailable:    2604996 kB
+2026-05-15 15:51:02.794 [INFO] androidtv: Health: SwapFree:        2910688 kB
+2026-05-15 16:21:02.684 [INFO] androidtv: Health: userdata qcow2 = 2047 MB
+2026-05-15 16:21:02.811 [INFO] androidtv: Health: MemAvailable:    2572960 kB
+2026-05-15 16:21:02.811 [INFO] androidtv: Health: SwapFree:        2918624 kB
+2026-05-15 16:51:02.683 [INFO] androidtv: Health: userdata qcow2 = 2061 MB
+2026-05-15 16:51:02.826 [INFO] androidtv: Health: MemAvailable:    2551484 kB
+2026-05-15 16:51:02.826 [INFO] androidtv: Health: SwapFree:        2908896 kB
+2026-05-15 17:21:02.687 [INFO] androidtv: Health: userdata qcow2 = 2062 MB
+2026-05-15 17:21:12.758 [WARNING] androidtv: Health: emulator not responding to adb — may be frozen
+2026-05-15 17:51:02.691 [INFO] androidtv: Health: userdata qcow2 = 2062 MB
+2026-05-15 17:51:12.707 [WARNING] androidtv: Health: emulator not responding to adb — may be frozen
+2026-05-15 18:00:34.208 [INFO] androidtv: stop() requested
+=== Log started at 2026-05-15T21:08:47 ===
+2026-05-15 21:08:47.538 [INFO] installManager: Initialized
+2026-05-15 21:08:47.538 [INFO] g72battery: Module initialized, search started
+2026-05-15 21:08:47.538 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-05-15 21:08:47.553 [INFO] androidtv: Profiles loaded, active: default
+2026-05-15 21:08:52.262 [INFO] GameInfoModule: initialized
+2026-05-15 21:08:52.293 [INFO] g72battery: Connected
+2026-05-15 21:08:52.293 [INFO] g72battery: Battery changed to 86%, Raw sample: 173
+2026-05-15 21:09:01.921 [INFO] androidtv: launching Android TV emulator with profile MediaStation TV (Android 14)
+2026-05-15 21:09:06.556 [WARNING] androidtv: Resolution 'auto' replaced with detected screen resolution: 1920x1080
+2026-05-15 21:09:06.556 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=auto, ram=4096, cores=4, audio=dsound
+2026-05-15 21:10:16.915 [INFO] androidtv: sys.boot_completed = 1
+2026-05-15 21:10:52.635 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-15 21:13:22.829 [INFO] g72battery: Battery changed to 86%, Raw sample: 173
+2026-05-15 21:16:52.406 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-15 21:40:16.922 [INFO] androidtv: Health: userdata qcow2 = 2066 MB
+2026-05-15 21:40:17.000 [INFO] androidtv: Health: MemAvailable:    2667112 kB
+2026-05-15 21:40:17.000 [INFO] androidtv: Health: SwapFree:        2909928 kB
+2026-05-15 22:08:24.171 [ERROR] g72battery: Disconnected: Last raw values: 174, 174, 174, 174, 174, 174, 174, 174, 174, 174; Filter state: ema=174.00, prevRaw=174.00, frozen=0, varCount=6, variance=0.000; Reason: WinRT read error: code=-2147467260, message=Операция прервана
+2026-05-15 22:08:40.223 [INFO] g72battery: Connected
+2026-05-15 22:10:16.925 [INFO] androidtv: Health: userdata qcow2 = 2067 MB
+2026-05-15 22:10:17.037 [INFO] androidtv: Health: MemAvailable:    2630308 kB
+2026-05-15 22:10:17.037 [INFO] androidtv: Health: SwapFree:        2932968 kB
+2026-05-15 22:40:16.923 [INFO] androidtv: Health: userdata qcow2 = 2069 MB
+2026-05-15 22:40:17.060 [INFO] androidtv: Health: MemAvailable:    2609952 kB
+2026-05-15 22:40:17.060 [INFO] androidtv: Health: SwapFree:        2927336 kB
+2026-05-15 23:10:16.917 [INFO] androidtv: Health: userdata qcow2 = 2069 MB
+2026-05-15 23:10:17.020 [INFO] androidtv: Health: MemAvailable:    2613312 kB
+2026-05-15 23:10:17.020 [INFO] androidtv: Health: SwapFree:        2927336 kB
+2026-05-15 23:40:16.917 [INFO] androidtv: Health: userdata qcow2 = 2071 MB
+2026-05-15 23:40:17.012 [INFO] androidtv: Health: MemAvailable:    2553180 kB
+2026-05-15 23:40:17.013 [INFO] androidtv: Health: SwapFree:        2928872 kB
+2026-05-16 00:10:16.921 [INFO] androidtv: Health: userdata qcow2 = 2073 MB
+2026-05-16 00:10:17.001 [INFO] androidtv: Health: MemAvailable:    2549304 kB
+2026-05-16 00:10:17.001 [INFO] androidtv: Health: SwapFree:        2929384 kB
+2026-05-16 00:40:16.929 [INFO] androidtv: Health: userdata qcow2 = 2967 MB
+2026-05-16 00:40:17.234 [INFO] androidtv: Health: MemAvailable:    2755300 kB
+2026-05-16 00:40:17.234 [INFO] androidtv: Health: SwapFree:        2873320 kB
+2026-05-16 01:10:16.916 [INFO] androidtv: Health: userdata qcow2 = 2967 MB
+2026-05-16 01:10:16.983 [INFO] androidtv: Health: MemAvailable:    2753532 kB
+2026-05-16 01:10:16.984 [INFO] androidtv: Health: SwapFree:        2874088 kB
+=== Log started at 2026-05-17T18:41:37 ===
+2026-05-17 18:41:37.457 [INFO] installManager: Initialized
+2026-05-17 18:41:37.457 [INFO] g72battery: Module initialized, search started
+2026-05-17 18:41:37.473 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-05-17 18:41:37.473 [INFO] androidtv: Profiles loaded, active: default
+2026-05-17 18:41:43.035 [INFO] GameInfoModule: initialized
+2026-05-17 18:41:43.035 [INFO] g72battery: Connected
+2026-05-17 18:41:43.035 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-17 18:41:46.240 [INFO] androidtv: launching Android TV emulator with profile MediaStation TV (Android 14)
+2026-05-17 18:41:51.035 [WARNING] androidtv: Resolution 'auto' replaced with detected screen resolution: 1920x1080
+2026-05-17 18:41:51.035 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=auto, ram=4096, cores=4, audio=dsound
+2026-05-17 18:43:19.718 [INFO] androidtv: sys.boot_completed = 1
+2026-05-17 18:47:13.139 [INFO] g72battery: Battery changed to 86%, Raw sample: 173
+2026-05-17 18:47:43.290 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-17 19:13:19.713 [INFO] androidtv: Health: userdata qcow2 = 3003 MB
+2026-05-17 19:13:20.238 [INFO] androidtv: Health: MemAvailable:    2505336 kB
+2026-05-17 19:13:20.238 [INFO] androidtv: Health: SwapFree:        2903264 kB
+2026-05-17 19:43:19.717 [INFO] androidtv: Health: userdata qcow2 = 3003 MB
+2026-05-17 19:43:19.879 [INFO] androidtv: Health: MemAvailable:    2549316 kB
+2026-05-17 19:43:19.879 [INFO] androidtv: Health: SwapFree:        2917600 kB
+2026-05-17 20:13:19.717 [INFO] androidtv: Health: userdata qcow2 = 3017 MB
+2026-05-17 20:13:19.818 [INFO] androidtv: Health: MemAvailable:    2565184 kB
+2026-05-17 20:13:19.819 [INFO] androidtv: Health: SwapFree:        2912736 kB
+2026-05-17 20:43:19.716 [INFO] androidtv: Health: userdata qcow2 = 3018 MB
+2026-05-17 20:43:20.599 [INFO] androidtv: Health: MemAvailable:    2577692 kB
+2026-05-17 20:43:20.599 [INFO] androidtv: Health: SwapFree:        2912224 kB
+2026-05-17 21:13:19.720 [INFO] androidtv: Health: userdata qcow2 = 3021 MB
+2026-05-17 21:13:19.828 [INFO] androidtv: Health: MemAvailable:    2564380 kB
+2026-05-17 21:13:19.828 [INFO] androidtv: Health: SwapFree:        2912992 kB
+2026-05-17 21:43:19.721 [INFO] androidtv: Health: userdata qcow2 = 3027 MB
+2026-05-17 21:43:19.847 [INFO] androidtv: Health: MemAvailable:    2545796 kB
+2026-05-17 21:43:19.847 [INFO] androidtv: Health: SwapFree:        2913760 kB
+2026-05-17 21:47:00.712 [INFO] androidtv: stop() requested
+2026-05-17 21:47:08.743 [WARNING] androidtv: emulator didn't respond, killing
+2026-05-17 21:47:08.750 [ERROR] androidtv: emulator error: 1 - Process crashed
+2026-05-17 21:47:08.752 [INFO] androidtv: emulator finished, exit code 62097
+2026-05-17 21:47:11.849 [INFO] androidtv: launching Android TV emulator with profile MediaStation TV (Android 14)
+2026-05-17 21:47:14.108 [WARNING] androidtv: Resolution 'auto' replaced with detected screen resolution: 1920x1080
+2026-05-17 21:47:14.108 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=auto, ram=4096, cores=4, audio=dsound
+2026-05-17 21:51:16.744 [ERROR] androidtv: boot polling timeout
+=== Log started at 2026-05-18T20:28:28 ===
+2026-05-18 20:28:28.109 [INFO] installManager: Initialized
+2026-05-18 20:28:28.109 [INFO] g72battery: Module initialized, search started
+2026-05-18 20:28:28.109 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-05-18 20:28:28.109 [INFO] androidtv: Profiles loaded, active: default
+2026-05-18 20:28:32.778 [INFO] GameInfoModule: initialized
+2026-05-18 20:28:32.825 [INFO] g72battery: Connected
+2026-05-18 20:28:32.825 [INFO] g72battery: Battery changed to 86%, Raw sample: 173
+2026-05-18 20:29:10.373 [INFO] androidtv: launching Android TV emulator with profile MediaStation TV (Android 14)
+2026-05-18 20:29:15.218 [WARNING] androidtv: Resolution 'auto' replaced with detected screen resolution: 1920x1080
+2026-05-18 20:29:15.218 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=auto, ram=4096, cores=4, audio=dsound
+2026-05-18 20:30:03.081 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-18 20:33:17.410 [ERROR] androidtv: boot polling timeout
+2026-05-18 20:33:29.618 [INFO] androidtv: launching Android TV emulator with profile MediaStation TV (Android 14)
+2026-05-18 20:33:31.761 [WARNING] androidtv: Resolution 'auto' replaced with detected screen resolution: 1920x1080
+2026-05-18 20:33:31.761 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=auto, ram=4096, cores=4, audio=dsound
+2026-05-18 20:33:34.194 [INFO] androidtv: emulator finished, exit code 1
+2026-05-18 20:34:32.837 [INFO] g72battery: Battery changed to 86%, Raw sample: 173
+=== Log stopped at 2026-05-18T20:34:59 ===
+=== Log started at 2026-05-18T20:35:33 ===
+2026-05-18 20:35:33.739 [INFO] installManager: Initialized
+2026-05-18 20:35:33.739 [INFO] g72battery: Module initialized, search started
+2026-05-18 20:35:33.739 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-05-18 20:35:33.739 [INFO] androidtv: Profiles loaded, active: default
+2026-05-18 20:35:34.364 [INFO] GameInfoModule: initialized
+2026-05-18 20:35:34.394 [INFO] g72battery: Connected
+2026-05-18 20:35:34.394 [INFO] g72battery: Battery changed to 86%, Raw sample: 173
+2026-05-18 20:35:52.187 [INFO] androidtv: launching Android TV emulator with profile MediaStation TV (Android 14)
+2026-05-18 20:35:56.364 [WARNING] androidtv: Resolution 'auto' replaced with detected screen resolution: 1920x1080
+2026-05-18 20:35:56.364 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=auto, ram=4096, cores=4, audio=dsound
+2026-05-18 20:35:58.776 [INFO] androidtv: emulator finished, exit code 1
+=== Log stopped at 2026-05-18T20:36:01 ===
+=== Log started at 2026-05-18T20:37:27 ===
+2026-05-18 20:37:27.261 [INFO] installManager: Initialized
+2026-05-18 20:37:27.261 [INFO] g72battery: Module initialized, search started
+2026-05-18 20:37:27.261 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-05-18 20:37:27.277 [INFO] androidtv: Profiles loaded, active: default
+2026-05-18 20:37:30.605 [INFO] GameInfoModule: initialized
+2026-05-18 20:37:30.605 [INFO] g72battery: Connected
+2026-05-18 20:37:30.605 [INFO] g72battery: Battery changed to 86%, Raw sample: 173
+2026-05-18 20:37:42.694 [INFO] androidtv: launching Android TV emulator with profile MediaStation TV (Android 14)
+2026-05-18 20:37:47.115 [WARNING] androidtv: Resolution 'auto' replaced with detected screen resolution: 1920x1080
+2026-05-18 20:37:47.115 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=auto, ram=4096, cores=4, audio=dsound
+2026-05-18 20:41:49.224 [ERROR] androidtv: boot polling timeout
+2026-05-18 20:42:00.965 [ERROR] androidtv: emulator error: 1 - Process crashed
+2026-05-18 20:42:00.965 [INFO] androidtv: emulator finished, exit code 62097
+=== Log stopped at 2026-05-18T20:42:00 ===
+=== Log started at 2026-05-18T20:43:01 ===
+2026-05-18 20:43:01.375 [INFO] installManager: Initialized
+2026-05-18 20:43:01.375 [INFO] g72battery: Module initialized, search started
+2026-05-18 20:43:01.375 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-05-18 20:43:01.375 [INFO] androidtv: Profiles loaded, active: default
+2026-05-18 20:43:01.797 [INFO] GameInfoModule: initialized
+2026-05-18 20:43:01.799 [INFO] g72battery: Connected
+2026-05-18 20:43:01.800 [INFO] g72battery: Battery changed to 86%, Raw sample: 173
+2026-05-18 20:43:04.356 [INFO] androidtv: launching Android TV emulator with profile MediaStation TV (Android 14)
+2026-05-18 20:43:08.539 [WARNING] androidtv: Resolution 'auto' replaced with detected screen resolution: 1920x1080
+2026-05-18 20:43:08.539 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=auto, ram=4096, cores=4, audio=dsound
+2026-05-18 20:43:34.484 [ERROR] androidtv: emulator error: 1 - Process crashed
+2026-05-18 20:43:34.485 [INFO] androidtv: emulator finished, exit code 62097
+=== Log stopped at 2026-05-18T20:43:34 ===
+=== Log started at 2026-05-18T20:43:37 ===
+2026-05-18 20:43:37.185 [INFO] installManager: Initialized
+2026-05-18 20:43:37.185 [INFO] g72battery: Module initialized, search started
+2026-05-18 20:43:37.185 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-05-18 20:43:37.185 [INFO] androidtv: Profiles loaded, active: default
+2026-05-18 20:43:37.607 [INFO] GameInfoModule: initialized
+2026-05-18 20:43:37.621 [INFO] g72battery: Connected
+2026-05-18 20:43:37.621 [INFO] g72battery: Battery changed to 86%, Raw sample: 173
+2026-05-18 20:43:57.036 [INFO] androidtv: launching Android TV emulator with profile MediaStation TV (Android 14)
+2026-05-18 20:44:01.224 [WARNING] androidtv: Resolution 'auto' replaced with detected screen resolution: 1920x1080
+2026-05-18 20:44:01.224 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=auto, ram=4096, cores=4, audio=dsound
+2026-05-18 20:48:03.231 [ERROR] androidtv: boot polling timeout
+2026-05-18 20:48:07.923 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+=== Log started at 2026-05-18T20:50:59 ===
+2026-05-18 20:50:59.451 [INFO] installManager: Initialized
+2026-05-18 20:50:59.451 [INFO] g72battery: Module initialized, search started
+2026-05-18 20:50:59.451 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-05-18 20:50:59.451 [INFO] androidtv: Profiles loaded, active: default
+2026-05-18 20:51:04.060 [INFO] GameInfoModule: initialized
+2026-05-18 20:51:04.107 [INFO] g72battery: Connected
+2026-05-18 20:51:04.107 [INFO] g72battery: Battery changed to 87%, Raw sample: 174
+2026-05-18 20:51:07.910 [INFO] androidtv: launching Android TV emulator with profile MediaStation TV (Android 14)
+2026-05-18 20:51:12.735 [WARNING] androidtv: Resolution 'auto' replaced with detected screen resolution: 1920x1080
+2026-05-18 20:51:12.735 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=auto, ram=4096, cores=4, audio=dsound
+2026-05-18 20:55:14.977 [ERROR] androidtv: boot polling timeout
+=== Log started at 2026-05-25T22:03:07 ===
+2026-05-25 22:03:07.111 [INFO] installManager: Initialized
+2026-05-25 22:03:07.111 [INFO] g72battery: Module initialized, search started
+2026-05-25 22:03:07.111 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-05-25 22:03:07.111 [INFO] androidtv: Profiles loaded, active: default
+2026-05-25 22:03:11.626 [INFO] GameInfoModule: initialized
+2026-05-25 22:03:11.626 [INFO] g72battery: Connected
+2026-05-25 22:03:11.626 [INFO] g72battery: Battery changed to 86%, Raw sample: 173
+2026-06-08 21:48:55.138 [INFO] g72battery: Battery changed to 84%, Raw sample: 172
+2026-06-08 21:49:55.563 [INFO] g72battery: Battery changed to 86%, Raw sample: 173
+=== Log stopped at 2026-06-08T21:50:02 ===
+=== Log started at 2026-06-08T21:50:08 ===
+2026-06-08 21:50:08.437 [INFO] installManager: Initialized
+2026-06-08 21:50:08.437 [INFO] g72battery: Module initialized, search started
+2026-06-08 21:50:08.437 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-06-08 21:50:08.452 [INFO] androidtv: Profiles loaded, active: default
+2026-06-08 21:50:09.437 [INFO] GameInfoModule: initialized
+2026-06-08 21:50:09.437 [INFO] g72battery: Connected
+2026-06-08 21:50:09.437 [INFO] g72battery: Battery changed to 84%, Raw sample: 172
+2026-06-08 21:53:10.173 [INFO] g72battery: Battery changed to 86%, Raw sample: 173
+=== Log started at 2026-06-08T22:34:27 ===
+2026-06-08 22:34:27.159 [INFO] installManager: Initialized
+2026-06-08 22:34:27.159 [INFO] g72battery: Module initialized, search started
+2026-06-08 22:34:27.175 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-06-08 22:34:27.175 [INFO] androidtv: Profiles loaded, active: default
+2026-06-08 22:34:32.638 [INFO] GameInfoModule: initialized
+2026-06-08 22:34:32.638 [INFO] g72battery: Connected
+2026-06-08 22:34:32.638 [INFO] g72battery: Battery changed to 86%, Raw sample: 173
+=== Log stopped at 2026-06-09T00:19:25 ===
+=== Log started at 2026-08-04T11:32:54 ===
+2026-08-04 11:32:54.935 [INFO] installManager: Initialized
+2026-08-04 11:32:54.935 [INFO] g72battery: Module initialized, search started
+2026-08-04 11:32:54.966 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-08-04 11:32:54.966 [INFO] androidtv: Profiles loaded, active: default
+2026-08-04 11:33:01.650 [INFO] GameInfoModule: initialized
+2026-08-04 11:33:01.650 [INFO] g72battery: Connected
+2026-08-04 11:33:01.650 [INFO] g72battery: Battery changed to 54%, Raw sample: 159
+2026-08-04 11:39:31.989 [INFO] g72battery: Battery changed to 50%, Raw sample: 158
+2026-08-04 11:46:01.815 [INFO] g72battery: Battery changed to 54%, Raw sample: 159
+=== Log started at 2026-08-04T12:00:32 ===
+2026-08-04 12:00:32.285 [INFO] installManager: Initialized
+2026-08-04 12:00:32.286 [INFO] g72battery: Module initialized, search started
+2026-08-04 12:00:32.310 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-08-04 12:00:32.320 [INFO] androidtv: Profiles loaded, active: default
+2026-08-04 12:00:37.755 [INFO] GameInfoModule: initialized
+2026-08-04 12:00:37.755 [INFO] g72battery: Connected
+2026-08-04 12:00:37.755 [INFO] g72battery: Battery changed to 54%, Raw sample: 159
+2026-08-04 12:03:37.760 [INFO] g72battery: Battery changed to 50%, Raw sample: 157
+=== Log stopped at 2026-08-04T12:03:38 ===
+=== Log started at 2026-08-04T12:05:09 ===
+2026-08-04 12:05:09.854 [INFO] installManager: Initialized
+2026-08-04 12:05:09.854 [INFO] g72battery: Module initialized, search started
+2026-08-04 12:05:09.855 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-08-04 12:05:09.855 [INFO] androidtv: Profiles loaded, active: default
+2026-08-04 12:05:10.271 [INFO] GameInfoModule: initialized
+2026-08-04 12:05:10.519 [INFO] g72battery: Connected
+2026-08-04 12:05:10.519 [INFO] g72battery: Battery changed to 47%, Raw sample: 157
+2026-08-04 12:06:11.037 [INFO] g72battery: Battery changed to 50%, Raw sample: 158
+2026-08-04 12:11:40.765 [INFO] g72battery: Battery changed to 54%, Raw sample: 159
+=== Log started at 2026-08-04T13:01:21 ===
+2026-08-04 13:01:21.770 [INFO] installManager: Initialized
+2026-08-04 13:01:21.770 [INFO] g72battery: Module initialized, search started
+2026-08-04 13:01:21.771 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-08-04 13:01:21.771 [INFO] androidtv: Profiles loaded, active: default
+2026-08-04 13:01:22.237 [INFO] GameInfoModule: initialized
+2026-08-04 13:01:22.238 [INFO] g72battery: Connected
+2026-08-04 13:01:22.238 [INFO] g72battery: Battery changed to 54%, Raw sample: 159
+2026-08-04 13:02:53.113 [INFO] g72battery: Battery changed to 50%, Raw sample: 158
+2026-08-04 13:11:52.401 [INFO] g72battery: Battery changed to 54%, Raw sample: 159
+2026-08-04 13:15:22.560 [INFO] g72battery: Battery changed to 50%, Raw sample: 158
+2026-08-04 13:19:22.697 [INFO] g72battery: Battery changed to 54%, Raw sample: 159

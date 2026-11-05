@@ -1,0 +1,49 @@
+=== Log started at 2026-05-13T02:25:57 ===
+2026-05-13 02:25:57.987 [INFO] installManager: Initialized
+2026-05-13 02:25:57.988 [INFO] g72battery: Module initialized, search started
+2026-05-13 02:25:57.988 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-05-13 02:25:57.989 [INFO] androidtv: Profiles loaded, active: default
+2026-05-13 02:25:58.452 [INFO] GameInfoModule: initialized
+2026-05-13 02:25:59.193 [INFO] g72battery: Connected
+2026-05-13 02:25:59.212 [INFO] g72battery: Battery changed to 89%, Raw sample: 176
+2026-05-13 02:26:16.746 [INFO] GameInfoModule: fetch requested: tileId=lib_61d1f6448eb5, title="It Takes Two", folder=D:\Media Station Apps\It Takes Two
+2026-05-13 02:26:16.746 [INFO] GameInfoModule: doFetch start: "It Takes Two" (tileId=lib_61d1f6448eb5)
+2026-05-13 02:26:16.747 [INFO] GameInfoModule: SteamAppList not loaded yet, loading...
+2026-05-13 02:26:26.052 [INFO] GameInfoModule: SteamAppList loaded successfully
+2026-05-13 02:26:26.286 [INFO] GameInfoModule: SteamAppList: top candidate "It Takes Two" (appId=1426210, score=1.000)
+2026-05-13 02:26:26.286 [INFO] GameInfoModule: ambiguous match (7 candidates), waiting for user selection
+2026-05-13 02:26:30.380 [INFO] GameInfoModule: selectCandidate: appId=1426210 for tileId=lib_61d1f6448eb5
+2026-05-13 02:26:30.380 [INFO] GameInfoModule: user selected appId=1426210
+2026-05-13 02:26:30.380 [INFO] GameInfoModule: starting web fetch...
+2026-05-13 02:26:31.602 [INFO] GameInfoModule: web fetch done: sourceText=24343 chars, steamAppId="1426210"
+2026-05-13 02:26:31.602 [INFO] GameInfoModule: preparing LlamaClient...
+2026-05-13 02:26:31.603 [INFO] GameInfoModule: LlamaClient: model path from settings: "(empty, using default)"
+2026-05-13 02:26:31.603 [INFO] GameInfoModule: LlamaClient: resolved path: "D:/MediaStation/tools/llama/models/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf"
+2026-05-13 02:26:31.603 [INFO] LlamaClient: initialize() start, model path: D:/MediaStation/tools/llama/models/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf
+2026-05-13 02:26:31.670 [DEBUG] LlamaClient: [llama.cpp] ggml_cuda_init: found 1 CUDA devices (Total VRAM: 8191 MiB):
+2026-05-13 02:26:31.670 [DEBUG] LlamaClient: [llama.cpp] Device 0: NVIDIA GeForce RTX 3050, compute capability 8.6, VMM: yes, VRAM: 8191 MiB
+2026-05-13 02:26:31.670 [INFO] LlamaClient: llama.cpp build: CUDA : ARCHS = 750,860,890,1200 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | AVX512 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+2026-05-13 02:26:31.670 [INFO] LlamaClient: Loading model with n_gpu_layers=999
+2026-05-13 02:26:31.836 [DEBUG] LlamaClient: [llama.cpp] llama_model_load_from_file_impl: using device CUDA0 (NVIDIA GeForce RTX 3050) (0000:01:00.0) - 7104 MiB free
+2026-05-13 02:26:32.171 [WARNING] LlamaClient: [llama.cpp] load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+2026-05-13 02:26:32.218 [DEBUG] LlamaClient: [llama.cpp] print_info: n_ctx_train           = 131072
+2026-05-13 02:26:32.218 [DEBUG] LlamaClient: [llama.cpp] print_info: n_ctx_orig_yarn       = 131072
+2026-05-13 02:26:34.837 [DEBUG] LlamaClient: [llama.cpp] load_tensors: offloading output layer to GPU
+2026-05-13 02:26:34.837 [DEBUG] LlamaClient: [llama.cpp] load_tensors: offloading 27 repeating layers to GPU
+2026-05-13 02:26:34.837 [DEBUG] LlamaClient: [llama.cpp] load_tensors: offloaded 29/29 layers to GPU
+2026-05-13 02:26:34.837 [DEBUG] LlamaClient: [llama.cpp] load_tensors:   CPU_Mapped model buffer size =   292.36 MiB
+2026-05-13 02:26:34.837 [DEBUG] LlamaClient: [llama.cpp] load_tensors:        CUDA0 model buffer size =  4168.09 MiB
+2026-05-13 02:26:56.636 [INFO] LlamaClient: Model loaded successfully
+2026-05-13 02:26:56.636 [INFO] LlamaClient: Creating context: n_ctx=12288, n_batch=512, offload_kqv=true
+2026-05-13 02:26:56.636 [DEBUG] LlamaClient: [llama.cpp] llama_context: n_ctx         = 12288
+2026-05-13 02:26:56.636 [DEBUG] LlamaClient: [llama.cpp] llama_context: n_ctx_seq     = 12288
+2026-05-13 02:26:56.636 [DEBUG] LlamaClient: [llama.cpp] llama_context: n_batch       = 512
+2026-05-13 02:26:56.636 [WARNING] LlamaClient: [llama.cpp] llama_context: n_ctx_seq (12288) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
+=== Log started at 2026-05-13T02:27:26 ===
+2026-05-13 02:27:26.896 [INFO] installManager: Initialized
+2026-05-13 02:27:26.896 [INFO] g72battery: Module initialized, search started
+2026-05-13 02:27:26.897 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-05-13 02:27:26.897 [INFO] androidtv: Profiles loaded, active: default
+2026-05-13 02:27:27.675 [INFO] GameInfoModule: initialized
+2026-05-13 02:27:27.675 [INFO] g72battery: Connected
+2026-05-13 02:27:27.675 [INFO] g72battery: Battery changed to 89%, Raw sample: 176

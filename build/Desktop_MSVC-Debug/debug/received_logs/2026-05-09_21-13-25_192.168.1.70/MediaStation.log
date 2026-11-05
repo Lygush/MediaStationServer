@@ -1,0 +1,564 @@
+=== Log started at 2026-04-24T11:27:15 ===
+2026-04-24 11:27:15.613 [INFO] installManager: Initialized
+2026-04-24 11:27:15.613 [INFO] g72battery: Module initialized, search started
+2026-04-24 11:27:15.613 [INFO] androidtv: initialized, appDir = C:/Users/Lygush/Desktop/MediaStation
+2026-04-24 11:27:17.083 [INFO] g72battery: Connected
+2026-04-24 11:27:17.096 [INFO] g72battery: Battery changed to 26%, Raw sample: 150
+2026-04-24 11:27:30.640 [INFO] androidtv: launching Android TV emulator
+2026-04-24 11:27:30.710 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-24 11:27:30.710 [WARNING] androidtv: Audio driver 'winaudio' not supported, falling back to 'dsound'
+2026-04-24 11:27:30.710 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-24 11:28:04.994 [INFO] androidtv: sys.boot_completed = 1
+2026-04-24 11:35:02.923 [INFO] androidtv: stop() requested
+2026-04-24 11:35:08.348 [INFO] androidtv: emulator finished, exit code 0
+2026-04-24 15:24:55.410 [INFO] androidtv: launching Android TV emulator
+2026-04-24 15:24:55.419 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-24 15:24:55.419 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-24 15:25:15.355 [INFO] g72battery: Battery changed to 23%, Raw sample: 149
+2026-04-24 15:25:22.950 [INFO] androidtv: sys.boot_completed = 1
+2026-04-24 15:34:45.417 [INFO] g72battery: Battery changed to 26%, Raw sample: 150
+2026-04-24 15:55:22.939 [INFO] androidtv: Health: userdata qcow2 = 1218 MB
+2026-04-24 15:55:23.022 [INFO] androidtv: Health: MemAvailable:    1857312 kB
+2026-04-24 15:55:23.022 [INFO] androidtv: Health: SwapFree:        2216996 kB
+2026-04-24 15:59:15.317 [INFO] g72battery: Battery changed to 23%, Raw sample: 149
+2026-04-24 16:25:22.950 [INFO] androidtv: Health: userdata qcow2 = 1219 MB
+2026-04-24 16:25:23.044 [INFO] androidtv: Health: MemAvailable:    1842344 kB
+2026-04-24 16:25:23.044 [INFO] androidtv: Health: SwapFree:        2211620 kB
+2026-04-24 16:55:22.949 [INFO] androidtv: Health: userdata qcow2 = 1326 MB
+2026-04-24 16:55:23.064 [INFO] androidtv: Health: MemAvailable:    1821216 kB
+2026-04-24 16:55:23.064 [INFO] androidtv: Health: SwapFree:        2207524 kB
+2026-04-24 17:18:10.080 [INFO] androidtv: stop() requested
+2026-04-24 17:18:18.102 [WARNING] androidtv: emulator didn't respond, killing
+2026-04-24 17:18:18.109 [ERROR] androidtv: emulator error: 1 - Process crashed
+2026-04-24 17:18:18.113 [INFO] androidtv: emulator finished, exit code 62097
+2026-04-24 17:18:29.101 [INFO] androidtv: launching Android TV emulator
+2026-04-24 17:18:29.102 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-24 17:18:29.103 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-24 17:18:32.060 [INFO] androidtv: emulator finished, exit code 1
+2026-04-24 17:28:15.510 [INFO] g72battery: Battery changed to 26%, Raw sample: 150
+2026-04-24 17:40:45.336 [INFO] g72battery: Battery changed to 23%, Raw sample: 149
+2026-04-24 18:39:07.679 [INFO] androidtv: launching Android TV emulator
+2026-04-24 18:39:07.680 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-24 18:39:07.680 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-24 18:39:37.949 [INFO] androidtv: sys.boot_completed = 1
+2026-04-24 18:39:41.463 [INFO] androidtv: sys.boot_completed = 1
+2026-04-24 18:43:45.801 [INFO] g72battery: Battery changed to 20%, Raw sample: 148
+2026-04-24 18:48:45.512 [INFO] g72battery: Battery changed to 23%, Raw sample: 149
+2026-04-24 19:09:37.945 [INFO] androidtv: Health: userdata qcow2 = 1357 MB
+2026-04-24 19:09:38.076 [INFO] androidtv: Health: MemAvailable:    1855896 kB
+2026-04-24 19:09:38.076 [INFO] androidtv: Health: SwapFree:        2228516 kB
+2026-04-24 19:39:37.959 [INFO] androidtv: Health: userdata qcow2 = 1370 MB
+2026-04-24 19:39:38.061 [INFO] androidtv: Health: MemAvailable:    1820120 kB
+2026-04-24 19:39:38.061 [INFO] androidtv: Health: SwapFree:        2224932 kB
+2026-04-24 20:09:37.966 [INFO] androidtv: Health: userdata qcow2 = 1376 MB
+2026-04-24 20:09:38.072 [INFO] androidtv: Health: MemAvailable:    1812424 kB
+2026-04-24 20:09:38.073 [INFO] androidtv: Health: SwapFree:        2212388 kB
+2026-04-24 20:39:37.956 [INFO] androidtv: Health: userdata qcow2 = 1383 MB
+2026-04-24 20:39:38.057 [INFO] androidtv: Health: MemAvailable:    1763608 kB
+2026-04-24 20:39:38.057 [INFO] androidtv: Health: SwapFree:        2221604 kB
+2026-04-24 21:09:37.954 [INFO] androidtv: Health: userdata qcow2 = 1450 MB
+2026-04-24 21:09:38.079 [INFO] androidtv: Health: MemAvailable:    1770584 kB
+2026-04-24 21:09:38.079 [INFO] androidtv: Health: SwapFree:        2225700 kB
+2026-04-24 21:39:37.966 [INFO] androidtv: Health: userdata qcow2 = 1459 MB
+2026-04-24 21:39:38.122 [INFO] androidtv: Health: MemAvailable:    1767112 kB
+2026-04-24 21:39:38.122 [INFO] androidtv: Health: SwapFree:        2225188 kB
+2026-04-24 22:09:37.959 [INFO] androidtv: Health: userdata qcow2 = 1470 MB
+2026-04-24 22:09:38.091 [INFO] androidtv: Health: MemAvailable:    1733492 kB
+2026-04-24 22:09:38.091 [INFO] androidtv: Health: SwapFree:        2225188 kB
+2026-04-24 22:33:45.441 [INFO] androidtv: stop() requested
+2026-04-24 22:33:52.067 [INFO] androidtv: emulator finished, exit code 0
+2026-04-24 22:34:17.752 [INFO] g72battery: Battery changed to 20%, Raw sample: 148
+2026-04-24 22:38:17.566 [INFO] g72battery: Battery changed to 23%, Raw sample: 149
+=== Log started at 2026-04-26T21:33:11 ===
+2026-04-26 21:33:11.867 [INFO] installManager: Initialized
+2026-04-26 21:33:11.868 [INFO] g72battery: Module initialized, search started
+2026-04-26 21:33:11.870 [INFO] androidtv: initialized, appDir = C:/Users/Lygush/Desktop/MediaStation
+2026-04-26 21:33:16.046 [INFO] g72battery: Connected
+2026-04-26 21:33:16.046 [INFO] g72battery: Battery changed to 0%, Raw sample: 128
+2026-04-26 21:33:49.283 [INFO] androidtv: launching Android TV emulator
+2026-04-26 21:33:49.414 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-26 21:33:49.415 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-26 21:34:45.001 [INFO] androidtv: sys.boot_completed = 1
+2026-04-26 21:34:48.936 [INFO] androidtv: sys.boot_completed = 1
+2026-04-26 21:36:36.588 [INFO] androidtv: stop() requested
+2026-04-26 21:36:43.243 [INFO] androidtv: emulator finished, exit code 0
+2026-04-26 21:36:54.781 [INFO] androidtv: launching Android TV emulator
+2026-04-26 21:36:54.782 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-26 21:36:54.782 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-26 21:37:23.796 [INFO] androidtv: sys.boot_completed = 1
+2026-04-26 21:42:03.400 [INFO] androidtv: stop() requested
+2026-04-26 21:42:08.958 [INFO] androidtv: emulator finished, exit code 0
+2026-04-26 21:42:11.575 [INFO] androidtv: launching Android TV emulator
+2026-04-26 21:42:11.575 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-26 21:42:11.576 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-26 21:42:39.106 [INFO] androidtv: sys.boot_completed = 1
+2026-04-26 21:52:47.109 [INFO] androidtv: stop() requested
+2026-04-26 21:52:52.806 [INFO] androidtv: emulator finished, exit code 0
+2026-04-26 21:53:01.570 [INFO] androidtv: launching Android TV emulator
+2026-04-26 21:53:01.571 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-26 21:53:01.572 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-26 21:53:09.303 [INFO] androidtv: stop() requested
+2026-04-26 21:53:11.234 [INFO] androidtv: emulator finished, exit code 0
+2026-04-26 21:54:41.565 [INFO] androidtv: launching Android TV emulator
+2026-04-26 21:54:41.565 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-26 21:54:41.566 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-26 21:55:08.650 [INFO] androidtv: sys.boot_completed = 1
+2026-04-26 22:25:08.655 [INFO] androidtv: Health: userdata qcow2 = 2109 MB
+2026-04-26 22:25:08.755 [INFO] androidtv: Health: MemAvailable:    1833512 kB
+2026-04-26 22:25:08.755 [INFO] androidtv: Health: SwapFree:        2215460 kB
+2026-04-26 22:55:08.655 [INFO] androidtv: Health: userdata qcow2 = 2109 MB
+2026-04-26 22:55:08.746 [INFO] androidtv: Health: MemAvailable:    1841784 kB
+2026-04-26 22:55:08.746 [INFO] androidtv: Health: SwapFree:        2208548 kB
+2026-04-26 23:25:08.658 [INFO] androidtv: Health: userdata qcow2 = 2112 MB
+2026-04-26 23:25:08.763 [INFO] androidtv: Health: MemAvailable:    1832916 kB
+2026-04-26 23:25:08.763 [INFO] androidtv: Health: SwapFree:        2209828 kB
+2026-04-26 23:55:08.664 [INFO] androidtv: Health: userdata qcow2 = 2114 MB
+2026-04-26 23:55:08.748 [INFO] androidtv: Health: MemAvailable:    1814340 kB
+2026-04-26 23:55:08.748 [INFO] androidtv: Health: SwapFree:        2209572 kB
+2026-04-27 00:17:44.518 [INFO] androidtv: emulator finished, exit code 1073807364
+=== Log started at 2026-04-27T21:14:14 ===
+2026-04-27 21:14:14.787 [INFO] installManager: Initialized
+2026-04-27 21:14:14.787 [INFO] g72battery: Module initialized, search started
+2026-04-27 21:14:14.803 [INFO] androidtv: initialized, appDir = C:/Users/Lygush/Desktop/MediaStation
+2026-04-27 21:14:18.935 [INFO] g72battery: Connected
+2026-04-27 21:14:18.935 [INFO] g72battery: Battery changed to 0%, Raw sample: 127
+=== Log started at 2026-04-28T22:29:10 ===
+2026-04-28 22:29:10.180 [INFO] installManager: Initialized
+2026-04-28 22:29:10.196 [INFO] g72battery: Module initialized, search started
+2026-04-28 22:29:10.196 [INFO] androidtv: initialized, appDir = C:/Users/Lygush/Desktop/MediaStation
+2026-04-28 22:29:14.320 [INFO] g72battery: Connected
+2026-04-28 22:29:14.320 [INFO] g72battery: Battery changed to 0%, Raw sample: 127
+2026-04-28 22:29:19.755 [INFO] androidtv: launching Android TV emulator
+2026-04-28 22:29:19.868 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-28 22:29:19.869 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-28 22:29:51.209 [INFO] androidtv: sys.boot_completed = 1
+2026-04-28 22:29:54.326 [INFO] androidtv: sys.boot_completed = 1
+2026-04-28 22:35:32.051 [INFO] androidtv: stop() requested
+2026-04-28 22:35:37.711 [INFO] androidtv: emulator finished, exit code 0
+2026-04-28 22:35:58.578 [INFO] androidtv: launching Android TV emulator
+2026-04-28 22:35:58.579 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-28 22:35:58.580 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-28 22:36:28.062 [INFO] androidtv: sys.boot_completed = 1
+2026-04-28 22:36:34.039 [INFO] androidtv: sys.boot_completed = 1
+2026-04-28 22:37:56.697 [INFO] androidtv: stop() requested
+2026-04-28 22:38:29.794 [WARNING] androidtv: emulator didn't respond, killing
+2026-04-28 22:38:30.095 [ERROR] androidtv: emulator error: 1 - Process crashed
+2026-04-28 22:38:30.096 [INFO] androidtv: emulator finished, exit code 62097
+2026-04-28 22:38:54.153 [INFO] androidtv: launching Android TV emulator
+2026-04-28 22:38:54.162 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-28 22:38:54.162 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-28 22:39:40.951 [INFO] androidtv: sys.boot_completed = 1
+2026-04-28 22:40:22.574 [INFO] androidtv: sys.boot_completed = 1
+2026-04-28 22:40:22.581 [INFO] androidtv: sys.boot_completed = 1
+2026-04-28 22:40:22.589 [INFO] androidtv: sys.boot_completed = 1
+2026-04-28 22:40:22.661 [INFO] androidtv: sys.boot_completed = 1
+2026-04-28 23:09:40.959 [INFO] androidtv: Health: userdata qcow2 = 2771 MB
+2026-04-28 23:09:41.069 [INFO] androidtv: Health: MemAvailable:    1837104 kB
+2026-04-28 23:09:41.069 [INFO] androidtv: Health: SwapFree:        2176036 kB
+2026-04-28 23:39:40.963 [INFO] androidtv: Health: userdata qcow2 = 2771 MB
+2026-04-28 23:39:41.065 [INFO] androidtv: Health: MemAvailable:    1830716 kB
+2026-04-28 23:39:41.065 [INFO] androidtv: Health: SwapFree:        2173732 kB
+2026-04-28 23:41:39.407 [INFO] androidtv: stop() requested
+2026-04-28 23:41:44.798 [INFO] androidtv: emulator finished, exit code 0
+=== Log stopped at 2026-04-28T23:42:01 ===
+=== Log started at 2026-04-29T21:18:04 ===
+2026-04-29 21:18:04.076 [INFO] installManager: Initialized
+2026-04-29 21:18:04.076 [INFO] g72battery: Module initialized, search started
+2026-04-29 21:18:04.092 [INFO] androidtv: initialized, appDir = C:/Users/Lygush/Desktop/MediaStation
+2026-04-29 21:18:08.427 [INFO] g72battery: Connected
+2026-04-29 21:18:08.427 [INFO] g72battery: Battery changed to 0%, Raw sample: 125
+2026-04-29 21:18:15.176 [INFO] androidtv: launching Android TV emulator
+2026-04-29 21:18:15.294 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-29 21:18:15.294 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-29 21:19:13.205 [INFO] androidtv: sys.boot_completed = 1
+2026-04-29 21:24:16.371 [INFO] androidtv: stop() requested
+2026-04-29 21:24:22.962 [INFO] androidtv: emulator finished, exit code 0
+2026-04-29 21:24:29.277 [INFO] androidtv: launching Android TV emulator
+2026-04-29 21:24:29.280 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-29 21:24:29.281 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-29 21:25:00.000 [INFO] androidtv: sys.boot_completed = 1
+2026-04-29 21:25:05.722 [INFO] androidtv: sys.boot_completed = 1
+2026-04-29 21:55:00.000 [INFO] androidtv: Health: userdata qcow2 = 2968 MB
+2026-04-29 21:55:00.164 [INFO] androidtv: Health: MemAvailable:    1792276 kB
+2026-04-29 21:55:00.164 [INFO] androidtv: Health: SwapFree:        2185508 kB
+2026-04-29 22:24:59.996 [INFO] androidtv: Health: userdata qcow2 = 2970 MB
+2026-04-29 22:25:00.096 [INFO] androidtv: Health: MemAvailable:    1787240 kB
+2026-04-29 22:25:00.096 [INFO] androidtv: Health: SwapFree:        2165028 kB
+2026-04-29 22:49:11.517 [ERROR] g72battery: Disconnected: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: WinRT read error: code=-2147467260, message=Операция прервана
+2026-04-29 22:49:34.413 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:49:57.210 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:50:20.034 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:50:42.828 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:51:05.628 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:51:28.438 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:51:51.243 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:52:14.108 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:52:36.918 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:52:59.729 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:53:22.553 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:53:45.353 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:54:08.301 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:54:31.123 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:54:53.920 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:55:00.007 [INFO] androidtv: Health: userdata qcow2 = 2970 MB
+2026-04-29 22:55:00.107 [INFO] androidtv: Health: MemAvailable:    1768540 kB
+2026-04-29 22:55:00.107 [INFO] androidtv: Health: SwapFree:        2143780 kB
+2026-04-29 22:55:16.713 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:55:39.566 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:56:02.379 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:56:25.161 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:56:47.973 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:57:10.792 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:57:33.596 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:57:56.388 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:58:19.181 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:58:42.021 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:59:04.866 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:59:27.667 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 22:59:50.472 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:00:13.286 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:00:36.128 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:00:58.912 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:01:21.743 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:01:44.551 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:02:07.380 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:02:30.191 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:02:52.989 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:03:15.813 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:03:38.608 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:04:01.420 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:04:24.231 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:04:47.021 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:05:09.963 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:05:32.765 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:05:55.567 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:06:18.374 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:06:41.286 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:07:04.139 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:07:27.064 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:07:49.999 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:08:12.807 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:08:35.627 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:08:58.415 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:09:21.218 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:09:44.038 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:10:06.855 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:10:29.655 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:10:52.464 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:11:15.270 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:11:38.308 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:12:01.110 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:12:23.908 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:12:46.690 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:13:09.483 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:13:32.272 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:13:55.075 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:14:17.874 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:14:40.659 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:15:03.479 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:15:26.299 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:15:49.110 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:16:12.069 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:16:35.007 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:16:57.829 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:17:20.671 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:17:43.678 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:18:06.499 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:18:29.300 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:18:52.141 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:19:15.065 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:19:37.885 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:20:00.687 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:20:23.509 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:20:46.314 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:21:09.144 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:21:31.960 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:21:54.770 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:22:17.590 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:22:40.408 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:23:03.198 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:23:26.017 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:23:48.916 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:24:11.728 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:24:34.526 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:24:57.341 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:25:00.014 [INFO] androidtv: Health: userdata qcow2 = 2970 MB
+2026-04-29 23:25:00.141 [INFO] androidtv: Health: MemAvailable:    1756340 kB
+2026-04-29 23:25:00.141 [INFO] androidtv: Health: SwapFree:        2143268 kB
+2026-04-29 23:25:20.311 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:25:43.112 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:26:05.918 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:26:28.726 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:26:51.536 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:27:14.342 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:27:37.147 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:27:59.965 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:28:22.773 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:28:45.565 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:29:08.358 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:29:31.170 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:29:53.960 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:30:16.781 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:30:39.592 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:31:02.389 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:31:25.178 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:31:48.003 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:32:10.872 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:32:33.682 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:32:56.498 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:33:19.314 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:33:42.146 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:34:04.951 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:34:27.749 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:34:50.569 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:35:13.379 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:35:36.192 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:35:58.998 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:36:21.824 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:36:44.622 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:37:07.445 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:37:30.241 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:37:53.047 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:38:15.892 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:38:38.696 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:39:01.509 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:39:24.314 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:39:47.124 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:40:10.069 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:40:32.892 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:40:55.713 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:41:18.524 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:41:41.319 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:42:04.247 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:42:27.069 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:42:49.874 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:43:12.679 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:43:35.495 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:43:58.308 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:44:21.113 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:44:43.940 [WARNING] g72battery: Connection failed: Last raw values: 125, 124, 124, 124, 124, 124, 124, 124, 124, 124; Filter state: ema=124.04, prevRaw=124.00, frozen=0, varCount=6, variance=0.005; Reason: Battery service not found
+2026-04-29 23:45:06.648 [INFO] g72battery: Connected
+2026-04-29 23:45:47.786 [INFO] androidtv: stop() requested
+2026-04-29 23:45:53.926 [INFO] androidtv: emulator finished, exit code 0
+=== Log started at 2026-05-04T21:29:03 ===
+2026-05-04 21:29:03.035 [INFO] installManager: Initialized
+2026-05-04 21:29:03.042 [INFO] g72battery: Module initialized, search started
+2026-05-04 21:29:03.042 [INFO] androidtv: initialized, appDir = C:/Users/Lygush/Desktop/MediaStation
+2026-05-04 21:29:07.418 [INFO] g72battery: Connected
+2026-05-04 21:29:07.418 [INFO] g72battery: Battery changed to 0%, Raw sample: 123
+2026-05-04 21:29:12.245 [INFO] androidtv: launching Android TV emulator
+2026-05-04 21:29:12.363 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-05-04 21:29:12.363 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-05-04 21:30:02.806 [INFO] androidtv: sys.boot_completed = 1
+2026-05-04 21:32:10.401 [INFO] androidtv: stop() requested
+2026-05-04 21:32:15.903 [INFO] androidtv: emulator finished, exit code 0
+2026-05-04 21:33:11.768 [INFO] androidtv: launching Android TV emulator
+2026-05-04 21:33:11.770 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-05-04 21:33:11.770 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-05-04 21:33:43.193 [INFO] androidtv: sys.boot_completed = 1
+2026-05-04 22:03:43.208 [INFO] androidtv: Health: userdata qcow2 = 3404 MB
+2026-05-04 22:03:43.208 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-04 22:03:43.300 [INFO] androidtv: Health: MemAvailable:    1876640 kB
+2026-05-04 22:03:43.300 [INFO] androidtv: Health: SwapFree:        2181668 kB
+2026-05-04 22:33:43.215 [INFO] androidtv: Health: userdata qcow2 = 3404 MB
+2026-05-04 22:33:43.215 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-04 22:33:43.304 [INFO] androidtv: Health: MemAvailable:    1880116 kB
+2026-05-04 22:33:43.304 [INFO] androidtv: Health: SwapFree:        2178084 kB
+2026-05-04 23:03:43.217 [INFO] androidtv: Health: userdata qcow2 = 3404 MB
+2026-05-04 23:03:43.217 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-04 23:03:43.314 [INFO] androidtv: Health: MemAvailable:    1841076 kB
+2026-05-04 23:03:43.314 [INFO] androidtv: Health: SwapFree:        2190628 kB
+2026-05-04 23:33:43.211 [INFO] androidtv: Health: userdata qcow2 = 3404 MB
+2026-05-04 23:33:43.211 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-04 23:33:43.313 [INFO] androidtv: Health: MemAvailable:    1829200 kB
+2026-05-04 23:33:43.313 [INFO] androidtv: Health: SwapFree:        2168356 kB
+2026-05-04 23:35:11.707 [INFO] androidtv: stop() requested
+2026-05-04 23:35:17.593 [INFO] androidtv: emulator finished, exit code 0
+=== Log stopped at 2026-05-04T23:35:20 ===
+=== Log started at 2026-05-05T18:54:19 ===
+2026-05-05 18:54:19.077 [INFO] installManager: Initialized
+2026-05-05 18:54:19.092 [INFO] g72battery: Module initialized, search started
+2026-05-05 18:54:19.092 [INFO] androidtv: initialized, appDir = C:/Users/Lygush/Desktop/MediaStation
+2026-05-05 18:54:23.483 [INFO] g72battery: Connected
+2026-05-05 18:54:23.483 [INFO] g72battery: Battery changed to 0%, Raw sample: 122
+2026-05-05 18:54:38.281 [INFO] androidtv: launching Android TV emulator
+2026-05-05 18:54:38.384 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-05-05 18:54:38.384 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-05-05 18:55:12.915 [INFO] androidtv: sys.boot_completed = 1
+2026-05-05 18:55:17.439 [INFO] androidtv: sys.boot_completed = 1
+2026-05-05 18:55:20.415 [INFO] androidtv: sys.boot_completed = 1
+2026-05-05 18:55:20.445 [INFO] androidtv: sys.boot_completed = 1
+2026-05-05 19:25:12.914 [INFO] androidtv: Health: userdata qcow2 = 3408 MB
+2026-05-05 19:25:12.914 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-05 19:25:13.004 [INFO] androidtv: Health: MemAvailable:    1834712 kB
+2026-05-05 19:25:13.004 [INFO] androidtv: Health: SwapFree:        2164772 kB
+2026-05-05 19:55:12.913 [INFO] androidtv: Health: userdata qcow2 = 3408 MB
+2026-05-05 19:55:12.913 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-05 19:55:12.994 [INFO] androidtv: Health: MemAvailable:    1810852 kB
+2026-05-05 19:55:12.994 [INFO] androidtv: Health: SwapFree:        2160164 kB
+2026-05-05 20:25:12.912 [INFO] androidtv: Health: userdata qcow2 = 3408 MB
+2026-05-05 20:25:12.912 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-05 20:25:12.982 [INFO] androidtv: Health: MemAvailable:    1819580 kB
+2026-05-05 20:25:12.983 [INFO] androidtv: Health: SwapFree:        2149668 kB
+2026-05-05 20:55:12.913 [INFO] androidtv: Health: userdata qcow2 = 3408 MB
+2026-05-05 20:55:12.913 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-05 20:55:13.007 [INFO] androidtv: Health: MemAvailable:    1823068 kB
+2026-05-05 20:55:13.008 [INFO] androidtv: Health: SwapFree:        2151460 kB
+2026-05-05 21:25:12.912 [INFO] androidtv: Health: userdata qcow2 = 3408 MB
+2026-05-05 21:25:12.912 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-05 21:25:12.988 [INFO] androidtv: Health: MemAvailable:    1771996 kB
+2026-05-05 21:25:12.988 [INFO] androidtv: Health: SwapFree:        2151972 kB
+2026-05-05 21:55:12.913 [INFO] androidtv: Health: userdata qcow2 = 3410 MB
+2026-05-05 21:55:12.913 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-05 21:55:13.006 [INFO] androidtv: Health: MemAvailable:    1819140 kB
+2026-05-05 21:55:13.006 [INFO] androidtv: Health: SwapFree:        2142756 kB
+2026-05-05 22:25:12.913 [INFO] androidtv: Health: userdata qcow2 = 3410 MB
+2026-05-05 22:25:12.913 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-05 22:25:12.987 [INFO] androidtv: Health: MemAvailable:    1784744 kB
+2026-05-05 22:25:12.987 [INFO] androidtv: Health: SwapFree:        2141476 kB
+2026-05-05 22:55:12.913 [INFO] androidtv: Health: userdata qcow2 = 3410 MB
+2026-05-05 22:55:12.913 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-05 22:55:12.986 [INFO] androidtv: Health: MemAvailable:    1811584 kB
+2026-05-05 22:55:12.986 [INFO] androidtv: Health: SwapFree:        2142500 kB
+2026-05-05 23:25:12.913 [INFO] androidtv: Health: userdata qcow2 = 3465 MB
+2026-05-05 23:25:12.913 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-05 23:25:13.008 [INFO] androidtv: Health: MemAvailable:    1796344 kB
+2026-05-05 23:25:13.008 [INFO] androidtv: Health: SwapFree:        2185508 kB
+2026-05-05 23:55:12.913 [INFO] androidtv: Health: userdata qcow2 = 3465 MB
+2026-05-05 23:55:12.913 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-05 23:55:13.011 [INFO] androidtv: Health: MemAvailable:    1814740 kB
+2026-05-05 23:55:13.011 [INFO] androidtv: Health: SwapFree:        2178596 kB
+2026-05-06 00:11:25.031 [INFO] androidtv: emulator finished, exit code 1073807364
+=== Log started at 2026-05-07T17:24:50 ===
+2026-05-07 17:24:50.571 [INFO] installManager: Initialized
+2026-05-07 17:24:50.571 [INFO] g72battery: Module initialized, search started
+2026-05-07 17:24:50.586 [INFO] androidtv: initialized, appDir = C:/Users/Lygush/Desktop/MediaStation
+2026-05-07 17:24:54.626 [INFO] g72battery: Connected
+2026-05-07 17:24:54.626 [INFO] g72battery: Battery changed to 0%, Raw sample: 115
+2026-05-07 17:24:59.751 [INFO] androidtv: launching Android TV emulator
+2026-05-07 17:24:59.868 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-05-07 17:24:59.868 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-05-07 17:25:55.910 [INFO] androidtv: sys.boot_completed = 1
+2026-05-07 17:26:14.269 [INFO] androidtv: sys.boot_completed = 1
+2026-05-07 17:26:14.279 [INFO] androidtv: sys.boot_completed = 1
+2026-05-07 17:55:55.901 [INFO] androidtv: Health: userdata qcow2 = 3475 MB
+2026-05-07 17:55:55.901 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-07 17:55:56.094 [INFO] androidtv: Health: MemAvailable:    1983240 kB
+2026-05-07 17:55:56.094 [INFO] androidtv: Health: SwapFree:        2168868 kB
+2026-05-07 17:59:36.036 [INFO] androidtv: stop() requested
+2026-05-07 17:59:44.081 [WARNING] androidtv: emulator didn't respond, killing
+2026-05-07 17:59:44.084 [ERROR] androidtv: emulator error: 1 - Process crashed
+2026-05-07 17:59:44.086 [INFO] androidtv: emulator finished, exit code 62097
+2026-05-07 17:59:46.634 [INFO] androidtv: launching Android TV emulator
+2026-05-07 17:59:46.635 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-05-07 17:59:46.636 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-05-07 18:00:15.420 [INFO] androidtv: sys.boot_completed = 1
+2026-05-07 18:30:15.424 [INFO] androidtv: Health: userdata qcow2 = 3476 MB
+2026-05-07 18:30:15.424 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-07 18:30:15.498 [INFO] androidtv: Health: MemAvailable:    1896560 kB
+2026-05-07 18:30:15.498 [INFO] androidtv: Health: SwapFree:        2183204 kB
+2026-05-07 19:00:15.428 [INFO] androidtv: Health: userdata qcow2 = 3476 MB
+2026-05-07 19:00:15.428 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-07 19:00:15.522 [INFO] androidtv: Health: MemAvailable:    1872772 kB
+2026-05-07 19:00:15.522 [INFO] androidtv: Health: SwapFree:        2179364 kB
+2026-05-07 19:30:15.432 [INFO] androidtv: Health: userdata qcow2 = 3476 MB
+2026-05-07 19:30:15.432 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-07 19:30:15.588 [INFO] androidtv: Health: MemAvailable:    1883812 kB
+2026-05-07 19:30:15.588 [INFO] androidtv: Health: SwapFree:        2176292 kB
+2026-05-07 20:00:15.443 [INFO] androidtv: Health: userdata qcow2 = 3476 MB
+2026-05-07 20:00:15.443 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-07 20:00:15.745 [INFO] androidtv: Health: MemAvailable:    1849952 kB
+2026-05-07 20:00:15.746 [INFO] androidtv: Health: SwapFree:        2177316 kB
+2026-05-07 20:30:15.459 [INFO] androidtv: Health: userdata qcow2 = 3476 MB
+2026-05-07 20:30:15.459 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-07 20:30:16.238 [INFO] androidtv: Health: MemAvailable:    1842228 kB
+2026-05-07 20:30:16.238 [INFO] androidtv: Health: SwapFree:        2180644 kB
+2026-05-07 21:00:15.470 [INFO] androidtv: Health: userdata qcow2 = 3476 MB
+2026-05-07 21:00:15.470 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-07 21:00:15.578 [INFO] androidtv: Health: MemAvailable:    1770912 kB
+2026-05-07 21:00:15.578 [INFO] androidtv: Health: SwapFree:        2201124 kB
+2026-05-07 21:30:15.474 [INFO] androidtv: Health: userdata qcow2 = 3477 MB
+2026-05-07 21:30:15.474 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-07 21:30:15.624 [INFO] androidtv: Health: MemAvailable:    1725136 kB
+2026-05-07 21:30:15.624 [INFO] androidtv: Health: SwapFree:        2204708 kB
+2026-05-07 22:00:15.463 [INFO] androidtv: Health: userdata qcow2 = 3486 MB
+2026-05-07 22:00:15.463 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-07 22:00:15.625 [INFO] androidtv: Health: MemAvailable:    1745504 kB
+2026-05-07 22:00:15.625 [INFO] androidtv: Health: SwapFree:        2204452 kB
+2026-05-07 22:30:15.472 [INFO] androidtv: Health: userdata qcow2 = 3498 MB
+2026-05-07 22:30:15.472 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-07 22:30:15.605 [INFO] androidtv: Health: MemAvailable:    1743212 kB
+2026-05-07 22:30:15.605 [INFO] androidtv: Health: SwapFree:        2212132 kB
+2026-05-07 23:00:15.465 [INFO] androidtv: Health: userdata qcow2 = 3499 MB
+2026-05-07 23:00:15.465 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-07 23:00:15.556 [INFO] androidtv: Health: MemAvailable:    1710720 kB
+2026-05-07 23:00:15.556 [INFO] androidtv: Health: SwapFree:        2211108 kB
+2026-05-07 23:30:15.473 [INFO] androidtv: Health: userdata qcow2 = 3499 MB
+2026-05-07 23:30:15.473 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-07 23:30:15.561 [INFO] androidtv: Health: MemAvailable:    1698640 kB
+2026-05-07 23:30:15.561 [INFO] androidtv: Health: SwapFree:        2208548 kB
+2026-05-08 00:00:15.488 [INFO] androidtv: Health: userdata qcow2 = 3499 MB
+2026-05-08 00:00:15.488 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-08 00:00:15.567 [INFO] androidtv: Health: MemAvailable:    1747112 kB
+2026-05-08 00:00:15.567 [INFO] androidtv: Health: SwapFree:        2208036 kB
+=== Log started at 2026-05-08T21:10:07 ===
+2026-05-08 21:10:07.732 [INFO] installManager: Initialized
+2026-05-08 21:10:07.732 [INFO] g72battery: Module initialized, search started
+2026-05-08 21:10:07.732 [INFO] androidtv: initialized, appDir = C:/Users/Lygush/Desktop/MediaStation
+2026-05-08 21:10:08.294 [INFO] g72battery: Connected
+2026-05-08 21:10:08.294 [INFO] g72battery: Battery changed to 0%, Raw sample: 112
+2026-05-08 21:10:12.286 [INFO] androidtv: launching Android TV emulator
+2026-05-08 21:10:12.393 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-05-08 21:10:12.393 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-05-08 21:10:42.363 [INFO] androidtv: sys.boot_completed = 1
+2026-05-08 21:40:42.388 [INFO] androidtv: Health: userdata qcow2 = 3505 MB
+2026-05-08 21:40:42.388 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-08 21:40:42.460 [INFO] androidtv: Health: MemAvailable:    1855008 kB
+2026-05-08 21:40:42.460 [INFO] androidtv: Health: SwapFree:        2178084 kB
+2026-05-08 22:10:42.392 [INFO] androidtv: Health: userdata qcow2 = 3506 MB
+2026-05-08 22:10:42.392 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-08 22:10:42.466 [INFO] androidtv: Health: MemAvailable:    1857800 kB
+2026-05-08 22:10:42.467 [INFO] androidtv: Health: SwapFree:        2180132 kB
+2026-05-08 22:40:42.397 [INFO] androidtv: Health: userdata qcow2 = 3507 MB
+2026-05-08 22:40:42.397 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-08 22:40:42.473 [INFO] androidtv: Health: MemAvailable:    1851996 kB
+2026-05-08 22:40:42.473 [INFO] androidtv: Health: SwapFree:        2164516 kB
+2026-05-08 23:10:42.414 [INFO] androidtv: Health: userdata qcow2 = 3507 MB
+2026-05-08 23:10:42.414 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-08 23:10:42.494 [INFO] androidtv: Health: MemAvailable:    1844744 kB
+2026-05-08 23:10:42.494 [INFO] androidtv: Health: SwapFree:        2165028 kB
+2026-05-08 23:40:42.419 [INFO] androidtv: Health: userdata qcow2 = 3507 MB
+2026-05-08 23:40:42.419 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-08 23:40:42.495 [INFO] androidtv: Health: MemAvailable:    1791856 kB
+2026-05-08 23:40:42.495 [INFO] androidtv: Health: SwapFree:        2158884 kB
+2026-05-09 00:10:42.417 [INFO] androidtv: Health: userdata qcow2 = 4066 MB
+2026-05-09 00:10:42.417 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-09 00:10:42.540 [INFO] androidtv: Health: MemAvailable:    1783888 kB
+2026-05-09 00:10:42.540 [INFO] androidtv: Health: SwapFree:        2157348 kB
+2026-05-09 00:40:42.418 [INFO] androidtv: Health: userdata qcow2 = 4066 MB
+2026-05-09 00:40:42.418 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-09 00:40:42.515 [INFO] androidtv: Health: MemAvailable:    1745668 kB
+2026-05-09 00:40:42.515 [INFO] androidtv: Health: SwapFree:        2161700 kB
+2026-05-09 00:52:22.334 [INFO] androidtv: emulator finished, exit code 1073807364
+=== Log started at 2026-05-09T20:05:16 ===
+2026-05-09 20:05:16.944 [INFO] installManager: Initialized
+2026-05-09 20:05:16.944 [INFO] g72battery: Module initialized, search started
+2026-05-09 20:05:16.960 [INFO] androidtv: initialized, appDir = C:/Users/Lygush/Desktop/MediaStation
+2026-05-09 20:05:20.672 [INFO] g72battery: Connected
+2026-05-09 20:05:20.672 [INFO] g72battery: Battery changed to 0%, Raw sample: 77
+2026-05-09 20:05:26.071 [INFO] androidtv: launching Android TV emulator
+2026-05-09 20:05:26.172 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-05-09 20:05:26.172 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-05-09 20:06:01.476 [INFO] androidtv: sys.boot_completed = 1
+2026-05-09 20:06:03.761 [INFO] androidtv: sys.boot_completed = 1
+2026-05-09 20:36:01.483 [INFO] androidtv: Health: userdata qcow2 = 4073 MB
+2026-05-09 20:36:01.483 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-09 20:36:01.569 [INFO] androidtv: Health: MemAvailable:    1899248 kB
+2026-05-09 20:36:01.570 [INFO] androidtv: Health: SwapFree:        2178852 kB
+2026-05-09 21:06:01.487 [INFO] androidtv: Health: userdata qcow2 = 4073 MB
+2026-05-09 21:06:01.487 [WARNING] androidtv: Health: qcow2 exceeds 3072 MB — emulator may freeze soon, consider restarting
+2026-05-09 21:06:01.568 [INFO] androidtv: Health: MemAvailable:    1898704 kB
+2026-05-09 21:06:01.568 [INFO] androidtv: Health: SwapFree:        2178084 kB
+2026-05-09 21:11:34.543 [INFO] androidtv: stop() requested
+2026-05-09 21:11:39.997 [INFO] androidtv: emulator finished, exit code 0
+2026-05-09 21:12:21.200 [WARNING] g72battery: Frozen: drop=29.0 (prevRaw=65.0, raw=36.0)

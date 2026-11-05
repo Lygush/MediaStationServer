@@ -1,0 +1,44 @@
+=== Log started at 2026-05-13T00:43:21 ===
+2026-05-13 00:43:21.523 [INFO] installManager: Initialized
+2026-05-13 00:43:21.524 [INFO] g72battery: Module initialized, search started
+2026-05-13 00:43:21.524 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-05-13 00:43:21.524 [INFO] androidtv: Profiles loaded, active: default
+2026-05-13 00:43:21.991 [INFO] GameInfoModule: initialized
+2026-05-13 00:43:23.330 [INFO] g72battery: Connected
+2026-05-13 00:43:23.351 [INFO] g72battery: Battery changed to 89%, Raw sample: 176
+2026-05-13 00:44:53.706 [INFO] g72battery: Battery changed to 90%, Raw sample: 177
+2026-05-13 01:14:24.862 [INFO] GameInfoModule: fetch requested: tileId=lib_61d1f6448eb5, title="It Takes Two", folder=D:\Media Station Apps\It Takes Two
+2026-05-13 01:14:24.862 [INFO] GameInfoModule: doFetch start: "It Takes Two" (tileId=lib_61d1f6448eb5)
+2026-05-13 01:14:24.862 [INFO] GameInfoModule: SteamAppList not loaded yet, loading...
+2026-05-13 01:14:34.213 [INFO] GameInfoModule: SteamAppList loaded successfully
+2026-05-13 01:14:34.449 [INFO] GameInfoModule: SteamAppList: top candidate "It Takes Two" (appId=1426210, score=1.000)
+2026-05-13 01:14:34.449 [INFO] GameInfoModule: ambiguous match (7 candidates), waiting for user selection
+2026-05-13 01:14:36.452 [INFO] GameInfoModule: selectCandidate: appId=1426210 for tileId=lib_61d1f6448eb5
+2026-05-13 01:14:36.452 [INFO] GameInfoModule: user selected appId=1426210
+2026-05-13 01:14:36.453 [INFO] GameInfoModule: starting web fetch...
+2026-05-13 01:14:37.792 [INFO] GameInfoModule: web fetch done: sourceText=24343 chars, steamAppId="1426210"
+2026-05-13 01:14:37.792 [INFO] GameInfoModule: preparing LlamaClient...
+2026-05-13 01:14:37.793 [INFO] GameInfoModule: LlamaClient: model path from settings: "(empty, using default)"
+2026-05-13 01:14:37.793 [INFO] GameInfoModule: LlamaClient: resolved path: "D:/MediaStation/tools/llama/models/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf"
+2026-05-13 01:14:37.793 [INFO] LlamaClient: initialize() start, model path: D:/MediaStation/tools/llama/models/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf
+2026-05-13 01:14:37.793 [INFO] LlamaClient: Loading model with n_gpu_layers=999
+2026-05-13 01:14:37.886 [DEBUG] LlamaClient: [llama.cpp] ggml_cuda_init: found 1 CUDA devices (Total VRAM: 8191 MiB):
+2026-05-13 01:14:38.052 [DEBUG] LlamaClient: [llama.cpp] llama_model_load_from_file_impl: using device CUDA0 (NVIDIA GeForce RTX 3050) (0000:01:00.0) - 7126 MiB free
+2026-05-13 01:14:38.481 [WARNING] LlamaClient: [llama.cpp] load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+2026-05-13 01:14:39.036 [DEBUG] LlamaClient: [llama.cpp] load_tensors: offloading output layer to GPU
+2026-05-13 01:14:39.036 [DEBUG] LlamaClient: [llama.cpp] load_tensors: offloading 27 repeating layers to GPU
+2026-05-13 01:14:39.036 [DEBUG] LlamaClient: [llama.cpp] load_tensors: offloaded 29/29 layers to GPU
+2026-05-13 01:14:39.036 [DEBUG] LlamaClient: [llama.cpp] load_tensors:   CPU_Mapped model buffer size =   292.36 MiB
+2026-05-13 01:14:39.036 [DEBUG] LlamaClient: [llama.cpp] load_tensors:        CUDA0 model buffer size =  4168.09 MiB
+2026-05-13 01:15:00.686 [INFO] LlamaClient: Model loaded successfully
+2026-05-13 01:15:00.686 [INFO] LlamaClient: CUDA not available or cudaMemGetInfo failed — skipping VRAM check, will use CPU KV cache as precaution
+2026-05-13 01:15:00.686 [INFO] LlamaClient: Creating context: n_ctx=8192, n_batch=512, offload_kqv=false (CPU RAM)
+2026-05-13 01:15:00.686 [WARNING] LlamaClient: [llama.cpp] llama_context: n_ctx_seq (8192) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
+=== Log started at 2026-05-13T01:15:12 ===
+2026-05-13 01:15:12.109 [INFO] installManager: Initialized
+2026-05-13 01:15:12.110 [INFO] g72battery: Module initialized, search started
+2026-05-13 01:15:12.111 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-05-13 01:15:12.112 [INFO] androidtv: Profiles loaded, active: default
+2026-05-13 01:15:16.173 [INFO] GameInfoModule: initialized
+2026-05-13 01:15:16.173 [INFO] g72battery: Connected
+2026-05-13 01:15:16.173 [INFO] g72battery: Battery changed to 89%, Raw sample: 176

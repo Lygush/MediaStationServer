@@ -1,0 +1,101 @@
+=== Log started at 2026-04-24T11:27:15 ===
+2026-04-24 11:27:15.613 [INFO] installManager: Initialized
+2026-04-24 11:27:15.613 [INFO] g72battery: Module initialized, search started
+2026-04-24 11:27:15.613 [INFO] androidtv: initialized, appDir = C:/Users/Lygush/Desktop/MediaStation
+2026-04-24 11:27:17.083 [INFO] g72battery: Connected
+2026-04-24 11:27:17.096 [INFO] g72battery: Battery changed to 26%, Raw sample: 150
+2026-04-24 11:27:30.640 [INFO] androidtv: launching Android TV emulator
+2026-04-24 11:27:30.710 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-24 11:27:30.710 [WARNING] androidtv: Audio driver 'winaudio' not supported, falling back to 'dsound'
+2026-04-24 11:27:30.710 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-24 11:28:04.994 [INFO] androidtv: sys.boot_completed = 1
+2026-04-24 11:35:02.923 [INFO] androidtv: stop() requested
+2026-04-24 11:35:08.348 [INFO] androidtv: emulator finished, exit code 0
+2026-04-24 15:24:55.410 [INFO] androidtv: launching Android TV emulator
+2026-04-24 15:24:55.419 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-24 15:24:55.419 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-24 15:25:15.355 [INFO] g72battery: Battery changed to 23%, Raw sample: 149
+2026-04-24 15:25:22.950 [INFO] androidtv: sys.boot_completed = 1
+2026-04-24 15:34:45.417 [INFO] g72battery: Battery changed to 26%, Raw sample: 150
+2026-04-24 15:55:22.939 [INFO] androidtv: Health: userdata qcow2 = 1218 MB
+2026-04-24 15:55:23.022 [INFO] androidtv: Health: MemAvailable:    1857312 kB
+2026-04-24 15:55:23.022 [INFO] androidtv: Health: SwapFree:        2216996 kB
+2026-04-24 15:59:15.317 [INFO] g72battery: Battery changed to 23%, Raw sample: 149
+2026-04-24 16:25:22.950 [INFO] androidtv: Health: userdata qcow2 = 1219 MB
+2026-04-24 16:25:23.044 [INFO] androidtv: Health: MemAvailable:    1842344 kB
+2026-04-24 16:25:23.044 [INFO] androidtv: Health: SwapFree:        2211620 kB
+2026-04-24 16:55:22.949 [INFO] androidtv: Health: userdata qcow2 = 1326 MB
+2026-04-24 16:55:23.064 [INFO] androidtv: Health: MemAvailable:    1821216 kB
+2026-04-24 16:55:23.064 [INFO] androidtv: Health: SwapFree:        2207524 kB
+2026-04-24 17:18:10.080 [INFO] androidtv: stop() requested
+2026-04-24 17:18:18.102 [WARNING] androidtv: emulator didn't respond, killing
+2026-04-24 17:18:18.109 [ERROR] androidtv: emulator error: 1 - Process crashed
+2026-04-24 17:18:18.113 [INFO] androidtv: emulator finished, exit code 62097
+2026-04-24 17:18:29.101 [INFO] androidtv: launching Android TV emulator
+2026-04-24 17:18:29.102 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-24 17:18:29.103 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-24 17:18:32.060 [INFO] androidtv: emulator finished, exit code 1
+2026-04-24 17:28:15.510 [INFO] g72battery: Battery changed to 26%, Raw sample: 150
+2026-04-24 17:40:45.336 [INFO] g72battery: Battery changed to 23%, Raw sample: 149
+2026-04-24 18:39:07.679 [INFO] androidtv: launching Android TV emulator
+2026-04-24 18:39:07.680 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-24 18:39:07.680 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-24 18:39:37.949 [INFO] androidtv: sys.boot_completed = 1
+2026-04-24 18:39:41.463 [INFO] androidtv: sys.boot_completed = 1
+2026-04-24 18:43:45.801 [INFO] g72battery: Battery changed to 20%, Raw sample: 148
+2026-04-24 18:48:45.512 [INFO] g72battery: Battery changed to 23%, Raw sample: 149
+2026-04-24 19:09:37.945 [INFO] androidtv: Health: userdata qcow2 = 1357 MB
+2026-04-24 19:09:38.076 [INFO] androidtv: Health: MemAvailable:    1855896 kB
+2026-04-24 19:09:38.076 [INFO] androidtv: Health: SwapFree:        2228516 kB
+2026-04-24 19:39:37.959 [INFO] androidtv: Health: userdata qcow2 = 1370 MB
+2026-04-24 19:39:38.061 [INFO] androidtv: Health: MemAvailable:    1820120 kB
+2026-04-24 19:39:38.061 [INFO] androidtv: Health: SwapFree:        2224932 kB
+2026-04-24 20:09:37.966 [INFO] androidtv: Health: userdata qcow2 = 1376 MB
+2026-04-24 20:09:38.072 [INFO] androidtv: Health: MemAvailable:    1812424 kB
+2026-04-24 20:09:38.073 [INFO] androidtv: Health: SwapFree:        2212388 kB
+2026-04-24 20:39:37.956 [INFO] androidtv: Health: userdata qcow2 = 1383 MB
+2026-04-24 20:39:38.057 [INFO] androidtv: Health: MemAvailable:    1763608 kB
+2026-04-24 20:39:38.057 [INFO] androidtv: Health: SwapFree:        2221604 kB
+2026-04-24 21:09:37.954 [INFO] androidtv: Health: userdata qcow2 = 1450 MB
+2026-04-24 21:09:38.079 [INFO] androidtv: Health: MemAvailable:    1770584 kB
+2026-04-24 21:09:38.079 [INFO] androidtv: Health: SwapFree:        2225700 kB
+2026-04-24 21:39:37.966 [INFO] androidtv: Health: userdata qcow2 = 1459 MB
+2026-04-24 21:39:38.122 [INFO] androidtv: Health: MemAvailable:    1767112 kB
+2026-04-24 21:39:38.122 [INFO] androidtv: Health: SwapFree:        2225188 kB
+2026-04-24 22:09:37.959 [INFO] androidtv: Health: userdata qcow2 = 1470 MB
+2026-04-24 22:09:38.091 [INFO] androidtv: Health: MemAvailable:    1733492 kB
+2026-04-24 22:09:38.091 [INFO] androidtv: Health: SwapFree:        2225188 kB
+2026-04-24 22:33:45.441 [INFO] androidtv: stop() requested
+2026-04-24 22:33:52.067 [INFO] androidtv: emulator finished, exit code 0
+2026-04-24 22:34:17.752 [INFO] g72battery: Battery changed to 20%, Raw sample: 148
+2026-04-24 22:38:17.566 [INFO] g72battery: Battery changed to 23%, Raw sample: 149
+=== Log started at 2026-04-26T21:33:11 ===
+2026-04-26 21:33:11.867 [INFO] installManager: Initialized
+2026-04-26 21:33:11.868 [INFO] g72battery: Module initialized, search started
+2026-04-26 21:33:11.870 [INFO] androidtv: initialized, appDir = C:/Users/Lygush/Desktop/MediaStation
+2026-04-26 21:33:16.046 [INFO] g72battery: Connected
+2026-04-26 21:33:16.046 [INFO] g72battery: Battery changed to 0%, Raw sample: 128
+2026-04-26 21:33:49.283 [INFO] androidtv: launching Android TV emulator
+2026-04-26 21:33:49.414 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-26 21:33:49.415 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-26 21:34:45.001 [INFO] androidtv: sys.boot_completed = 1
+2026-04-26 21:34:48.936 [INFO] androidtv: sys.boot_completed = 1
+2026-04-26 21:36:36.588 [INFO] androidtv: stop() requested
+2026-04-26 21:36:43.243 [INFO] androidtv: emulator finished, exit code 0
+2026-04-26 21:36:54.781 [INFO] androidtv: launching Android TV emulator
+2026-04-26 21:36:54.782 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-26 21:36:54.782 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-26 21:37:23.796 [INFO] androidtv: sys.boot_completed = 1
+2026-04-26 21:42:03.400 [INFO] androidtv: stop() requested
+2026-04-26 21:42:08.958 [INFO] androidtv: emulator finished, exit code 0
+2026-04-26 21:42:11.575 [INFO] androidtv: launching Android TV emulator
+2026-04-26 21:42:11.575 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-26 21:42:11.576 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-26 21:42:39.106 [INFO] androidtv: sys.boot_completed = 1
+2026-04-26 21:52:47.109 [INFO] androidtv: stop() requested
+2026-04-26 21:52:52.806 [INFO] androidtv: emulator finished, exit code 0
+2026-04-26 21:53:01.570 [INFO] androidtv: launching Android TV emulator
+2026-04-26 21:53:01.571 [INFO] androidtv: Detected screen resolution: 1920x1080
+2026-04-26 21:53:01.572 [INFO] androidtv: Emulator settings: res=1920x1080, gpu=host, ram=3072, cores=4, writable=1, noBootAnim=0, noSnapshot=1, dns=127.0.0.1, audio=dsound
+2026-04-26 21:53:09.303 [INFO] androidtv: stop() requested
+2026-04-26 21:53:11.234 [INFO] androidtv: emulator finished, exit code 0

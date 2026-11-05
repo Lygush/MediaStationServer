@@ -1,0 +1,91 @@
+=== Log started at 2026-08-04T21:37:19 ===
+2026-08-04 21:37:19.307 [INFO] installManager: Initialized
+2026-08-04 21:37:19.308 [INFO] g72battery: Module initialized, search started
+2026-08-04 21:37:19.308 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-08-04 21:37:19.308 [INFO] androidtv: Profiles loaded, active: default
+2026-08-04 21:37:19.907 [INFO] GameInfoModule: initialized
+2026-08-04 21:37:20.415 [INFO] g72battery: Connected
+2026-08-04 21:37:20.428 [INFO] g72battery: Battery changed to 50%, Raw sample: 158
+2026-08-04 22:09:41.891 [INFO] installManager: Deleted game folder: D:\Media Station Apps\Universe Sandbox
+2026-08-04 22:16:21.022 [INFO] g72battery: Battery changed to 54%, Raw sample: 159
+2026-08-04 22:24:21.261 [INFO] g72battery: Battery changed to 50%, Raw sample: 158
+2026-08-04 22:29:28.257 [INFO] installManager: Network installation finalized: net_1785870561446_glanzh → D:\Media Station Apps\Crash Bandicoot - N Sane Trilogy
+2026-08-04 22:29:41.633 [INFO] installManager: Dependencies OK for CrashBandicootNSaneTrilogy.exe inputTypes=[directinput, xinput]
+2026-08-04 22:29:58.612 [INFO] GameInfoModule: fetch requested: tileId=net_1785870561446_glanzh, title="Crash Bandicoot - N Sane Trilogy", folder=D:\Media Station Apps\Crash Bandicoot - N Sane Trilogy
+2026-08-04 22:29:58.612 [INFO] GameInfoModule: doFetch start: "Crash Bandicoot - N Sane Trilogy" (tileId=net_1785870561446_glanzh)
+2026-08-04 22:29:58.620 [INFO] GameInfoModule: SteamAppList not loaded yet, loading...
+2026-08-04 22:30:07.920 [INFO] GameInfoModule: SteamAppList loaded successfully
+2026-08-04 22:30:08.234 [INFO] GameInfoModule: SteamAppList: top candidate "Crash Bandicoot N. Sane Trilogy" (appId=731490, score=1.000)
+2026-08-04 22:30:08.253 [INFO] GameInfoModule: ambiguous match (2 candidates), waiting for user selection
+2026-08-04 22:30:18.615 [INFO] GameInfoModule: selectCandidate: appId=731490 for tileId=net_1785870561446_glanzh
+2026-08-04 22:30:18.615 [INFO] GameInfoModule: user selected appId=731490
+2026-08-04 22:30:18.616 [INFO] GameInfoModule: starting web fetch...
+2026-08-04 22:30:23.535 [INFO] GameInfoModule: web fetch done: sourceText=14478 chars, steamAppId="731490"
+2026-08-04 22:30:23.537 [INFO] GameInfoModule: preparing LlamaClient...
+2026-08-04 22:30:23.578 [INFO] GameInfoModule: LlamaClient: model path from settings: "(empty, using default)"
+2026-08-04 22:30:23.578 [INFO] GameInfoModule: LlamaClient: resolved path: "D:/MediaStation/tools/llama/models/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf"
+2026-08-04 22:30:23.584 [INFO] LlamaClient: initialize() start, model path: D:/MediaStation/tools/llama/models/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf
+2026-08-04 22:30:23.707 [DEBUG] LlamaClient: [llama.cpp] ggml_cuda_init: GGML_CUDA_FORCE_MMQ:    no
+2026-08-04 22:30:23.708 [DEBUG] LlamaClient: [llama.cpp] ggml_cuda_init: GGML_CUDA_FORCE_CUBLAS: no
+2026-08-04 22:30:23.708 [DEBUG] LlamaClient: [llama.cpp] ggml_cuda_init: found 1 CUDA devices:
+2026-08-04 22:30:23.709 [DEBUG] LlamaClient: [llama.cpp] Device 0: NVIDIA GeForce RTX 3050, compute capability 8.6, VMM: yes
+2026-08-04 22:30:23.715 [INFO] LlamaClient: llama.cpp build: CUDA : ARCHS = 750,860,890,1200 | USE_GRAPHS = 1 | PEER_MAX_BATCH_SIZE = 128 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | LLAMAFILE = 1 | OPENMP = 1 | AARCH64_REPACK = 1 | 
+2026-08-04 22:30:23.720 [INFO] LlamaClient: Loading model with n_gpu_layers=999
+2026-08-04 22:30:23.946 [DEBUG] LlamaClient: [llama.cpp] llama_model_load_from_file_impl: using device CUDA0 (NVIDIA GeForce RTX 3050) - 7123 MiB free
+2026-08-04 22:30:24.437 [DEBUG] LlamaClient: [llama.cpp] print_info: n_ctx_train      = 131072
+2026-08-04 22:30:24.437 [DEBUG] LlamaClient: [llama.cpp] print_info: n_ctx_orig_yarn  = 131072
+2026-08-04 22:30:28.508 [DEBUG] LlamaClient: [llama.cpp] load_tensors: offloading 28 repeating layers to GPU
+2026-08-04 22:30:28.508 [DEBUG] LlamaClient: [llama.cpp] load_tensors: offloading output layer to GPU
+2026-08-04 22:30:28.508 [DEBUG] LlamaClient: [llama.cpp] load_tensors: offloaded 29/29 layers to GPU
+2026-08-04 22:30:28.508 [DEBUG] LlamaClient: [llama.cpp] load_tensors:        CUDA0 model buffer size =  4168.09 MiB
+2026-08-04 22:30:28.508 [DEBUG] LlamaClient: [llama.cpp] load_tensors:   CPU_Mapped model buffer size =   292.36 MiB
+2026-08-04 22:30:52.414 [INFO] LlamaClient: Model loaded successfully
+2026-08-04 22:30:52.414 [INFO] LlamaClient: Creating context: n_ctx=12288, n_batch=512, offload_kqv=true
+2026-08-04 22:30:52.414 [DEBUG] LlamaClient: [llama.cpp] llama_context: n_ctx         = 12288
+2026-08-04 22:30:52.414 [DEBUG] LlamaClient: [llama.cpp] llama_context: n_ctx_per_seq = 12288
+2026-08-04 22:30:52.414 [DEBUG] LlamaClient: [llama.cpp] llama_context: n_batch       = 512
+2026-08-04 22:30:52.414 [WARNING] LlamaClient: [llama.cpp] llama_context: n_ctx_per_seq (12288) < n_ctx_train (131072) -- the full capacity of the model will not be utilized
+2026-08-04 22:30:52.415 [DEBUG] LlamaClient: [llama.cpp] set_abort_callback: call
+2026-08-04 22:30:52.437 [DEBUG] LlamaClient: [llama.cpp] create_memory: n_ctx = 12288 (padded)
+2026-08-04 22:30:52.507 [INFO] LlamaClient: LlamaClient ready
+2026-08-04 22:30:52.507 [INFO] GameInfoModule: calling LlamaClient::generate() for "Crash Bandicoot - N Sane Trilogy"
+2026-08-04 22:30:52.518 [INFO] GameInfoModule: generateGameInfo() start for: "Crash Bandicoot - N Sane Trilogy", sourceText: 14478 chars
+2026-08-04 22:30:52.519 [INFO] GameInfoModule: generateGameInfo(): запрос 1 — короткие поля
+2026-08-04 22:30:52.539 [INFO] LlamaClient: Prompt tokenized: 5285 tokens (ctx limit: 12288, max output: 2048)
+2026-08-04 22:31:05.504 [INFO] LlamaClient: Prompt decoded, starting token generation...
+2026-08-04 22:31:29.602 [INFO] LlamaClient: EOS token reached after 148 generated tokens
+2026-08-04 22:31:29.621 [INFO] LlamaClient: Inference complete: 148 tokens generated, response length: 364 chars
+2026-08-04 22:31:29.621 [INFO] GameInfoModule: generateGameInfo(): запрос 1 OK, 7 полей. Запрос 2 — description
+2026-08-04 22:31:29.637 [INFO] LlamaClient: Prompt tokenized: 5144 tokens (ctx limit: 12288, max output: 2048)
+2026-08-04 22:31:39.053 [INFO] LlamaClient: Prompt decoded, starting token generation...
+2026-08-04 22:32:10.455 [INFO] LlamaClient: EOS token reached after 211 generated tokens
+2026-08-04 22:32:10.470 [INFO] LlamaClient: Inference complete: 211 tokens generated, response length: 600 chars
+2026-08-04 22:32:10.470 [INFO] GameInfoModule: generateGameInfo(): описание получено, 600 символов
+2026-08-04 22:32:10.470 [INFO] GameInfoModule: generateGameInfo(): завершено для "Crash Bandicoot - N Sane Trilogy", итого 8 полей
+2026-08-04 22:32:10.470 [INFO] GameInfoModule: LLM generated metadata for "Crash Bandicoot - N Sane Trilogy" (8 fields)
+2026-08-04 22:32:10.471 [INFO] GameInfoModule: metadata saved to D:\Media Station Apps\Crash Bandicoot - N Sane Trilogy/game_info.json
+2026-08-04 22:32:10.494 [INFO] GameInfoModule: doFetch complete for "Crash Bandicoot - N Sane Trilogy" (tileId=net_1785870561446_glanzh)
+2026-08-04 22:51:21.622 [INFO] g72battery: Battery changed to 54%, Raw sample: 159
+2026-08-04 22:58:21.235 [INFO] g72battery: Battery changed to 50%, Raw sample: 158
+2026-08-05 00:56:21.292 [INFO] g72battery: Battery changed to 54%, Raw sample: 159
+2026-08-05 01:02:21.069 [INFO] g72battery: Battery changed to 50%, Raw sample: 157
+2026-08-05 01:03:51.086 [INFO] g72battery: Battery changed to 47%, Raw sample: 157
+2026-08-05 01:05:51.122 [INFO] g72battery: Battery changed to 50%, Raw sample: 158
+2026-08-05 01:12:20.921 [INFO] g72battery: Battery changed to 54%, Raw sample: 159
+=== Log started at 2026-08-05T01:18:29 ===
+2026-08-05 01:18:29.911 [INFO] installManager: Initialized
+2026-08-05 01:18:29.911 [INFO] g72battery: Module initialized, search started
+2026-08-05 01:18:29.913 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-08-05 01:18:29.916 [INFO] androidtv: Profiles loaded, active: default
+2026-08-05 01:18:34.856 [INFO] GameInfoModule: initialized
+2026-08-05 01:18:34.889 [INFO] g72battery: Connected
+2026-08-05 01:18:34.890 [INFO] g72battery: Battery changed to 50%, Raw sample: 158
+=== Log stopped at 2026-08-05T01:19:38 ===
+=== Log started at 2026-08-05T11:38:25 ===
+2026-08-05 11:38:25.482 [INFO] installManager: Initialized
+2026-08-05 11:38:25.482 [INFO] g72battery: Module initialized, search started
+2026-08-05 11:38:25.482 [INFO] androidtv: initialized, appDir = D:/MediaStation
+2026-08-05 11:38:25.482 [INFO] androidtv: Profiles loaded, active: default
+2026-08-05 11:38:30.683 [INFO] GameInfoModule: initialized
+2026-08-05 11:38:30.777 [INFO] g72battery: Connected
+2026-08-05 11:38:30.777 [INFO] g72battery: Battery changed to 50%, Raw sample: 158

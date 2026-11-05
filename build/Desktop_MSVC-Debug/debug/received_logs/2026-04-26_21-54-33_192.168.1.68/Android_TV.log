@@ -1,0 +1,1012 @@
+
+=== Android TV emulator log started at 2026-04-26 21:33:11 ===
+2026-04-26 21:33:49.292 [DETAIL] dnsproxy config: port 5300, upstreams: 8.8.8.8, 1.1.1.1
+2026-04-26 21:33:49.414 [DETAIL] DNS proxy started PID 11900 on port 5300
+2026-04-26 21:33:49.492 [DETAIL] system.img.qcow2 backing file is valid
+2026-04-26 21:33:49.493 [DETAIL] Removed stale AVD lock: multiinstance.lock
+2026-04-26 21:33:49.500 [DETAIL] AVD ini patched: path=C:\Users\Lygush\Desktop\MediaStation\tools\android-tv\avd\MediaStation_TV.avd
+2026-04-26 21:33:49.511 [DETAIL] AVD config.ini patched: lcd=1920x1080
+2026-04-26 21:33:49.515 [DETAIL] WHPX: WinHvPlatform.dll found — hardware virtualization available
+2026-04-26 21:33:49.516 [DETAIL] keepTopmostTimer started (topmost every 200ms during boot)
+2026-04-26 21:33:49.516 [DETAIL] Audio backend: dsound
+2026-04-26 21:33:49.516 [DETAIL] Timer resolution set to 1 ms (timeBeginPeriod)
+2026-04-26 21:33:49.516 [DETAIL] Using DNS: 8.8.8.8,1.1.1.1
+2026-04-26 21:33:49.521 [DETAIL] emulator process started PID 6444
+2026-04-26 21:33:49.521 [DETAIL] Emulator process priority set to ABOVE_NORMAL
+2026-04-26 21:33:49.522 [DETAIL] WinEvent hook installed
+2026-04-26 21:33:49.522 [DETAIL] [dnsproxy] 2026/04/26 21:33:49.451118 INFO dnsproxy starting version=v0.81.0 revision=62d5234 branch=HEAD commit_time=1773365203
+2026/04/26 21:33:49.501279 INFO upstream mode is set prefix=dnsproxy mode=load_balance
+2026/04/26 21:33:49.501279 INFO cache enabled prefix=dnsproxy size=65536
+2026/04/26 21:33:49.501279 INFO starting dns proxy server prefix=dnsproxy
+2026/04/26 21:33:49.501279 INFO creating udp server socket prefix=dnsproxy addr=127.0.0.1:5300
+2026/04/26 21:33:49.502332 INFO listening to udp prefix=dnsproxy addr=127.0.0.1:5300
+2026/04/26 21:33:49.502332 INFO creating tcp server socket prefix=dnsproxy addr=127.0.0.1:5300
+2026/04/26 21:33:49.502821 INFO listening to tcp prefix=dnsproxy addr=127.0.0.1:5300
+2026/04/26 21:33:49.502821 INFO entering udp listener loop prefix=dnsproxy addr=127.0.0.1:5300
+2026/04/26 21:33:49.502821 INFO entering listener loop prefix=dnsproxy proto=tcp addr=127.0.0.1:5300
+2026-04-26 21:33:49.626 [EMULATOR] INFO         | Android emulator version 36.4.10.0 (build_id 15004761) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\system-images\android-34\android-tv\x86\
+2026-04-26 21:33:49.637 [EMULATOR] INFO         | Found systemPath C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\system-images\android-34\android-tv\x86\
+2026-04-26 21:33:51.460 [DETAIL] adb kill-server: done
+2026-04-26 21:33:51.464 [EMULATOR] INFO         | Feature 'GLDirectMem' (53) is overridden to 'enabled'
+INFO         | Feature 'GLDMA' (51) is overridden to 'enabled'
+INFO         | Feature 'VulkanNativeSwapchain' (37) is overridden to 'enabled'
+WARNING      | Ignoring invalid SDCard path: C:\Users\Lygush\Desktop\MediaStation\tools\android-tv\avd\MediaStation_TV.avd\sdcard.img
+WARNING      | System image is writable
+INFO         | Guest GLES Driver: Auto (ext controls)
+INFO         | emuglConfig_init: vulkan_mode_selected:host gles_mode_selected:host
+INFO         | emuglConfig_get_vulkan_hardware_gpu_support_info: Found physical GPU 'NVIDIA GeForce RTX 3050', type: VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU, apiVersion: 1.4.329, driverVersion: 595.71
+
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `MediaStation_TV` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `MediaStation_TV` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `MediaStation_TV` are passed
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `MediaStation_TV` are met
+INFO         | Critical: Failed to load opengl32sw (Не найден указанный модуль.) (:0, )
+INFO         | Warning: Software OpenGL failed. Falling back to system OpenGL. (:0, )
+INFO         | Storing crashdata in: C:\Users\Lygush\AppData\Local\Temp\\AndroidEmulator\emu-crash-36.4.10.db, detection is enabled for process: 7288
+INFO         | Initializing gfxstream backend
+INFO         | android_startOpenglesRenderer: gpu info
+INFO         | GPU #1
+  Make: 10de
+  Model: NVIDIA GeForce RTX 3050
+  Device ID: 2507
+
+INFO         | SharedLibrary::open for [C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\emulator\qemu\windows-x86_64\lib64\vulkan\vulkan-1.dll]
+INFO         | SharedLibrary::open for [C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\emulator\lib64\vulkan\vulkan-1.dll]
+INFO         | Added library: C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\emulator\lib64\vulkan\vulkan-1.dll
+INFO         | Selecting Vulkan device: NVIDIA GeForce RTX 3050, Version: 1.4.329
+INFO         | Initializing VkEmulation features:
+INFO         |     glInteropSupported: true
+INFO         |     useDeferredCommands: true
+INFO         |     createResourceWithRequirements: true
+INFO         |     useVulkanComposition: true
+INFO         |     useVulkanNativeSwapchain: true
+INFO         |     enable guestRenderDoc: false
+INFO         |     ASTC LDR emulation mode: Gpu
+INFO         |     enable ETC2 emulation: true
+INFO         |     enable Ycbcr emulation: false
+INFO         |     guestVulkanOnly: false
+INFO         |     useDedicatedAllocations: false
+INFO         | Created CompositorVk
+INFO         | Graphics Adapter Vendor Google (NVIDIA Corporation)
+INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 3050/PCIe/SSE2)
+INFO         | Graphics API Version OpenGL ES 3.0 (4.5.0 NVIDIA 595.71)
+INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_OVR_multiview2 GL_EXT_multiview_texture_multisample GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_texture_buffer 
+INFO         | Graphics Device Extensions N/A
+INFO         | Disabling sparse binding feature support
+INFO         | Sending adb public key [QAAAABNay53lfxOYTgqQLpDYyb/7akMyCj47n1VZvgSISHrsEkfuGjtD2dtWFiZt1359/0uyHZdqFOpLBYLF16yT+S+KsZDWLSQ53/Kj5EKTYIZefMoG+jUPq8pilZZ2Z
+2026-04-26 21:33:51.506 [EMULATOR] dG6R9LfRjiE/FDUSv1encbf1ahgX2P5jcrEGNRm8mXlu/54AYXs0Lqhze+mZWB8PX1Hp0mZQKMMZFTjCxHRUk2wd/vm5Dmi8sCeKWyNmTIF1vDTXIplD+tahTJK04GDzunPqBYSb/obQezStfALnhbFqAtBeZ3Clux37tpXfb7isWJvwcX6x73MEGNHKGCbJ5lp/wbO2m5paB+hO5fFota0Cy5p0SasGcDDPU4bW6tEyG+wr2hhlTsH6x3GK+hrXl95zr/oK7BeTQ2RRTJczE8UBclKvqnBMWQnogLPr1EiadoLQ9vlOPDgpt51XiCQyvu1olPpcxdizfkCJlRmCFL0c1Ph3DZlz1Q8eHXDBqaxFoh5epKPRj7U80q7vpRNYfRPHnurtThnjBfezDR53xbpz+K/V9tIfP7aQq9sk2GT2BHpQY/Yyp8yLpHOhxHZrDNQj8gof1EHnwdAyDsx0sT6rnKo8Iku8tWv1xFRGUnMic97W2w2OVnMKrHMzbkdp0P0Y3L1Y51bNchS1on5jSKLhojO5SEi5yBhJQ463RLb/vkPQ5i6VgEAAQA= @unknown]
+INFO         | Userspace boot properties:
+INFO         |   androidboot.boot_devices=pci0000:00/0000:00:03.0 pci0000:00/0000:00:06.0
+INFO         |   androidboot.dalvik.vm.heapsize=576m
+INFO         |   androidboot.debug.hwui.renderer=skiagl
+INFO         |   androidboot.debug.sf.nobootanimation=1
+INFO         |   androidboot.hardware=ranchu
+INFO         |   androidboot.hardware.gltransport=pipe
+INFO         |   androidboot.hardware.vulkan=ranchu
+INFO         |   androidboot.logcat=*:V
+INFO         |   androidboot.opengles.version=196609
+INFO         |   androidboot.qemu=1
+INFO         |   androidboot.qemu.adb.pubkey=QAAAABNay53lfxOYTgqQLpDYyb/7akMyCj47n1VZvgSISHrsEkfuGjtD2dtWFiZt1359/0uyHZdqFOpLBYLF16yT+S+KsZDWLSQ53/Kj5EKTYIZefMoG+jUPq8pilZZ2ZdG6R9LfRjiE/FDUSv1encbf1ahgX2P5jcrEGNRm8mXlu/54AYXs0Lqhze+mZWB8PX1Hp0mZQKMMZFTjCxHRUk2wd/vm5Dmi8sCeKWyNmTIF1vDTXIplD+tahTJK04GDzunPqBYSb/obQezStfALnhbFqAtBeZ3Clux37tpXfb7isWJvwcX6x73MEGNHKGCbJ5lp/wbO2m5paB+hO5fFota0Cy5p0SasGcDDPU4bW6tEyG+wr2hhlTsH6x3GK+hrXl95zr/oK7BeTQ2RRTJczE8UBclKvqnBMWQnogLPr1EiadoLQ9vlOPDgpt51XiCQyvu1olPpcxdizfkCJlRmCFL0c1Ph3DZlz1Q8eHXDBqaxFoh5epKPRj7U80q7vpRNYfRPHnurtThnjBfezDR53xbpz+K/V9tIfP7aQq9sk2GT2BHpQY/Yyp8yLpHOhxHZrDNQj8gof1EHnwdAyDsx0sT6rnKo8Iku8tWv1xFRGUnMic97W2w2OVnMKrHMzbkdp0P0Y3L1Y51bNchS1on5jSKLhojO5SEi5yBhJQ463RLb/vkPQ5i6VgEAAQA= @unknown
+INFO         |   androidboot.qemu.avd_name=MediaStation_TV
+INFO         |   androidboot.qemu.camera_hq_edge_processing=0
+INFO         |   androidboot.qemu.camera_protocol_ver=1
+INFO         |   androidboot.qemu.cpuvulkan.version=4202496
+INFO         |   androidboot.qemu.gltransport.drawFlushInterval=800
+INFO         |   androidboot.qemu.gltransport.name=pipe
+INFO         |   androidboot.qemu.hwcodec.avcdec=2
+INFO         |   androidboot.qemu.hwcodec.hevcdec=2
+INFO         |   androidboot.qemu.hwcodec.vpxdec=2
+INFO         |   androidboot.qemu.settings.system.screen_off_timeout=2147483647
+INFO         |   androidboot.qemu.skin=1920x1080
+INFO         |   androidboot.qemu.virtiowifi=1
+INFO         |   androidboot.qemu.vsync=60
+INFO         |   androidboot.serialno=EMULATOR36X4X10X0
+INFO         |   androidboot.vbmeta.digest=950a5afc43f13c7eacbe3369f4a9a70b670b0e5fb0d1ee88986ecb3282e852cf
+INFO         |   androidboot.vbmeta.hash_alg=sha256
+INFO         |   androidboot.vbmeta.size=6592
+INFO         |   androidboot.verifiedbootstate=orange
+INFO         |   androidboot.veritymode=enforcing
+WHPX on Windows 10.0.19045 detected.
+Windows Hypervisor Platform accelerator is operational
+2026-04-26 21:33:51.557 [EMULATOR] netsimd I 04-26 18:33:51.558 daemon\src\rust_main.rs:100 - netsim artifacts path: "C:\\Users\\Lygush\\AppData\\Local\\Temp\\netsimd"
+netsimd I 04-26 18:33:51.558 daemon\src\rust_main.rs:103 - NetsimdArgs {
+    fd_startup_str: None,
+    no_cli_ui: true,
+    no_web_ui: true,
+    pcap: false,
+    disable_address_reuse: false,
+    hci_port: None,
+    connector_instance: None,
+    instance: None,
+    logtostderr: false,
+    dev: false,
+    forward_host_mdns: false,
+    vsock: None,
+    config: None,
+    host_dns: Some(
+        "8.8.8.8,1.1.1.1",
+    ),
+    http_proxy: None,
+    wifi_tap: None,
+    wifi: None,
+    test_beacons: false,
+    no_test_beacons: false,
+    no_shutdown: false,
+    verbose: false,
+    version: false,
+    debug: DebugArgs {
+        debug_no_traffic: false,
+        debug_no_network: false,
+        debug_no_wmedium: false,
+        debug_no_mdns_wmedium: false,
+        debug_no_guest_to_host_mdns: false,
+    },
+    rssi: None,
+}
+2026-04-26 21:33:51.859 [EMULATOR] dsound: Could not initialize DirectSoundCapture
+2026-04-26 21:33:51.860 [EMULATOR] dsound: Reason: No sound driver is available for use, or the given GUID is not a valid DirectSound device ID
+2026-04-26 21:33:51.872 [EMULATOR] INFO         | Monitoring duration of emulator setup.
+2026-04-26 21:33:51.900 [EMULATOR] WARNING      | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+2026-04-26 21:33:51.937 [EMULATOR] INFO         | Using security allow list from: C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\emulator\lib\emulator_access.json
+WARNING      | *** Basic token auth should only be used by android-studio ***
+2026-04-26 21:33:51.950 [EMULATOR] INFO         | The active JSON Web Key Sets can be found here: C:\Users\Lygush\AppData\Local\Temp\avd\running\7288\jwks\eab6289a-0aa5-45a7-86da-d463851b0335\active.jwk
+2026-04-26 21:33:51.950 [EMULATOR] INFO         | Scanning C:\Users\Lygush\AppData\Local\Temp\avd\running\7288\jwks\eab6289a-0aa5-45a7-86da-d463851b0335 for jwk keys.
+2026-04-26 21:33:51.979 [EMULATOR] INFO         | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+2026-04-26 21:33:51.996 [EMULATOR] INFO         | Advertising in: C:\Users\Lygush\AppData\Local\Temp\avd\running\pid_7288.ini
+2026-04-26 21:33:52.040 [EMULATOR] INFO         | Setting display: 0 configuration to: 1920x1080, dpi: 320x320 
+INFO         | setDisplayActiveConfig 0
+2026-04-26 21:33:52.139 [DETAIL] WinEvent: re-exec PID 6444 → 7288 (title: "Emulator", matchParent=0)
+2026-04-26 21:33:52.139 [DETAIL] WinEvent: found emulator main window HWND=722014 title="Emulator" class="Qt653QWindowIcon"
+2026-04-26 21:33:52.834 [DETAIL] Hiding extra window: HWND=66666, class='Qt653QWindowToolSaveBits'
+2026-04-26 21:33:52.836 [DETAIL] Emulator positioned behind MediaStation at (0,0) 1920x1080
+2026-04-26 21:33:52.836 [DETAIL] Position sync timer started (500ms interval)
+2026-04-26 21:33:52.837 [DETAIL] Window polling stopped: emulator window found
+2026-04-26 21:33:52.864 [DETAIL] Thread boost complete: 67 × ABOVE_NORMAL, 0 × TIME_CRITICAL (audio)
+2026-04-26 21:33:52.865 [DETAIL] NOTE: audio thread not identified by name — all threads set to ABOVE_NORMAL.
+2026-04-26 21:33:52.865 [EMULATOR] ERROR        | Unable to connect to adb daemon on port: 5037
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `MediaStation_TV` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `MediaStation_TV` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `MediaStation_TV` are passed
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `MediaStation_TV` are met
+2026-04-26 21:33:52.871 [EMULATOR] USER_INFO    | Emulator is performing a full startup. This may take upto two minutes, or more.
+2026-04-26 21:33:53.023 [EMULATOR] INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_rgbcSensorValueWidget_valueChanged() (:0, )
+2026-04-26 21:33:53.024 [EMULATOR] INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_posture_valueChanged(int) (:0, )
+2026-04-26 21:33:53.620 [EMULATOR] INFO         | Warning: QObject::connect: Cannot queue arguments of type 'std::vector<android::emulation::control::SnapshotInfo>'
+(Make sure 'std::vector<android::emulation::control::SnapshotInfo>' is registered using qRegisterMetaType().) (:0, )
+2026-04-26 21:33:53.648 [DETAIL] adb start-server: ok
+2026-04-26 21:33:53.687 [EMULATOR] INFO         | AVD supportsNativeGLES=1, supportsGuestAngle=0
+INFO         | Platform does not support Guest Angle
+2026-04-26 21:33:53.791 [EMULATOR] INFO         | Created extended window in 934.832ms
+2026-04-26 21:33:54.515 [EMULATOR] INFO         | Activated packet streamer for bluetooth emulation
+2026-04-26 21:33:59.531 [DETAIL] boot polling: 10 sec
+2026-04-26 21:34:05.327 [EMULATOR] INFO         | Critical: UpdateLayeredWindowIndirect failed for ptDst=(710, 131), size=(700x21), dirty=(700x84 0, 0) (Присоединенное к системе устройство не работает.) (:0, )
+INFO         | Critical: UpdateLayeredWindowIndirect failed for ptDst=(710, 131), size=(700x21), dirty=(700x21 0, 0) (Присоединенное к системе устройство не работает.) (:0, )
+2026-04-26 21:34:09.537 [DETAIL] boot polling: 20 sec
+2026-04-26 21:34:19.540 [DETAIL] boot polling: 30 sec
+2026-04-26 21:34:29.547 [DETAIL] boot polling: 40 sec
+2026-04-26 21:34:39.537 [DETAIL] boot polling: 50 sec
+2026-04-26 21:34:41.069 [EMULATOR] INFO         | Recreating swapchain...
+2026-04-26 21:34:41.070 [EMULATOR] INFO         | Creating swapchain with size 1920x1080.
+2026-04-26 21:34:42.052 [EMULATOR] INFO         | Recreating swapchain completed.
+2026-04-26 21:34:42.388 [EMULATOR] INFO         | Boot completed in 52243 ms
+2026-04-26 21:34:42.390 [EMULATOR] INFO
+2026-04-26 21:34:42.391 [EMULATOR] |
+2026-04-26 21:34:42.396 [EMULATOR] Increasing screen off timeout, logcat buffer size to 2M.
+2026-04-26 21:34:45.001 [DETAIL] Health check started (interval: 30 min, qcow2 limit: 3072 MB)
+2026-04-26 21:34:45.007 [DETAIL] logcat started, writing to C:/Users/Lygush/Desktop/MediaStation/logs/Android_TV_logcat.log
+2026-04-26 21:34:45.007 [DETAIL] Setting up ADB reverse port forwarding...
+2026-04-26 21:34:45.036 [DETAIL] pushing 10 entries to /etc/hosts
+2026-04-26 21:34:45.264 [DETAIL] keepTopmostTimer stopped
+2026-04-26 21:34:45.264 [DETAIL] keepTopmostTimer stopped (booting finished)
+2026-04-26 21:34:45.861 [DETAIL] WinEvent: found emulator main window HWND=722014 title="Android Emulator - MediaStation_TV:5554" class="Qt653QWindowIcon"
+2026-04-26 21:34:45.861 [DETAIL] WinEvent: emulator shown, skipping position
+2026-04-26 21:34:45.862 [EMULATOR] INFO         | Critical: UpdateLayeredWindowIndirect failed for ptDst=(710, 131), size=(1620x21), dirty=(1620x21 0, 0) (Присоединенное к системе устройство не работает.) (:0, )
+2026-04-26 21:34:45.878 [DETAIL] MediaStation opacity set to 0
+2026-04-26 21:34:45.878 [DETAIL] applyFullscreenAndSwitch: MediaStation transparent (after 16ms)
+2026-04-26 21:34:45.880 [DETAIL] Emulator window visible after show: 1
+2026-04-26 21:34:45.880 [DETAIL] applyFullscreenAndSwitch: emulator visible
+2026-04-26 21:34:45.881 [DETAIL] [Input] G72Keys mode → EmulatorMode
+2026-04-26 21:34:48.936 [DETAIL] logcat already running
+2026-04-26 21:34:48.936 [DETAIL] Setting up ADB reverse port forwarding...
+2026-04-26 21:34:48.952 [DETAIL] pushing 10 entries to /etc/hosts
+2026-04-26 21:34:49.712 [DETAIL] WinEvent: found emulator main window HWND=722014 title="Android Emulator - MediaStation_TV:5554" class="Qt653QWindowIcon"
+2026-04-26 21:34:49.712 [DETAIL] WinEvent: emulator shown, skipping position
+2026-04-26 21:34:49.807 [DETAIL] MediaStation opacity set to 0
+2026-04-26 21:34:49.807 [DETAIL] applyFullscreenAndSwitch: MediaStation transparent (after 16ms)
+2026-04-26 21:34:49.809 [DETAIL] Emulator window visible after show: 1
+2026-04-26 21:34:49.809 [DETAIL] applyFullscreenAndSwitch: emulator visible
+2026-04-26 21:34:49.809 [DETAIL] [Input] G72Keys mode → EmulatorMode
+2026-04-26 21:34:51.889 [DETAIL] adb reverse tcp:8443 -> 8443
+2026-04-26 21:34:52.603 [DETAIL] adb reverse tcp:53 -> 
+2026-04-26 21:34:53.667 [DETAIL] adb reverse tcp:8080 -> 8080
+2026-04-26 21:34:54.143 [DETAIL] adb reverse tcp:8080 -> 
+2026-04-26 21:34:54.561 [DETAIL] adb reverse tcp:80 -> 
+2026-04-26 21:34:55.359 [DETAIL] adb watchdog: timeout 10s, killing: reverse tcp:443 tcp:443
+2026-04-26 21:34:55.920 [DETAIL] adb reverse tcp:53 -> 
+2026-04-26 21:34:55.954 [DETAIL] adb reverse tcp:8443 -> 
+2026-04-26 21:34:56.454 [DETAIL] adb reverse tcp:443 -> 
+2026-04-26 21:34:57.232 [DETAIL] adb reverse tcp:443 -> 
+2026-04-26 21:34:58.904 [DETAIL] adb reverse tcp:80 -> 
+2026-04-26 21:34:59.610 [DETAIL] hosts push: 
+2026-04-26 21:34:59.826 [DETAIL] hosts push: 
+2026-04-26 21:35:23.346 [EMULATOR] ERROR
+2026-04-26 21:35:23.346 [EMULATOR] |
+2026-04-26 21:35:23.347 [EMULATOR] bad color buffer handle 32
+2026-04-26 21:35:35.800 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:35:48.457 [DETAIL] [Input] Remote key 'down' → ADB keyevent 20
+2026-04-26 21:35:51.332 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:36:03.963 [DETAIL] [Input] Remote key 'up' → ADB keyevent 19
+2026-04-26 21:36:08.956 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:36:12.603 [DETAIL] [Input] Remote key 'left' → ADB keyevent 21
+2026-04-26 21:36:14.818 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:36:17.183 [DETAIL] [Input] Remote key 'left' → ADB keyevent 21
+2026-04-26 21:36:20.248 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:36:22.555 [DETAIL] [Input] Remote key 'left' → ADB keyevent 21
+2026-04-26 21:36:25.011 [DETAIL] [Input] Remote key 'volup' → ADB keyevent 24
+2026-04-26 21:36:28.336 [DETAIL] [Input] Remote key 'volup' → ADB keyevent 24
+2026-04-26 21:36:35.041 [DETAIL] MediaStation opacity set to 128
+2026-04-26 21:36:35.041 [DETAIL] [Overlay] MediaStation set to semi-transparent (alpha=128)
+2026-04-26 21:36:35.949 [DETAIL] [Input] Key 'right' ignored (overlay open or cooldown)
+2026-04-26 21:36:36.589 [DETAIL] MediaStation opacity set to 255
+2026-04-26 21:36:36.589 [DETAIL] restoreMediaStation: MediaStation opaque
+2026-04-26 21:36:36.604 [DETAIL] restoreMediaStation: emulator hidden, MediaStation restored
+2026-04-26 21:36:36.604 [DETAIL] [Input] G72Keys mode → Normal
+2026-04-26 21:36:36.604 [DETAIL] Stopping logcat...
+2026-04-26 21:36:39.609 [DETAIL] logcat process finished, exit code 62097
+2026-04-26 21:36:39.615 [DETAIL] [Overlay] Overlay closed, cooldown started
+2026-04-26 21:36:39.615 [DETAIL] [Overlay] Exit requested, skip opacity change
+2026-04-26 21:36:39.615 [DETAIL] [Input] Key 'select' ignored (overlay open or cooldown)
+2026-04-26 21:36:39.931 [DETAIL] [Overlay] Cooldown ended, keys allowed to emulator
+2026-04-26 21:36:40.750 [EMULATOR] WARNING      | Not saving state: RAM not mapped as shared
+2026-04-26 21:36:40.750 [EMULATOR] INFO         | Wait for emulator (pid 7288) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+2026-04-26 21:36:40.752 [EMULATOR] INFO         | Saving snapshot 'default_boot' using 3 ms
+2026-04-26 21:36:40.758 [EMULATOR] INFO         | Wait for emulator (pid 7288) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+2026-04-26 21:36:43.243 [DETAIL] Health check stopped
+2026-04-26 21:36:43.243 [DETAIL] WinEvent hook removed
+2026-04-26 21:36:43.243 [DETAIL] Timer resolution restored to default
+2026-04-26 21:36:43.244 [DETAIL] MediaStation opacity set to 255
+2026-04-26 21:36:43.244 [DETAIL] restoreMediaStation: MediaStation opaque
+2026-04-26 21:36:43.253 [DETAIL] restoreMediaStation: emulator hidden, MediaStation restored
+2026-04-26 21:36:43.253 [DETAIL] [Input] G72Keys mode → Normal
+2026-04-26 21:36:54.782 [DETAIL] DNS proxy already running
+2026-04-26 21:36:54.840 [DETAIL] system.img.qcow2 backing file is valid
+2026-04-26 21:36:54.840 [DETAIL] Removed stale AVD lock: multiinstance.lock
+2026-04-26 21:36:54.841 [DETAIL] AVD ini patched: path=C:\Users\Lygush\Desktop\MediaStation\tools\android-tv\avd\MediaStation_TV.avd
+2026-04-26 21:36:54.841 [DETAIL] AVD config.ini patched: lcd=1920x1080
+2026-04-26 21:36:54.843 [DETAIL] WHPX: WinHvPlatform.dll found — hardware virtualization available
+2026-04-26 21:36:54.844 [DETAIL] keepTopmostTimer started (topmost every 200ms during boot)
+2026-04-26 21:36:54.844 [DETAIL] Audio backend: dsound
+2026-04-26 21:36:54.844 [DETAIL] Timer resolution set to 1 ms (timeBeginPeriod)
+2026-04-26 21:36:54.844 [DETAIL] Using DNS: 8.8.8.8,1.1.1.1
+2026-04-26 21:36:54.847 [DETAIL] emulator process started PID 7912
+2026-04-26 21:36:54.847 [DETAIL] Emulator process priority set to ABOVE_NORMAL
+2026-04-26 21:36:54.847 [DETAIL] WinEvent hook installed
+2026-04-26 21:36:54.853 [DETAIL] adb kill-server: done
+2026-04-26 21:36:54.915 [EMULATOR] INFO         | Android emulator version 36.4.10.0 (build_id 15004761) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\system-images\android-34\android-tv\x86\
+2026-04-26 21:36:54.916 [EMULATOR] INFO         | Found systemPath C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\system-images\android-34\android-tv\x86\
+2026-04-26 21:36:55.921 [EMULATOR] INFO         | Feature 'GLDirectMem' (53) is overridden to 'enabled'
+INFO         | Feature 'GLDMA' (51) is overridden to 'enabled'
+INFO         | Feature 'VulkanNativeSwapchain' (37) is overridden to 'enabled'
+WARNING      | Ignoring invalid SDCard path: C:\Users\Lygush\Desktop\MediaStation\tools\android-tv\avd\MediaStation_TV.avd\sdcard.img
+WARNING      | System image is writable
+INFO         | Guest GLES Driver: Auto (ext controls)
+INFO         | emuglConfig_init: vulkan_mode_selected:host gles_mode_selected:host
+INFO         | emuglConfig_get_vulkan_hardware_gpu_support_info: Found physical GPU 'NVIDIA GeForce RTX 3050', type: VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU, apiVersion: 1.4.329, driverVersion: 595.71
+
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `MediaStation_TV` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `MediaStation_TV` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `MediaStation_TV` are passed
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `MediaStation_TV` are met
+INFO         | Critical: Failed to load opengl32sw (Не найден указанный модуль.) (:0, )
+INFO         | Warning: Software OpenGL failed. Falling back to system OpenGL. (:0, )
+INFO         | Storing crashdata in: C:\Users\Lygush\AppData\Local\Temp\\AndroidEmulator\emu-crash-36.4.10.db, detection is enabled for process: 1676
+INFO         | Initializing gfxstream backend
+INFO         | android_startOpenglesRenderer: gpu info
+INFO         | GPU #1
+  Make: 10de
+  Model: NVIDIA GeForce RTX 3050
+  Device ID: 2507
+
+INFO         | SharedLibrary::open for [C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\emulator\qemu\windows-x86_64\lib64\vulkan\vulkan-1.dll]
+INFO         | SharedLibrary::open for [C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\emulator\lib64\vulkan\vulkan-1.dll]
+INFO         | Added library: C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\emulator\lib64\vulkan\vulkan-1.dll
+INFO         | Selecting Vulkan device: NVIDIA GeForce RTX 3050, Version: 1.4.329
+INFO         | Initializing VkEmulation features:
+INFO         |     glInteropSupported: true
+INFO         |     useDeferredCommands: true
+INFO         |     createResourceWithRequirements: true
+INFO         |     useVulkanComposition: true
+INFO         |     useVulkanNativeSwapchain: true
+INFO         |     enable guestRenderDoc: false
+INFO         |     ASTC LDR emulation mode: Gpu
+INFO         |     enable ETC2 emulation: true
+INFO         |     enable Ycbcr emulation: false
+INFO         |     guestVulkanOnly: false
+INFO         |     useDedicatedAllocations: false
+INFO         | Created CompositorVk
+INFO         | Graphics Adapter Vendor Google (NVIDIA Corporation)
+INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 3050/PCIe/SSE2)
+INFO         | Graphics API Version OpenGL ES 3.0 (4.5.0 NVIDIA 595.71)
+INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_OVR_multiview2 GL_EXT_multiview_texture_multisample GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_texture_buffer 
+INFO         | Graphics Device Extensions N/A
+INFO         | Disabling sparse binding feature support
+INFO         | Sending adb public key [QAAAABNay53lfxOYTgqQLpDYyb/7akMyCj47n1VZvgSISHrsEkfuGjtD2dtWFiZt1359/0uyHZdqFOpLBYLF16yT+S+KsZDWLSQ53/Kj5EKTYIZefMoG+jUPq8pilZZ2Z
+2026-04-26 21:36:55.942 [EMULATOR] dG6R9LfRjiE/FDUSv1encbf1ahgX2P5jcrEGNRm8mXlu/54AYXs0Lqhze+mZWB8PX1Hp0mZQKMMZFTjCxHRUk2wd/vm5Dmi8sCeKWyNmTIF1vDTXIplD+tahTJK04GDzunPqBYSb/obQezStfALnhbFqAtBeZ3Clux37tpXfb7isWJvwcX6x73MEGNHKGCbJ5lp/wbO2m5paB+hO5fFota0Cy5p0SasGcDDPU4bW6tEyG+wr2hhlTsH6x3GK+hrXl95zr/oK7BeTQ2RRTJczE8UBclKvqnBMWQnogLPr1EiadoLQ9vlOPDgpt51XiCQyvu1olPpcxdizfkCJlRmCFL0c1Ph3DZlz1Q8eHXDBqaxFoh5epKPRj7U80q7vpRNYfRPHnurtThnjBfezDR53xbpz+K/V9tIfP7aQq9sk2GT2BHpQY/Yyp8yLpHOhxHZrDNQj8gof1EHnwdAyDsx0sT6rnKo8Iku8tWv1xFRGUnMic97W2w2OVnMKrHMzbkdp0P0Y3L1Y51bNchS1on5jSKLhojO5SEi5yBhJQ463RLb/vkPQ5i6VgEAAQA= @unknown]
+INFO         | Userspace boot properties:
+INFO         |   androidboot.boot_devices=pci0000:00/0000:00:03.0 pci0000:00/0000:00:06.0
+INFO         |   androidboot.dalvik.vm.heapsize=576m
+INFO         |   androidboot.debug.hwui.renderer=skiagl
+INFO         |   androidboot.debug.sf.nobootanimation=1
+INFO         |   androidboot.hardware=ranchu
+INFO         |   androidboot.hardware.gltransport=pipe
+INFO         |   androidboot.hardware.vulkan=ranchu
+INFO         |   androidboot.logcat=*:V
+INFO         |   androidboot.opengles.version=196609
+INFO         |   androidboot.qemu=1
+INFO         |   androidboot.qemu.adb.pubkey=QAAAABNay53lfxOYTgqQLpDYyb/7akMyCj47n1VZvgSISHrsEkfuGjtD2dtWFiZt1359/0uyHZdqFOpLBYLF16yT+S+KsZDWLSQ53/Kj5EKTYIZefMoG+jUPq8pilZZ2ZdG6R9LfRjiE/FDUSv1encbf1ahgX2P5jcrEGNRm8mXlu/54AYXs0Lqhze+mZWB8PX1Hp0mZQKMMZFTjCxHRUk2wd/vm5Dmi8sCeKWyNmTIF1vDTXIplD+tahTJK04GDzunPqBYSb/obQezStfALnhbFqAtBeZ3Clux37tpXfb7isWJvwcX6x73MEGNHKGCbJ5lp/wbO2m5paB+hO5fFota0Cy5p0SasGcDDPU4bW6tEyG+wr2hhlTsH6x3GK+hrXl95zr/oK7BeTQ2RRTJczE8UBclKvqnBMWQnogLPr1EiadoLQ9vlOPDgpt51XiCQyvu1olPpcxdizfkCJlRmCFL0c1Ph3DZlz1Q8eHXDBqaxFoh5epKPRj7U80q7vpRNYfRPHnurtThnjBfezDR53xbpz+K/V9tIfP7aQq9sk2GT2BHpQY/Yyp8yLpHOhxHZrDNQj8gof1EHnwdAyDsx0sT6rnKo8Iku8tWv1xFRGUnMic97W2w2OVnMKrHMzbkdp0P0Y3L1Y51bNchS1on5jSKLhojO5SEi5yBhJQ463RLb/vkPQ5i6VgEAAQA= @unknown
+INFO         |   androidboot.qemu.avd_name=MediaStation_TV
+INFO         |   androidboot.qemu.camera_hq_edge_processing=0
+INFO         |   androidboot.qemu.camera_protocol_ver=1
+INFO         |   androidboot.qemu.cpuvulkan.version=4202496
+INFO         |   androidboot.qemu.gltransport.drawFlushInterval=800
+INFO         |   androidboot.qemu.gltransport.name=pipe
+INFO         |   androidboot.qemu.hwcodec.avcdec=2
+INFO         |   androidboot.qemu.hwcodec.hevcdec=2
+INFO         |   androidboot.qemu.hwcodec.vpxdec=2
+INFO         |   androidboot.qemu.settings.system.screen_off_timeout=2147483647
+INFO         |   androidboot.qemu.skin=1920x1080
+INFO         |   androidboot.qemu.virtiowifi=1
+INFO         |   androidboot.qemu.vsync=60
+INFO         |   androidboot.serialno=EMULATOR36X4X10X0
+INFO         |   androidboot.vbmeta.digest=950a5afc43f13c7eacbe3369f4a9a70b670b0e5fb0d1ee88986ecb3282e852cf
+INFO         |   androidboot.vbmeta.hash_alg=sha256
+INFO         |   androidboot.vbmeta.size=6592
+INFO         |   androidboot.verifiedbootstate=orange
+INFO         |   androidboot.veritymode=enforcing
+WHPX on Windows 10.0.19045 detected.
+Windows Hypervisor Platform accelerator is operational
+2026-04-26 21:36:55.964 [EMULATOR] netsimd I 04-26 18:36:55.965 daemon\src\rust_main.rs:100 - netsim artifacts path: "C:\\Users\\Lygush\\AppData\\Local\\Temp\\netsimd"
+netsimd I 04-26 18:36:55.965 daemon\src\rust_main.rs:103 - NetsimdArgs {
+    fd_startup_str: None,
+    no_cli_ui: true,
+    no_web_ui: true,
+    pcap: false,
+    disable_address_reuse: false,
+    hci_port: None,
+    connector_instance: None,
+    instance: None,
+    logtostderr: false,
+    dev: false,
+    forward_host_mdns: false,
+    vsock: None,
+    config: None,
+    host_dns: Some(
+        "8.8.8.8,1.1.1.1",
+    ),
+    http_proxy: None,
+    wifi_tap: None,
+    wifi: None,
+    test_beacons: false,
+    no_test_beacons: false,
+    no_shutdown: false,
+    verbose: false,
+    version: false,
+    debug: DebugArgs {
+        debug_no_traffic: false,
+        debug_no_network: false,
+        debug_no_wmedium: false,
+        debug_no_mdns_wmedium: false,
+        debug_no_guest_to_host_mdns: false,
+    },
+    rssi: None,
+}
+2026-04-26 21:36:56.238 [EMULATOR] dsound: Could not initialize DirectSoundCapture
+dsound: Reason: No sound driver is available for use, or the given GUID is not a valid DirectSound device ID
+2026-04-26 21:36:56.253 [EMULATOR] INFO         | Monitoring duration of emulator setup.
+2026-04-26 21:36:56.256 [EMULATOR] WARNING      | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+2026-04-26 21:36:56.257 [EMULATOR] INFO         |
+2026-04-26 21:36:56.257 [EMULATOR] Using security allow list from: C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\emulator\lib\emulator_access.json
+2026-04-26 21:36:56.259 [EMULATOR] WARNING      | *** Basic token auth should only be used by android-studio ***
+2026-04-26 21:36:56.261 [EMULATOR] INFO         | The active JSON Web Key Sets can be found here: C:\Users\Lygush\AppData\Local\Temp\avd\running\1676\jwks\948c34d5-4442-4c12-a00b-50c6caa013a4\active.jwk
+2026-04-26 21:36:56.261 [EMULATOR] INFO         | Scanning C:\Users\Lygush\AppData\Local\Temp\avd\running\1676\jwks\948c34d5-4442-4c12-a00b-50c6caa013a4 for jwk keys.
+2026-04-26 21:36:56.263 [EMULATOR] INFO         | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+2026-04-26 21:36:56.265 [EMULATOR] INFO         | Advertising in: C:\Users\Lygush\AppData\Local\Temp\avd\running\pid_1676.ini
+2026-04-26 21:36:56.300 [EMULATOR] INFO         | Setting display: 0 configuration to: 1920x1080, dpi: 320x320 
+INFO         | setDisplayActiveConfig 0
+2026-04-26 21:36:56.322 [DETAIL] WinEvent: re-exec PID 7912 → 1676 (title: "Emulator", matchParent=0)
+2026-04-26 21:36:56.322 [DETAIL] WinEvent: found emulator main window HWND=197910 title="Emulator" class="Qt653QWindowIcon"
+2026-04-26 21:36:57.006 [DETAIL] Hiding extra window: HWND=197912, class='Qt653QWindowToolSaveBits'
+2026-04-26 21:36:57.008 [DETAIL] Emulator positioned behind MediaStation at (0,0) 1920x1080
+2026-04-26 21:36:57.793 [DETAIL] Emulator positioned behind MediaStation at (0,0) 1920x1080
+2026-04-26 21:36:57.798 [EMULATOR] ERROR        | Unable to connect to adb daemon on port: 5037
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `MediaStation_TV` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `MediaStation_TV` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `MediaStation_TV` are passed
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `MediaStation_TV` are met
+USER_INFO    | Emulator is performing a full startup. This may take upto two minutes, or more.
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_rgbcSensorValueWidget_valueChanged() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_posture_valueChanged(int) (:0, )
+INFO         | Warning: QObject::connect: Cannot queue arguments of type 'std::vector<android::emulation::control::SnapshotInfo>'
+(Make sure 'std::vector<android::emulation::control::SnapshotInfo>' is registered using qRegisterMetaType().) (:0, )
+INFO         | AVD supportsNativeGLES=1, supportsGuestAngle=0
+INFO         | Platform does not support Guest Angle
+INFO         | Created extended window in 770.723ms
+2026-04-26 21:36:57.798 [DETAIL] adb start-server: ok
+2026-04-26 21:36:57.848 [DETAIL] Thread boost complete: 69 × ABOVE_NORMAL, 0 × TIME_CRITICAL (audio)
+2026-04-26 21:36:57.848 [DETAIL] NOTE: audio thread not identified by name — all threads set to ABOVE_NORMAL.
+2026-04-26 21:36:57.873 [DETAIL] Hiding extra window: HWND=197756, class='Qt653QWindowToolSaveBits'
+2026-04-26 21:36:57.887 [DETAIL] Window polling stopped: emulator window found
+2026-04-26 21:36:58.944 [EMULATOR] INFO         | Activated packet streamer for bluetooth emulation
+2026-04-26 21:37:04.836 [DETAIL] boot polling: 10 sec
+2026-04-26 21:37:14.835 [DETAIL] boot polling: 20 sec
+2026-04-26 21:37:21.864 [EMULATOR] INFO         | Recreating swapchain...
+INFO         | Creating swapchain with size 960x540.
+2026-04-26 21:37:22.188 [EMULATOR] INFO         | Recreating swapchain completed.
+2026-04-26 21:37:23.058 [EMULATOR] INFO
+2026-04-26 21:37:23.058 [EMULATOR] |
+2026-04-26 21:37:23.058 [EMULATOR] Boot completed in 28037 ms
+2026-04-26 21:37:23.061 [EMULATOR] INFO
+2026-04-26 21:37:23.061 [EMULATOR] |
+2026-04-26 21:37:23.062 [EMULATOR] Increasing screen off timeout, logcat buffer size to 2M.
+2026-04-26 21:37:23.798 [DETAIL] Health check started (interval: 30 min, qcow2 limit: 3072 MB)
+2026-04-26 21:37:23.802 [DETAIL] logcat started, writing to C:/Users/Lygush/Desktop/MediaStation/logs/Android_TV_logcat.log
+2026-04-26 21:37:23.802 [DETAIL] Setting up ADB reverse port forwarding...
+2026-04-26 21:37:23.818 [DETAIL] pushing 10 entries to /etc/hosts
+2026-04-26 21:37:23.901 [DETAIL] keepTopmostTimer stopped
+2026-04-26 21:37:23.901 [DETAIL] keepTopmostTimer stopped (booting finished)
+2026-04-26 21:37:24.727 [DETAIL] WinEvent: found emulator main window HWND=197910 title="Android Emulator - MediaStation_TV:5554" class="Qt653QWindowIcon"
+2026-04-26 21:37:24.728 [DETAIL] WinEvent: emulator shown, skipping position
+2026-04-26 21:37:24.729 [EMULATOR] INFO         | Critical: UpdateLayeredWindowIndirect failed for ptDst=(170, 0), size=(1620x21), dirty=(1620x21 0, 0) (Присоединенное к системе устройство не работает.) (:0, )
+2026-04-26 21:37:24.744 [DETAIL] MediaStation opacity set to 0
+2026-04-26 21:37:24.744 [DETAIL] applyFullscreenAndSwitch: MediaStation transparent (after 16ms)
+2026-04-26 21:37:24.746 [DETAIL] Emulator window visible after show: 1
+2026-04-26 21:37:24.746 [DETAIL] applyFullscreenAndSwitch: emulator visible
+2026-04-26 21:37:24.747 [DETAIL] [Input] G72Keys mode → EmulatorMode
+2026-04-26 21:37:24.947 [DETAIL] adb reverse tcp:53 -> 
+2026-04-26 21:37:25.070 [EMULATOR] INFO         | Recreating swapchain...
+2026-04-26 21:37:25.135 [EMULATOR] INFO
+2026-04-26 21:37:25.135 [EMULATOR] |
+2026-04-26 21:37:25.135 [EMULATOR] Creating swapchain with size 1920x1080.
+2026-04-26 21:37:25.444 [EMULATOR] INFO
+2026-04-26 21:37:25.444 [EMULATOR] |
+2026-04-26 21:37:25.444 [EMULATOR] Recreating swapchain completed.
+2026-04-26 21:37:25.684 [DETAIL] adb reverse tcp:8080 -> 8080
+2026-04-26 21:37:25.790 [DETAIL] adb reverse tcp:8443 -> 8443
+2026-04-26 21:37:25.818 [DETAIL] adb reverse tcp:443 -> 
+2026-04-26 21:37:25.818 [DETAIL] adb reverse tcp:80 -> 
+2026-04-26 21:37:27.059 [DETAIL] hosts push: 
+2026-04-26 21:37:36.990 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:37:43.393 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:37:49.985 [DETAIL] [Input] Remote key 'left' → ADB keyevent 21
+2026-04-26 21:37:54.538 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:37:55.189 [DETAIL] [Input] Remote key 'left' → ADB keyevent 21
+2026-04-26 21:37:56.456 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:37:57.109 [DETAIL] [Input] Remote key 'left' → ADB keyevent 21
+2026-04-26 21:37:58.159 [DETAIL] [Input] Remote key 'select' → ADB keyevent 23
+2026-04-26 21:39:15.918 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:39:25.337 [DETAIL] [Input] Remote key 'down' → ADB keyevent 20
+2026-04-26 21:39:26.228 [DETAIL] [Input] Remote key 'down' → ADB keyevent 20
+2026-04-26 21:39:28.224 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:39:50.764 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:39:53.922 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:39:55.262 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:39:56.552 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:39:57.625 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:39:58.045 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:41:38.216 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:41:48.220 [DETAIL] adb watchdog: timeout 10s, killing: shell input keyevent 22
+2026-04-26 21:41:52.206 [DETAIL] [Input] Remote key 'left' → ADB keyevent 21
+2026-04-26 21:41:55.544 [DETAIL] MediaStation opacity set to 128
+2026-04-26 21:41:55.544 [DETAIL] [Overlay] MediaStation set to semi-transparent (alpha=128)
+2026-04-26 21:41:56.668 [DETAIL] [Overlay] Overlay closed, cooldown started
+2026-04-26 21:41:56.668 [DETAIL] MediaStation opacity set to 0
+2026-04-26 21:41:56.668 [DETAIL] [Overlay] MediaStation set to transparent (emulator active)
+2026-04-26 21:41:56.977 [DETAIL] [Overlay] Cooldown ended, keys allowed to emulator
+2026-04-26 21:41:57.805 [DETAIL] [Input] Remote key 'left' → ADB keyevent 21
+2026-04-26 21:41:59.447 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:41:59.935 [DETAIL] [Input] Remote key 'select' → ADB keyevent 23
+2026-04-26 21:42:01.587 [DETAIL] MediaStation opacity set to 128
+2026-04-26 21:42:01.587 [DETAIL] [Overlay] MediaStation set to semi-transparent (alpha=128)
+2026-04-26 21:42:02.221 [DETAIL] adb watchdog: timeout 10s, killing: shell input keyevent 21
+2026-04-26 21:42:02.379 [DETAIL] [Input] Key 'right' ignored (overlay open or cooldown)
+2026-04-26 21:42:03.401 [DETAIL] MediaStation opacity set to 255
+2026-04-26 21:42:03.401 [DETAIL] restoreMediaStation: MediaStation opaque
+2026-04-26 21:42:03.418 [DETAIL] restoreMediaStation: emulator hidden, MediaStation restored
+2026-04-26 21:42:03.418 [DETAIL] [Input] G72Keys mode → Normal
+2026-04-26 21:42:03.419 [DETAIL] Stopping logcat...
+2026-04-26 21:42:06.427 [DETAIL] logcat process finished, exit code 62097
+2026-04-26 21:42:06.440 [DETAIL] [Overlay] Overlay closed, cooldown started
+2026-04-26 21:42:06.441 [DETAIL] [Overlay] Exit requested, skip opacity change
+2026-04-26 21:42:06.441 [DETAIL] [Input] Key 'select' ignored (overlay open or cooldown)
+2026-04-26 21:42:06.533 [EMULATOR] WARNING      | Not saving state: RAM not mapped as shared
+INFO         | Wait for emulator (pid 1676) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+INFO         | Saving snapshot 'default_boot' using 2 ms
+2026-04-26 21:42:06.535 [EMULATOR] INFO         | Wait for emulator (pid 1676) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+2026-04-26 21:42:06.739 [DETAIL] [Overlay] Cooldown ended, keys allowed to emulator
+2026-04-26 21:42:07.834 [DETAIL] adb watchdog: timeout 10s, killing: shell input keyevent 21
+2026-04-26 21:42:08.958 [DETAIL] Health check stopped
+2026-04-26 21:42:08.958 [DETAIL] WinEvent hook removed
+2026-04-26 21:42:08.958 [DETAIL] Timer resolution restored to default
+2026-04-26 21:42:08.959 [DETAIL] MediaStation opacity set to 255
+2026-04-26 21:42:08.959 [DETAIL] restoreMediaStation: MediaStation opaque
+2026-04-26 21:42:08.968 [DETAIL] restoreMediaStation: emulator hidden, MediaStation restored
+2026-04-26 21:42:08.968 [DETAIL] [Input] G72Keys mode → Normal
+2026-04-26 21:42:11.575 [DETAIL] DNS proxy already running
+2026-04-26 21:42:11.626 [DETAIL] system.img.qcow2 backing file is valid
+2026-04-26 21:42:11.626 [DETAIL] Removed stale AVD lock: multiinstance.lock
+2026-04-26 21:42:11.626 [DETAIL] AVD ini patched: path=C:\Users\Lygush\Desktop\MediaStation\tools\android-tv\avd\MediaStation_TV.avd
+2026-04-26 21:42:11.627 [DETAIL] AVD config.ini patched: lcd=1920x1080
+2026-04-26 21:42:11.629 [DETAIL] WHPX: WinHvPlatform.dll found — hardware virtualization available
+2026-04-26 21:42:11.630 [DETAIL] keepTopmostTimer started (topmost every 200ms during boot)
+2026-04-26 21:42:11.630 [DETAIL] Audio backend: dsound
+2026-04-26 21:42:11.630 [DETAIL] Timer resolution set to 1 ms (timeBeginPeriod)
+2026-04-26 21:42:11.630 [DETAIL] Using DNS: 8.8.8.8,1.1.1.1
+2026-04-26 21:42:11.633 [DETAIL] emulator process started PID 12188
+2026-04-26 21:42:11.633 [DETAIL] Emulator process priority set to ABOVE_NORMAL
+2026-04-26 21:42:11.633 [DETAIL] WinEvent hook installed
+2026-04-26 21:42:11.639 [DETAIL] adb kill-server: done
+2026-04-26 21:42:11.696 [EMULATOR] INFO         | Android emulator version 36.4.10.0 (build_id 15004761) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\system-images\android-34\android-tv\x86\
+2026-04-26 21:42:11.697 [EMULATOR] INFO         | Found systemPath C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\system-images\android-34\android-tv\x86\
+2026-04-26 21:42:12.698 [EMULATOR] INFO         | Feature 'GLDirectMem' (53) is overridden to 'enabled'
+INFO         | Feature 'GLDMA' (51) is overridden to 'enabled'
+INFO         | Feature 'VulkanNativeSwapchain' (37) is overridden to 'enabled'
+WARNING      | Ignoring invalid SDCard path: C:\Users\Lygush\Desktop\MediaStation\tools\android-tv\avd\MediaStation_TV.avd\sdcard.img
+WARNING      | System image is writable
+INFO         | Guest GLES Driver: Auto (ext controls)
+INFO         | emuglConfig_init: vulkan_mode_selected:host gles_mode_selected:host
+INFO         | emuglConfig_get_vulkan_hardware_gpu_support_info: Found physical GPU 'NVIDIA GeForce RTX 3050', type: VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU, apiVersion: 1.4.329, driverVersion: 595.71
+
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `MediaStation_TV` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `MediaStation_TV` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `MediaStation_TV` are passed
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `MediaStation_TV` are met
+INFO         | Critical: Failed to load opengl32sw (Не найден указанный модуль.) (:0, )
+INFO         | Warning: Software OpenGL failed. Falling back to system OpenGL. (:0, )
+INFO         | Storing crashdata in: C:\Users\Lygush\AppData\Local\Temp\\AndroidEmulator\emu-crash-36.4.10.db, detection is enabled for process: 12980
+INFO         | Initializing gfxstream backend
+INFO         | android_startOpenglesRenderer: gpu info
+INFO         | GPU #1
+  Make: 10de
+  Model: NVIDIA GeForce RTX 3050
+  Device ID: 2507
+
+INFO         | SharedLibrary::open for [C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\emulator\qemu\windows-x86_64\lib64\vulkan\vulkan-1.dll]
+INFO         | SharedLibrary::open for [C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\emulator\lib64\vulkan\vulkan-1.dll]
+INFO         | Added library: C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\emulator\lib64\vulkan\vulkan-1.dll
+INFO         | Selecting Vulkan device: NVIDIA GeForce RTX 3050, Version: 1.4.329
+INFO         | Initializing VkEmulation features:
+INFO         |     glInteropSupported: true
+INFO         |     useDeferredCommands: true
+INFO         |     createResourceWithRequirements: true
+INFO         |     useVulkanComposition: true
+INFO         |     useVulkanNativeSwapchain: true
+INFO         |     enable guestRenderDoc: false
+INFO         |     ASTC LDR emulation mode: Gpu
+INFO         |     enable ETC2 emulation: true
+INFO         |     enable Ycbcr emulation: false
+INFO         |     guestVulkanOnly: false
+INFO         |     useDedicatedAllocations: false
+INFO         | Created CompositorVk
+INFO         | Graphics Adapter Vendor Google (NVIDIA Corporation)
+INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 3050/PCIe/SSE2)
+INFO         | Graphics API Version OpenGL ES 3.0 (4.5.0 NVIDIA 595.71)
+INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_OVR_multiview2 GL_EXT_multiview_texture_multisample GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_texture_buffer 
+INFO         | Graphics Device Extensions N/A
+INFO         | Disabling sparse binding feature support
+INFO         | Sending adb public key [QAAAABNay53lfxOYTgqQLpDYyb/7akMyCj47n1VZvgSISHrsEkfuGjtD2dtWFiZt1359/0uyHZdqFOpLBYLF16yT+S+KsZDWLSQ53/Kj5EKTYIZefMoG+jUPq8pilZZ2
+2026-04-26 21:42:12.718 [EMULATOR] ZdG6R9LfRjiE/FDUSv1encbf1ahgX2P5jcrEGNRm8mXlu/54AYXs0Lqhze+mZWB8PX1Hp0mZQKMMZFTjCxHRUk2wd/vm5Dmi8sCeKWyNmTIF1vDTXIplD+tahTJK04GDzunPqBYSb/obQezStfALnhbFqAtBeZ3Clux37tpXfb7isWJvwcX6x73MEGNHKGCbJ5lp/wbO2m5paB+hO5fFota0Cy5p0SasGcDDPU4bW6tEyG+wr2hhlTsH6x3GK+hrXl95zr/oK7BeTQ2RRTJczE8UBclKvqnBMWQnogLPr1EiadoLQ9vlOPDgpt51XiCQyvu1olPpcxdizfkCJlRmCFL0c1Ph3DZlz1Q8eHXDBqaxFoh5epKPRj7U80q7vpRNYfRPHnurtThnjBfezDR53xbpz+K/V9tIfP7aQq9sk2GT2BHpQY/Yyp8yLpHOhxHZrDNQj8gof1EHnwdAyDsx0sT6rnKo8Iku8tWv1xFRGUnMic97W2w2OVnMKrHMzbkdp0P0Y3L1Y51bNchS1on5jSKLhojO5SEi5yBhJQ463RLb/vkPQ5i6VgEAAQA= @unknown]
+INFO         | Userspace boot properties:
+INFO         |   androidboot.boot_devices=pci0000:00/0000:00:03.0 pci0000:00/0000:00:06.0
+INFO         |   androidboot.dalvik.vm.heapsize=576m
+INFO         |   androidboot.debug.hwui.renderer=skiagl
+INFO         |   androidboot.debug.sf.nobootanimation=1
+INFO         |   androidboot.hardware=ranchu
+INFO         |   androidboot.hardware.gltransport=pipe
+INFO         |   androidboot.hardware.vulkan=ranchu
+INFO         |   androidboot.logcat=*:V
+INFO         |   androidboot.opengles.version=196609
+INFO         |   androidboot.qemu=1
+INFO         |   androidboot.qemu.adb.pubkey=QAAAABNay53lfxOYTgqQLpDYyb/7akMyCj47n1VZvgSISHrsEkfuGjtD2dtWFiZt1359/0uyHZdqFOpLBYLF16yT+S+KsZDWLSQ53/Kj5EKTYIZefMoG+jUPq8pilZZ2ZdG6R9LfRjiE/FDUSv1encbf1ahgX2P5jcrEGNRm8mXlu/54AYXs0Lqhze+mZWB8PX1Hp0mZQKMMZFTjCxHRUk2wd/vm5Dmi8sCeKWyNmTIF1vDTXIplD+tahTJK04GDzunPqBYSb/obQezStfALnhbFqAtBeZ3Clux37tpXfb7isWJvwcX6x73MEGNHKGCbJ5lp/wbO2m5paB+hO5fFota0Cy5p0SasGcDDPU4bW6tEyG+wr2hhlTsH6x3GK+hrXl95zr/oK7BeTQ2RRTJczE8UBclKvqnBMWQnogLPr1EiadoLQ9vlOPDgpt51XiCQyvu1olPpcxdizfkCJlRmCFL0c1Ph3DZlz1Q8eHXDBqaxFoh5epKPRj7U80q7vpRNYfRPHnurtThnjBfezDR53xbpz+K/V9tIfP7aQq9sk2GT2BHpQY/Yyp8yLpHOhxHZrDNQj8gof1EHnwdAyDsx0sT6rnKo8Iku8tWv1xFRGUnMic97W2w2OVnMKrHMzbkdp0P0Y3L1Y51bNchS1on5jSKLhojO5SEi5yBhJQ463RLb/vkPQ5i6VgEAAQA= @unknown
+INFO         |   androidboot.qemu.avd_name=MediaStation_TV
+INFO         |   androidboot.qemu.camera_hq_edge_processing=0
+INFO         |   androidboot.qemu.camera_protocol_ver=1
+INFO         |   androidboot.qemu.cpuvulkan.version=4202496
+INFO         |   androidboot.qemu.gltransport.drawFlushInterval=800
+INFO         |   androidboot.qemu.gltransport.name=pipe
+INFO         |   androidboot.qemu.hwcodec.avcdec=2
+INFO         |   androidboot.qemu.hwcodec.hevcdec=2
+INFO         |   androidboot.qemu.hwcodec.vpxdec=2
+INFO         |   androidboot.qemu.settings.system.screen_off_timeout=2147483647
+INFO         |   androidboot.qemu.skin=1920x1080
+INFO         |   androidboot.qemu.virtiowifi=1
+INFO         |   androidboot.qemu.vsync=60
+INFO         |   androidboot.serialno=EMULATOR36X4X10X0
+INFO         |   androidboot.vbmeta.digest=950a5afc43f13c7eacbe3369f4a9a70b670b0e5fb0d1ee88986ecb3282e852cf
+INFO         |   androidboot.vbmeta.hash_alg=sha256
+INFO         |   androidboot.vbmeta.size=6592
+INFO         |   androidboot.verifiedbootstate=orange
+INFO         |   androidboot.veritymode=enforcing
+WHPX on Windows 10.0.19045 detected.
+Windows Hypervisor Platform accelerator is operational
+2026-04-26 21:42:12.733 [EMULATOR] netsimd I 04-26 18:42:12.733 daemon\src\rust_main.rs:100 - netsim artifacts path: "C:\\Users\\Lygush\\AppData\\Local\\Temp\\netsimd"
+netsimd I 04-26 18:42:12.733 daemon\src\rust_main.rs:103 - NetsimdArgs {
+    fd_startup_str: None,
+    no_cli_ui: true,
+    no_web_ui: true,
+    pcap: false,
+    disable_address_reuse: false,
+    hci_port: None,
+    connector_instance: None,
+    instance: None,
+    logtostderr: false,
+    dev: false,
+    forward_host_mdns: false,
+    vsock: None,
+    config: None,
+    host_dns: Some(
+        "8.8.8.8,1.1.1.1",
+    ),
+    http_proxy: None,
+    wifi_tap: None,
+    wifi: None,
+    test_beacons: false,
+    no_test_beacons: false,
+    no_shutdown: false,
+    verbose: false,
+    version: false,
+    debug: DebugArgs {
+        debug_no_traffic: false,
+        debug_no_network: false,
+        debug_no_wmedium: false,
+        debug_no_mdns_wmedium: false,
+        debug_no_guest_to_host_mdns: false,
+    },
+    rssi: None,
+}
+2026-04-26 21:42:12.959 [EMULATOR] dsound: Could not initialize DirectSoundCapture
+dsound: Reason: No sound driver is available for use, or the given GUID is not a valid DirectSound device ID
+2026-04-26 21:42:12.968 [EMULATOR] INFO         | Monitoring duration of emulator setup.
+2026-04-26 21:42:12.970 [EMULATOR] WARNING      | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+2026-04-26 21:42:12.971 [EMULATOR] INFO         | Using security allow list from: C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\emulator\lib\emulator_access.json
+2026-04-26 21:42:12.973 [EMULATOR] WARNING      | *** Basic token auth should only be used by android-studio ***
+2026-04-26 21:42:12.975 [EMULATOR] INFO         | The active JSON Web Key Sets can be found here: C:\Users\Lygush\AppData\Local\Temp\avd\running\12980\jwks\7217d8ea-4760-478f-8326-e37fa9f6132d\active.jwk
+2026-04-26 21:42:12.975 [EMULATOR] INFO         | Scanning C:\Users\Lygush\AppData\Local\Temp\avd\running\12980\jwks\7217d8ea-4760-478f-8326-e37fa9f6132d for jwk keys.
+2026-04-26 21:42:12.977 [EMULATOR] INFO         | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+2026-04-26 21:42:12.978 [EMULATOR] INFO         | Advertising in: C:\Users\Lygush\AppData\Local\Temp\avd\running\pid_12980.ini
+2026-04-26 21:42:13.021 [EMULATOR] INFO         | Setting display: 0 configuration to: 1920x1080, dpi: 320x320 
+INFO         | setDisplayActiveConfig 0
+2026-04-26 21:42:13.044 [DETAIL] WinEvent: re-exec PID 12188 → 12980 (title: "Emulator", matchParent=0)
+2026-04-26 21:42:13.045 [DETAIL] WinEvent: found emulator main window HWND=328930 title="Emulator" class="Qt653QWindowIcon"
+2026-04-26 21:42:13.734 [DETAIL] Hiding extra window: HWND=328932, class='Qt653QWindowToolSaveBits'
+2026-04-26 21:42:13.742 [DETAIL] Emulator positioned behind MediaStation at (0,0) 1920x1080
+2026-04-26 21:42:14.540 [DETAIL] Emulator positioned behind MediaStation at (0,0) 1920x1080
+2026-04-26 21:42:14.544 [EMULATOR] ERROR        | Unable to connect to adb daemon on port: 5037
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `MediaStation_TV` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `MediaStation_TV` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `MediaStation_TV` are passed
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `MediaStation_TV` are met
+USER_INFO    | Emulator is performing a full startup. This may take upto two minutes, or more.
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_rgbcSensorValueWidget_valueChanged() (:0, )
+INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_posture_valueChanged(int) (:0, )
+INFO         | Warning: QObject::connect: Cannot queue arguments of type 'std::vector<android::emulation::control::SnapshotInfo>'
+(Make sure 'std::vector<android::emulation::control::SnapshotInfo>' is registered using qRegisterMetaType().) (:0, )
+INFO         | AVD supportsNativeGLES=1, supportsGuestAngle=0
+INFO         | Platform does not support Guest Angle
+INFO         | Created extended window in 763.237ms
+2026-04-26 21:42:14.544 [DETAIL] adb start-server: ok
+2026-04-26 21:42:14.575 [DETAIL] Hiding extra window: HWND=197706, class='Qt653QWindowToolSaveBits'
+2026-04-26 21:42:14.582 [DETAIL] Window polling stopped: emulator window found
+2026-04-26 21:42:14.672 [DETAIL] Thread boost complete: 68 × ABOVE_NORMAL, 0 × TIME_CRITICAL (audio)
+2026-04-26 21:42:14.672 [DETAIL] NOTE: audio thread not identified by name — all threads set to ABOVE_NORMAL.
+2026-04-26 21:42:15.717 [EMULATOR] INFO         | Activated packet streamer for bluetooth emulation
+2026-04-26 21:42:21.633 [DETAIL] boot polling: 10 sec
+2026-04-26 21:42:31.633 [DETAIL] boot polling: 20 sec
+2026-04-26 21:42:37.571 [EMULATOR] INFO         | Recreating swapchain...
+INFO         | Creating swapchain with size 960x540.
+2026-04-26 21:42:38.390 [EMULATOR] INFO
+2026-04-26 21:42:38.390 [EMULATOR] |
+2026-04-26 21:42:38.390 [EMULATOR] Recreating swapchain completed.
+2026-04-26 21:42:38.983 [EMULATOR] INFO
+2026-04-26 21:42:38.983 [EMULATOR] |
+2026-04-26 21:42:38.983 [EMULATOR] Boot completed in 27180 ms
+2026-04-26 21:42:38.984 [EMULATOR] INFO
+2026-04-26 21:42:38.984 [EMULATOR] |
+2026-04-26 21:42:38.984 [EMULATOR] Increasing screen off timeout, logcat buffer size to 2M.
+2026-04-26 21:42:39.104 [DETAIL] Health check started (interval: 30 min, qcow2 limit: 3072 MB)
+2026-04-26 21:42:39.109 [DETAIL] logcat started, writing to C:/Users/Lygush/Desktop/MediaStation/logs/Android_TV_logcat.log
+2026-04-26 21:42:39.109 [DETAIL] Setting up ADB reverse port forwarding...
+2026-04-26 21:42:39.128 [DETAIL] pushing 10 entries to /etc/hosts
+2026-04-26 21:42:39.616 [DETAIL] keepTopmostTimer stopped
+2026-04-26 21:42:39.616 [DETAIL] keepTopmostTimer stopped (booting finished)
+2026-04-26 21:42:41.160 [DETAIL] WinEvent: found emulator main window HWND=328930 title="Android Emulator - MediaStation_TV:5554" class="Qt653QWindowIcon"
+2026-04-26 21:42:41.160 [DETAIL] WinEvent: emulator shown, skipping position
+2026-04-26 21:42:41.161 [EMULATOR] INFO         | Critical: UpdateLayeredWindowIndirect failed for ptDst=(170, 0), size=(1620x21), dirty=(1620x21 0, 0) (Присоединенное к системе устройство не работает.) (:0, )
+2026-04-26 21:42:41.177 [DETAIL] MediaStation opacity set to 0
+2026-04-26 21:42:41.177 [DETAIL] applyFullscreenAndSwitch: MediaStation transparent (after 16ms)
+2026-04-26 21:42:41.180 [DETAIL] Emulator window visible after show: 1
+2026-04-26 21:42:41.180 [DETAIL] applyFullscreenAndSwitch: emulator visible
+2026-04-26 21:42:41.180 [DETAIL] [Input] G72Keys mode → EmulatorMode
+2026-04-26 21:42:41.868 [EMULATOR] INFO         | Recreating swapchain...
+2026-04-26 21:42:41.937 [EMULATOR] INFO         | Creating swapchain with size 1920x1080.
+2026-04-26 21:42:41.994 [EMULATOR] INFO         | Recreating swapchain completed.
+2026-04-26 21:42:42.013 [DETAIL] adb reverse tcp:443 -> 
+2026-04-26 21:42:42.460 [DETAIL] adb reverse tcp:80 -> 
+2026-04-26 21:42:42.573 [DETAIL] adb reverse tcp:8443 -> 8443
+2026-04-26 21:42:42.664 [DETAIL] adb reverse tcp:8080 -> 8080
+2026-04-26 21:42:42.694 [DETAIL] adb reverse tcp:53 -> 
+2026-04-26 21:42:44.664 [DETAIL] hosts push: 
+2026-04-26 21:51:21.127 [DETAIL] [Input] Remote key 'select' → ADB keyevent 23
+2026-04-26 21:51:56.124 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:52:00.594 [DETAIL] [Input] Remote key 'down' → ADB keyevent 20
+2026-04-26 21:52:01.027 [DETAIL] [Input] Remote key 'down' → ADB keyevent 20
+2026-04-26 21:52:03.179 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:52:03.712 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:52:04.057 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:52:04.417 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:52:05.047 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:52:06.127 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:52:06.539 [DETAIL] [Input] Remote key 'right' → ADB keyevent 22
+2026-04-26 21:52:08.482 [DETAIL] [Input] Remote key 'select' → ADB keyevent 23
+2026-04-26 21:52:18.157 [DETAIL] [Input] Remote key 'volup' → ADB keyevent 24
+2026-04-26 21:52:20.062 [DETAIL] [Input] Remote key 'volup' → ADB keyevent 24
+2026-04-26 21:52:42.215 [DETAIL] MediaStation opacity set to 128
+2026-04-26 21:52:42.215 [DETAIL] [Overlay] MediaStation set to semi-transparent (alpha=128)
+2026-04-26 21:52:42.947 [DETAIL] [Input] Key 'volup' ignored (overlay open or cooldown)
+2026-04-26 21:52:44.319 [DETAIL] [Input] Key 'volup' ignored (overlay open or cooldown)
+2026-04-26 21:52:45.227 [DETAIL] [Input] Key 'volup' ignored (overlay open or cooldown)
+2026-04-26 21:52:45.571 [DETAIL] [Input] Key 'volup' ignored (overlay open or cooldown)
+2026-04-26 21:52:45.789 [DETAIL] [Input] Key 'volup' ignored (overlay open or cooldown)
+2026-04-26 21:52:46.479 [DETAIL] [Input] Key 'right' ignored (overlay open or cooldown)
+2026-04-26 21:52:47.111 [DETAIL] MediaStation opacity set to 255
+2026-04-26 21:52:47.111 [DETAIL] restoreMediaStation: MediaStation opaque
+2026-04-26 21:52:47.113 [DETAIL] restoreMediaStation: emulator hidden, MediaStation restored
+2026-04-26 21:52:47.113 [DETAIL] [Input] G72Keys mode → Normal
+2026-04-26 21:52:47.113 [DETAIL] Stopping logcat...
+2026-04-26 21:52:50.117 [DETAIL] logcat process finished, exit code 62097
+2026-04-26 21:52:50.122 [DETAIL] [Overlay] Overlay closed, cooldown started
+2026-04-26 21:52:50.122 [DETAIL] [Overlay] Exit requested, skip opacity change
+2026-04-26 21:52:50.123 [DETAIL] [Input] Key 'select' ignored (overlay open or cooldown)
+2026-04-26 21:52:50.314 [EMULATOR] WARNING      | Not saving state: RAM not mapped as shared
+2026-04-26 21:52:50.314 [EMULATOR] INFO         | Wait for emulator (pid 12980) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+2026-04-26 21:52:50.316 [EMULATOR] INFO         | Saving snapshot 'default_boot' using 2 ms
+2026-04-26 21:52:50.323 [EMULATOR] INFO         | Wait for emulator (pid 12980) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+2026-04-26 21:52:50.428 [DETAIL] [Overlay] Cooldown ended, keys allowed to emulator
+2026-04-26 21:52:52.806 [DETAIL] Health check stopped
+2026-04-26 21:52:52.806 [DETAIL] WinEvent hook removed
+2026-04-26 21:52:52.806 [DETAIL] Timer resolution restored to default
+2026-04-26 21:52:52.807 [DETAIL] MediaStation opacity set to 255
+2026-04-26 21:52:52.807 [DETAIL] restoreMediaStation: MediaStation opaque
+2026-04-26 21:52:52.812 [DETAIL] restoreMediaStation: emulator hidden, MediaStation restored
+2026-04-26 21:52:52.812 [DETAIL] [Input] G72Keys mode → Normal
+2026-04-26 21:53:01.571 [DETAIL] DNS proxy already running
+2026-04-26 21:53:01.620 [DETAIL] system.img.qcow2 backing file is valid
+2026-04-26 21:53:01.621 [DETAIL] Removed stale AVD lock: multiinstance.lock
+2026-04-26 21:53:01.621 [DETAIL] AVD ini patched: path=C:\Users\Lygush\Desktop\MediaStation\tools\android-tv\avd\MediaStation_TV.avd
+2026-04-26 21:53:01.622 [DETAIL] AVD config.ini patched: lcd=1920x1080
+2026-04-26 21:53:01.624 [DETAIL] WHPX: WinHvPlatform.dll found — hardware virtualization available
+2026-04-26 21:53:01.625 [DETAIL] keepTopmostTimer started (topmost every 200ms during boot)
+2026-04-26 21:53:01.625 [DETAIL] Audio backend: dsound
+2026-04-26 21:53:01.625 [DETAIL] Timer resolution set to 1 ms (timeBeginPeriod)
+2026-04-26 21:53:01.625 [DETAIL] Using DNS: 8.8.8.8,1.1.1.1
+2026-04-26 21:53:01.628 [DETAIL] emulator process started PID 12748
+2026-04-26 21:53:01.628 [DETAIL] Emulator process priority set to ABOVE_NORMAL
+2026-04-26 21:53:01.628 [DETAIL] WinEvent hook installed
+2026-04-26 21:53:01.640 [DETAIL] adb kill-server: done
+2026-04-26 21:53:01.690 [EMULATOR] INFO         | Android emulator version 36.4.10.0 (build_id 15004761) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\system-images\android-34\android-tv\x86\
+2026-04-26 21:53:01.691 [EMULATOR] INFO         | Found systemPath C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\system-images\android-34\android-tv\x86\
+2026-04-26 21:53:02.709 [EMULATOR] INFO         | Feature 'GLDirectMem' (53) is overridden to 'enabled'
+INFO         | Feature 'GLDMA' (51) is overridden to 'enabled'
+INFO         | Feature 'VulkanNativeSwapchain' (37) is overridden to 'enabled'
+WARNING      | Ignoring invalid SDCard path: C:\Users\Lygush\Desktop\MediaStation\tools\android-tv\avd\MediaStation_TV.avd\sdcard.img
+WARNING      | System image is writable
+INFO         | Guest GLES Driver: Auto (ext controls)
+INFO         | emuglConfig_init: vulkan_mode_selected:host gles_mode_selected:host
+INFO         | emuglConfig_get_vulkan_hardware_gpu_support_info: Found physical GPU 'NVIDIA GeForce RTX 3050', type: VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU, apiVersion: 1.4.329, driverVersion: 595.71
+
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `MediaStation_TV` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `MediaStation_TV` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `MediaStation_TV` are passed
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `MediaStation_TV` are met
+INFO         | Critical: Failed to load opengl32sw (Не найден указанный модуль.) (:0, )
+INFO         | Warning: Software OpenGL failed. Falling back to system OpenGL. (:0, )
+INFO         | Storing crashdata in: C:\Users\Lygush\AppData\Local\Temp\\AndroidEmulator\emu-crash-36.4.10.db, detection is enabled for process: 708
+INFO         | Initializing gfxstream backend
+INFO         | android_startOpenglesRenderer: gpu info
+INFO         | GPU #1
+  Make: 10de
+  Model: NVIDIA GeForce RTX 3050
+  Device ID: 2507
+
+INFO         | SharedLibrary::open for [C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\emulator\qemu\windows-x86_64\lib64\vulkan\vulkan-1.dll]
+INFO         | SharedLibrary::open for [C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\emulator\lib64\vulkan\vulkan-1.dll]
+INFO         | Added library: C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\emulator\lib64\vulkan\vulkan-1.dll
+INFO         | Selecting Vulkan device: NVIDIA GeForce RTX 3050, Version: 1.4.329
+INFO         | Initializing VkEmulation features:
+INFO         |     glInteropSupported: true
+INFO         |     useDeferredCommands: true
+INFO         |     createResourceWithRequirements: true
+INFO         |     useVulkanComposition: true
+INFO         |     useVulkanNativeSwapchain: true
+INFO         |     enable guestRenderDoc: false
+INFO         |     ASTC LDR emulation mode: Gpu
+INFO         |     enable ETC2 emulation: true
+INFO         |     enable Ycbcr emulation: false
+INFO         |     guestVulkanOnly: false
+INFO         |     useDedicatedAllocations: false
+INFO         | Created CompositorVk
+INFO         | Graphics Adapter Vendor Google (NVIDIA Corporation)
+INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 3050/PCIe/SSE2)
+INFO         | Graphics API Version OpenGL ES 3.0 (4.5.0 NVIDIA 595.71)
+INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_OVR_multiview2 GL_EXT_multiview_texture_multisample GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_texture_buffer 
+INFO         | Graphics Device Extensions N/A
+INFO         | Disabling sparse binding feature support
+INFO         | Sending adb public key [QAAAABNay53lfxOYTgqQLpDYyb/7akMyCj47n1VZvgSISHrsEkfuGjtD2dtWFiZt1359/0uyHZdqFOpLBYLF16yT+S+KsZDWLSQ53/Kj5EKTYIZefMoG+jUPq8pilZZ2Zd
+2026-04-26 21:53:02.734 [EMULATOR] G6R9LfRjiE/FDUSv1encbf1ahgX2P5jcrEGNRm8mXlu/54AYXs0Lqhze+mZWB8PX1Hp0mZQKMMZFTjCxHRUk2wd/vm5Dmi8sCeKWyNmTIF1vDTXIplD+tahTJK04GDzunPqBYSb/obQezStfALnhbFqAtBeZ3Clux37tpXfb7isWJvwcX6x73MEGNHKGCbJ5lp/wbO2m5paB+hO5fFota0Cy5p0SasGcDDPU4bW6tEyG+wr2hhlTsH6x3GK+hrXl95zr/oK7BeTQ2RRTJczE8UBclKvqnBMWQnogLPr1EiadoLQ9vlOPDgpt51XiCQyvu1olPpcxdizfkCJlRmCFL0c1Ph3DZlz1Q8eHXDBqaxFoh5epKPRj7U80q7vpRNYfRPHnurtThnjBfezDR53xbpz+K/V9tIfP7aQq9sk2GT2BHpQY/Yyp8yLpHOhxHZrDNQj8gof1EHnwdAyDsx0sT6rnKo8Iku8tWv1xFRGUnMic97W2w2OVnMKrHMzbkdp0P0Y3L1Y51bNchS1on5jSKLhojO5SEi5yBhJQ463RLb/vkPQ5i6VgEAAQA= @unknown]
+INFO         | Userspace boot properties:
+INFO         |   androidboot.boot_devices=pci0000:00/0000:00:03.0 pci0000:00/0000:00:06.0
+INFO         |   androidboot.dalvik.vm.heapsize=576m
+INFO         |   androidboot.debug.hwui.renderer=skiagl
+INFO         |   androidboot.debug.sf.nobootanimation=1
+INFO         |   androidboot.hardware=ranchu
+INFO         |   androidboot.hardware.gltransport=pipe
+INFO         |   androidboot.hardware.vulkan=ranchu
+INFO         |   androidboot.logcat=*:V
+INFO         |   androidboot.opengles.version=196609
+INFO         |   androidboot.qemu=1
+INFO         |   androidboot.qemu.adb.pubkey=QAAAABNay53lfxOYTgqQLpDYyb/7akMyCj47n1VZvgSISHrsEkfuGjtD2dtWFiZt1359/0uyHZdqFOpLBYLF16yT+S+KsZDWLSQ53/Kj5EKTYIZefMoG+jUPq8pilZZ2ZdG6R9LfRjiE/FDUSv1encbf1ahgX2P5jcrEGNRm8mXlu/54AYXs0Lqhze+mZWB8PX1Hp0mZQKMMZFTjCxHRUk2wd/vm5Dmi8sCeKWyNmTIF1vDTXIplD+tahTJK04GDzunPqBYSb/obQezStfALnhbFqAtBeZ3Clux37tpXfb7isWJvwcX6x73MEGNHKGCbJ5lp/wbO2m5paB+hO5fFota0Cy5p0SasGcDDPU4bW6tEyG+wr2hhlTsH6x3GK+hrXl95zr/oK7BeTQ2RRTJczE8UBclKvqnBMWQnogLPr1EiadoLQ9vlOPDgpt51XiCQyvu1olPpcxdizfkCJlRmCFL0c1Ph3DZlz1Q8eHXDBqaxFoh5epKPRj7U80q7vpRNYfRPHnurtThnjBfezDR53xbpz+K/V9tIfP7aQq9sk2GT2BHpQY/Yyp8yLpHOhxHZrDNQj8gof1EHnwdAyDsx0sT6rnKo8Iku8tWv1xFRGUnMic97W2w2OVnMKrHMzbkdp0P0Y3L1Y51bNchS1on5jSKLhojO5SEi5yBhJQ463RLb/vkPQ5i6VgEAAQA= @unknown
+INFO         |   androidboot.qemu.avd_name=MediaStation_TV
+INFO         |   androidboot.qemu.camera_hq_edge_processing=0
+INFO         |   androidboot.qemu.camera_protocol_ver=1
+INFO         |   androidboot.qemu.cpuvulkan.version=4202496
+INFO         |   androidboot.qemu.gltransport.drawFlushInterval=800
+INFO         |   androidboot.qemu.gltransport.name=pipe
+INFO         |   androidboot.qemu.hwcodec.avcdec=2
+INFO         |   androidboot.qemu.hwcodec.hevcdec=2
+INFO         |   androidboot.qemu.hwcodec.vpxdec=2
+INFO         |   androidboot.qemu.settings.system.screen_off_timeout=2147483647
+INFO         |   androidboot.qemu.skin=1920x1080
+INFO         |   androidboot.qemu.virtiowifi=1
+INFO         |   androidboot.qemu.vsync=60
+INFO         |   androidboot.serialno=EMULATOR36X4X10X0
+INFO         |   androidboot.vbmeta.digest=950a5afc43f13c7eacbe3369f4a9a70b670b0e5fb0d1ee88986ecb3282e852cf
+INFO         |   androidboot.vbmeta.hash_alg=sha256
+INFO         |   androidboot.vbmeta.size=6592
+INFO         |   androidboot.verifiedbootstate=orange
+INFO         |   androidboot.veritymode=enforcing
+WHPX on Windows 10.0.19045 detected.
+Windows Hypervisor Platform accelerator is operational
+2026-04-26 21:53:02.759 [EMULATOR] netsimd I 04-26 18:53:02.759 daemon\src\rust_main.rs:100 - netsim artifacts path: "C:\\Users\\Lygush\\AppData\\Local\\Temp\\netsimd"
+netsimd I 04-26 18:53:02.759 daemon\src\rust_main.rs:103 - NetsimdArgs {
+    fd_startup_str: None,
+    no_cli_ui: true,
+    no_web_ui: true,
+    pcap: false,
+    disable_address_reuse: false,
+    hci_port: None,
+    connector_instance: None,
+    instance: None,
+    logtostderr: false,
+    dev: false,
+    forward_host_mdns: false,
+    vsock: None,
+    config: None,
+    host_dns: Some(
+        "8.8.8.8,1.1.1.1",
+    ),
+    http_proxy: None,
+    wifi_tap: None,
+    wifi: None,
+    test_beacons: false,
+    no_test_beacons: false,
+    no_shutdown: false,
+    verbose: false,
+    version: false,
+    debug: DebugArgs {
+        debug_no_traffic: false,
+        debug_no_network: false,
+        debug_no_wmedium: false,
+        debug_no_mdns_wmedium: false,
+        debug_no_guest_to_host_mdns: false,
+    },
+    rssi: None,
+}
+2026-04-26 21:53:03.086 [EMULATOR] dsound: Could not initialize DirectSoundCapture
+dsound: Reason: No sound driver is available for use, or the given GUID is not a valid DirectSound device ID
+2026-04-26 21:53:03.095 [EMULATOR] INFO         | Monitoring duration of emulator setup.
+2026-04-26 21:53:03.098 [EMULATOR] WARNING      | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+2026-04-26 21:53:03.099 [EMULATOR] INFO         | Using security allow list from: C:\Users\Lygush\Desktop\MediaStation\tools\android-sdk\emulator\lib\emulator_access.json
+2026-04-26 21:53:03.101 [EMULATOR] WARNING      | *** Basic token auth should only be used by android-studio ***
+2026-04-26 21:53:03.103 [EMULATOR] INFO         | The active JSON Web Key Sets can be found here: C:\Users\Lygush\AppData\Local\Temp\avd\running\708\jwks\2c8d8e6c-b817-4688-aaa8-78c69fe22f5f\active.jwk
+2026-04-26 21:53:03.103 [EMULATOR] INFO         | Scanning C:\Users\Lygush\AppData\Local\Temp\avd\running\708\jwks\2c8d8e6c-b817-4688-aaa8-78c69fe22f5f for jwk keys.
+2026-04-26 21:53:03.105 [EMULATOR] INFO         | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+2026-04-26 21:53:03.107 [EMULATOR] INFO         | Advertising in: C:\Users\Lygush\AppData\Local\Temp\avd\running\pid_708.ini
+2026-04-26 21:53:03.143 [EMULATOR] INFO         | Setting display: 0 configuration to: 1920x1080, dpi: 320x320 
+INFO         | setDisplayActiveConfig 0
+2026-04-26 21:53:03.166 [DETAIL] WinEvent: re-exec PID 12748 → 708 (title: "Emulator", matchParent=0)
+2026-04-26 21:53:03.166 [DETAIL] WinEvent: found emulator main window HWND=263358 title="Emulator" class="Qt653QWindowIcon"
+2026-04-26 21:53:03.838 [DETAIL] Hiding extra window: HWND=263360, class='Qt653QWindowToolSaveBits'
+2026-04-26 21:53:03.839 [DETAIL] Emulator positioned behind MediaStation at (0,0) 1920x1080
+2026-04-26 21:53:03.842 [DETAIL] Emulator positioned behind MediaStation at (0,0) 1920x1080
+2026-04-26 21:53:03.847 [DETAIL] adb start-server: ok
+2026-04-26 21:53:03.847 [EMULATOR] ERROR        | Unable to connect to adb daemon on port: 5037
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasCompatibleHypervisor
+INFO         |      Ok: Hypervisor compatibility to run avd: `MediaStation_TV` are met
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `MediaStation_TV` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU requirements to run avd: `MediaStation_TV` are passed
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `MediaStation_TV` are met
+2026-04-26 21:53:03.849 [EMULATOR] USER_INFO    | Emulator is performing a full startup. This may take upto two minutes, or more.
+2026-04-26 21:53:03.878 [DETAIL] Window polling stopped: emulator window found
+2026-04-26 21:53:03.970 [EMULATOR] INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_rgbcSensorValueWidget_valueChanged() (:0, )
+2026-04-26 21:53:03.970 [EMULATOR] INFO         | Warning: QMetaObject::connectSlotsByName: No matching signal for on_posture_valueChanged(int) (:0, )
+2026-04-26 21:53:04.489 [EMULATOR] INFO         | Warning: QObject::connect: Cannot queue arguments of type 'std::vector<android::emulation::control::SnapshotInfo>'
+(Make sure 'std::vector<android::emulation::control::SnapshotInfo>' is registered using qRegisterMetaType().) (:0, )
+2026-04-26 21:53:04.538 [EMULATOR] INFO         | AVD supportsNativeGLES=1, supportsGuestAngle=0
+INFO         | Platform does not support Guest Angle
+2026-04-26 21:53:04.639 [DETAIL] Thread boost complete: 68 × ABOVE_NORMAL, 0 × TIME_CRITICAL (audio)
+2026-04-26 21:53:04.640 [DETAIL] NOTE: audio thread not identified by name — all threads set to ABOVE_NORMAL.
+2026-04-26 21:53:04.641 [EMULATOR] INFO         | Created extended window in 782.933ms
+2026-04-26 21:53:05.729 [EMULATOR] INFO         | Activated packet streamer for bluetooth emulation
+2026-04-26 21:53:09.303 [DETAIL] MediaStation opacity set to 255
+2026-04-26 21:53:09.303 [DETAIL] restoreMediaStation: MediaStation opaque
+2026-04-26 21:53:09.313 [DETAIL] restoreMediaStation: emulator hidden, MediaStation restored
+2026-04-26 21:53:09.313 [DETAIL] [Input] G72Keys mode → Normal
+2026-04-26 21:53:09.354 [EMULATOR] INFO         | Wait for emulator (pid 708) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+WARNING      | Not saving state: RAM not mapped as shared
+2026-04-26 21:53:09.356 [EMULATOR] INFO         | Saving snapshot 'default_boot' using 2 ms
+2026-04-26 21:53:09.363 [EMULATOR] INFO         | Wait for emulator (pid 708) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+2026-04-26 21:53:11.234 [DETAIL] keepTopmostTimer stopped
+2026-04-26 21:53:11.234 [DETAIL] WinEvent hook removed
+2026-04-26 21:53:11.234 [DETAIL] Timer resolution restored to default
+2026-04-26 21:53:11.234 [DETAIL] MediaStation opacity set to 255
+2026-04-26 21:53:11.234 [DETAIL] restoreMediaStation: MediaStation opaque
+2026-04-26 21:53:11.246 [DETAIL] restoreMediaStation: emulator hidden, MediaStation restored
+2026-04-26 21:53:11.246 [DETAIL] [Input] G72Keys mode → Normal
