@@ -32,6 +32,38 @@
 #include <QNetworkInterface>
 #include <QtConcurrent/QtConcurrent>
 
+#ifdef Q_OS_WIN
+#  include <windows.h>
+#endif
+
+// Версия из ресурса VERSIONINFO exe-файла (MediaStation.pro пишет туда
+// содержимое файла VERSION). Пустая строка — ресурса нет (старая сборка)
+// или не Windows: тогда версию вводят руками, как раньше.
+static QString readExeVersion(const QString &exePath)
+{
+#ifdef Q_OS_WIN
+    const std::wstring path = QDir::toNativeSeparators(exePath).toStdWString();
+    DWORD dummy = 0;
+    const DWORD size = GetFileVersionInfoSizeW(path.c_str(), &dummy);
+    if (size == 0) return {};
+    QByteArray buf(int(size), Qt::Uninitialized);
+    if (!GetFileVersionInfoW(path.c_str(), 0, size, buf.data())) return {};
+    VS_FIXEDFILEINFO *info = nullptr;
+    UINT len = 0;
+    if (!VerQueryValueW(buf.data(), L"\\", reinterpret_cast<void **>(&info), &len)
+        || !info || len < sizeof(VS_FIXEDFILEINFO))
+        return {};
+    const int major = HIWORD(info->dwFileVersionMS);
+    const int minor = LOWORD(info->dwFileVersionMS);
+    const int patch = HIWORD(info->dwFileVersionLS);
+    if (major == 0 && minor == 0 && patch == 0) return {};
+    return QStringLiteral("%1.%2.%3").arg(major).arg(minor).arg(patch);
+#else
+    Q_UNUSED(exePath);
+    return {};
+#endif
+}
+
 // ─────────────────────────────────────────────────────────────────────────────
 // Конструктор / деструктор
 // ─────────────────────────────────────────────────────────────────────────────
@@ -99,7 +131,7 @@ UpdateTab::UpdateTab(QWidget *parent)
 
     // Версия
     versionEdit = new QLineEdit;
-    versionEdit->setPlaceholderText("1.2.0");
+    versionEdit->setPlaceholderText("Берётся из MediaStation.exe");
     srcForm->addRow("Версия:", versionEdit);
 
     // Release Notes
@@ -174,6 +206,7 @@ UpdateTab::UpdateTab(QWidget *parent)
 
     // Сохраняем пути при изменении
     connect(exeEdit,        &QLineEdit::editingFinished, this, &UpdateTab::saveSettings);
+    connect(exeEdit,        &QLineEdit::editingFinished, this, &UpdateTab::refreshVersionFromExe);
     connect(qmlDirEdit,     &QLineEdit::editingFinished, this, &UpdateTab::saveSettings);
     connect(windeployqtEdit,&QLineEdit::editingFinished, this, &UpdateTab::saveSettings);
 
@@ -206,6 +239,24 @@ void UpdateTab::loadSettings()
     exeEdit->setText(        s.value("exePath").toString());
     qmlDirEdit->setText(     s.value("qmlDir").toString());
     windeployqtEdit->setText(s.value("windeployqt").toString());
+    refreshVersionFromExe();
+}
+
+// Версия — из exe. Поле доступно для ввода, только если в exe её нет
+// (сборка до появления файла VERSION).
+bool UpdateTab::refreshVersionFromExe()
+{
+    const QString exePath = exeEdit->text().trimmed();
+    const QString v = QFile::exists(exePath) ? readExeVersion(exePath) : QString();
+    if (!v.isEmpty()) {
+        versionEdit->setText(v);
+        versionEdit->setReadOnly(true);
+        versionEdit->setToolTip("Версия прочитана из MediaStation.exe (файл VERSION в репозитории)");
+        return true;
+    }
+    versionEdit->setReadOnly(false);
+    versionEdit->setToolTip("В exe нет версии — введите вручную");
+    return false;
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -264,12 +315,13 @@ void UpdateTab::browseExe()
     QString f = QFileDialog::getOpenFileName(
         this, "Выберите собранный MediaStation.exe",
         exeEdit->text(), "Executable (*.exe)");
-    if (!f.isEmpty()) { exeEdit->setText(f); saveSettings(); }
+    if (!f.isEmpty()) { exeEdit->setText(f); saveSettings(); refreshVersionFromExe(); }
 }
 
 void UpdateTab::onPrepareClicked()
 {
     const QString exePath = exeEdit->text().trimmed();
+    refreshVersionFromExe();   // exe могли пересобрать после выбора
     const QString version = versionEdit->text().trimmed();
 
     if (exePath.isEmpty() || !QFile::exists(exePath)) {

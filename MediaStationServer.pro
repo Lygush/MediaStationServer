@@ -15,6 +15,8 @@ HEADERS += \
     UpdateTab.h     \
     LogsTab.h
 
+win32: LIBS += -lversion   # GetFileVersionInfo — версия MediaStation.exe
+
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin

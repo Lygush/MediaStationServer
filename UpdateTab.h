@@ -26,6 +26,7 @@ public:
 
 private slots:
     void browseExe();
+    bool refreshVersionFromExe();
     void onPrepareClicked();
     void onSendClicked();
     void onCancelClicked();
